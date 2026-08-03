@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Database Management Systems</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Google Font--> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبارات تقنيات برمجية متقدمة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
     <div class="container">
-      <div class="screen active" id="start-screen">
-        <h1>Database Management Systems</h1>
-        <div class="start-screencontent">
+        <!-- صفحة الترحيب -->
+        <div id="start-screen" class="screen active">
+            <div class="header-logo">
+                <img src="logo.jpg" alt="FFB 30 Logo" class="logo">
+            </div>
+            <h1>تقنيات برمجية متقدمة</h1>
+            <p class="arabicintro">
+                مرحباً بكم في منصة الاختبارات الذكية للمادة. يهدف هذا التطبيق إلى تعزيز فهمكم للمفاهيم البرمجية المتقدمة من خلال اختبارات دورية لكل محاضرة.
+            </p>
+            
+            <div class="supervision">
+                تحت إشراف <br>
+                <span class="family-name">أسرة الدفعة 30 (FFB 30)</span>
+            </div>
 
-          <div class="arabicintro">
-            بسم الله الرحمن الرحيم والصلاة والسلام على أشرف المرسلين سيدنا محمد . 
-اما بعد : هذا تطبيق اسئلة بسيط تم تطويره لتقديم أسئلة في نظم إدارة قواعد البيانات ، يقتصر حالياً على أربعة محاضرات ، اخترت اكتر اربعة محاضرات فيهم نظري وطلعت من كل واحدة 10 سؤال ، الأسئلة من نوع خيارات متعددة ... الشيتات : <br>نظم ادارة قواعد البيانات 1<br>نظم ادارة قواعد البيانات 2<br>تعريفات ونموذج الكيانات العلائقي<br>قواعد البيانات الموزعة<br><br> ، جربوا وشاركوا .التطبيق دا انا طورته بس ما عملته التقنيات واللغات المستخدمة في التطبيق : 
-           
-          </div>
-           <div class="tools">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
-              <span>Ajax</span>
-              <span>DOM</span>
-              <span>Json</span>
+            <div class="lecture-selection">
+                <h3>اختر المحاضرة لبدء الاختبار:</h3>
+                <div class="lecture-buttons" id="lecture-list">
+                    <button class="lec-btn" onclick="startQuiz('lec1')">المحاضرة 1</button>
+                    <button class="lec-btn" onclick="startQuiz('lec2')">المحاضرة 2</button>
+                    <!-- سيتم إضافة المزيد من المحاضرات هنا مستقبلاً -->
+                </div>
             </div>
         </div>
-        <button id="start-btn">Start Quiz</button>
-      </div>
 
-      <div class="screen" id="quiz-screen">
-        <div class="quiz-header">
-          <h2 id="question-text">Question goes here</h2>
-          <div class="quiz-info">
-            <p>
-              Question <span id="current-question">1</span> of <span id="total-questions">5</span>
-            </p>
-
-            <p>Score: <span id="score">0</span></p>
-          </div>
+        <!-- صفحة الاختبار -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="quiz-top-info">
+                    <span id="lecture-title">المحاضرة</span>
+                    <span id="question-count">سؤال 1 من 10</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+            </div>
+            <h2 id="question-text">جاري تحميل السؤال...</h2>
+            <div id="answers-container" class="answers-container">
+                <!-- الأجوبة ستظهر هنا -->
+            </div>
+            <button id="next-btn" class="main-btn" style="display: none;">السؤال التالي</button>
         </div>
 
-        <div id="answers-container" class="answers-container">
-          <!-- Answer buttons will be insterted here from our js code later at some point -->
+        <!-- صفحة النتيجة -->
+        <div id="result-screen" class="screen">
+            <h1>النتيجة النهائية</h1>
+            <div class="result-info">
+                <p id="result-message">عمل رائع!</p>
+                <div class="score-display">
+                    <span id="score-text">0/0</span>
+                </div>
+                <p id="percentage-text">نسبة النجاح: 0%</p>
+            </div>
+            <button class="main-btn" onclick="location.reload()">العودة للرئيسية</button>
         </div>
-
-        <div class="progress-bar">
-          <div id="progress" class="progress"></div>
-        </div>
-      </div>
-
-      <div id="result-screen" class="screen">
-        <h1>Results</h1>
-        <div class="result-info">
-          <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
-
-          <div id="result-message">Good job!</div>
-        </div>
-        <button id="restart-btn">Restart Quiz</button>
-      </div>
     </div>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
