@@ -7,7 +7,7 @@
       "Profiling / تحليل الأداء",
       "Build System / نظام البناء"
     ],
-    "answer": "Build System / نظام البناء"
+    "answer": 3
   },
   {
     "question": "Which IDE example is mentioned in the slides alongside Eclipse and NetBeans?\n\nما هو مثال بيئة التطوير المتكاملة (IDE) المذكور في الشرائح إلى جانب Eclipse و NetBeans؟",
@@ -17,7 +17,7 @@
       "IntelliJ IDEA / انتيليجي ايديا",
       "Xcode / إكس كود"
     ],
-    "answer": "IntelliJ IDEA / انتيليجي ايديا"
+    "answer": 2
   },
   {
     "question": "Which of the following automates tasks like compiling code, running tests, and generating executables?\n\nأي مما يلي يقوم بأتمتة المهام مثل تجميع الكود وتغذية الاختبارات وإنشاء الملفات القابلة للتنفيذ؟",
@@ -27,7 +27,7 @@
       "Build Tools / أدوات البناء",
       "Profilers / أدوات تحليل الأداء"
     ],
-    "answer": "Build Tools / أدوات البناء"
+    "answer": 2
   },
   {
     "question": "Which of the following are examples of Build Tools mentioned in the lecture?\n\nأي مما يلي يعتبر من أمثلة أدوات البناء المذكورة في المحاضرة؟",
@@ -37,7 +37,7 @@
       "Maven, Gradle / ميفن، جرادل",
       "VisualVM, JProfiler / فيجوال في إم، جيه بروفايلر"
     ],
-    "answer": "Maven, Gradle / ميفن، جرادل"
+    "answer": 2
   },
   {
     "question": "What tools are used to track and manage changes in code over time?\n\nما هي الأدوات المستخدمة لتتبع وتدبير التغييرات في الكود عبر الوقت؟",
@@ -47,7 +47,7 @@
       "Version Control Systems / أنظمة التحكم في الإصدارات",
       "IDE Tools / أدوات بيئة التطوير المتكاملة"
     ],
-    "answer": "Version Control Systems / أنظمة التحكم في الإصدارات"
+    "answer": 2
   },
   {
     "question": "Which of the following pairs represents Version Control Systems listed in the slides?\n\nأي من الأزواج التالية يمثل أنظمة التحكم في الإصدارات المذكورة في الشرائح؟",
@@ -57,7 +57,7 @@
       "Git, SVN / جيت، إس في إن",
       "Eclipse, IntelliJ / إكليبس، انتيليجي"
     ],
-    "answer": "Git, SVN / جيت، إس في إن"
+    "answer": 2
   },
   {
     "question": "Identifying and fixing errors in code using breakpoints, stack traces, and logs is defined as:\n\nتحديد وإصلاح الأخطاء في الكود باستخدام نقاط التوقف، تتبعات مكدس الاستدعاء، والسجلات يعرف بـ:",
@@ -67,7 +67,7 @@
       "Encapsulation / التغليف",
       "Compilation / التجميع"
     ],
-    "answer": "Debugging / تصحيح الأخطاء"
+    "answer": 1
   },
   {
     "question": "Analyzing the performance of a program to identify bottlenecks or inefficiencies is called:\n\nتحليل أداء برنامج لتحديد اختناقات الأداء أو أوجه عدم الكفاءة يسمى:",
@@ -77,7 +77,7 @@
       "Packaging / التغليف",
       "Debugging / تصحيح الأخطاء"
     ],
-    "answer": "Profiling / تحليل الأداء"
+    "answer": 0
   },
   {
     "question": "Which tools provide insights into CPU usage, memory consumption, and execution time?\n\nأي الأدوات توفر رؤى ومعلومات حول استخدام المعالج (CPU)، استهلاك الذاكرة، ووقت التنفيذ؟",
@@ -87,7 +87,7 @@
       "Maven or Gradle / ميفن أو جرادل",
       "VisualVM or JProfiler / فيجوال في إم أو جيه بروفايلر"
     ],
-    "answer": "VisualVM or JProfiler / فيجوال في إم أو جيه بروفايلر"
+    "answer": 3
   },
   {
     "question": "Which of the following lists key commands in Git according to the slides?\n\nأي مما يلي يسرد الأوامر الرئيسية في Git وفقًا للشرائح؟",
@@ -97,7 +97,7 @@
       "git compile, git link, git build, git package / جيت كومبايل، جيت لينك، جيت بيلد، جيت باكيدج",
       "git add, git commit, git push, git pull / جيت أد، جيت كوميت، جيت بوش، جيت بول"
     ],
-    "answer": "git add, git commit, git push, git pull / جيت أد، جيت كوميت، جيت بوش، جيت بول"
+    "answer": 3
   },
   {
     "question": "Which platforms enhance collaboration in Source Code Management?\n\nأي المنصات تعزز التعاون في إدارة كود المصدر؟",
@@ -107,7 +107,7 @@
       "Maven and Gradle / ميفن وجرادل",
       "VisualVM and JProfiler / فيجوال في إم وجيه بروفايلر"
     ],
-    "answer": "GitHub and GitLab / جيت هاب وجيت لاب"
+    "answer": 1
   },
   {
     "question": "What is defined as a style or 'way' of programming that defines how problems are solved?\n\nما الذي يُعرف بأنه أسلوب أو 'طريقة' برمجة تحدد كيفية حل المشكلات؟",
@@ -117,7 +117,7 @@
       "Build System / نظام البناء",
       "Version Control System / نظام التحكم في الإصدارات"
     ],
-    "answer": "Programming Paradigm / نمط البرمجة"
+    "answer": 1
   },
   {
     "question": "Which of the following is NOT listed as a common programming paradigm in the introduction?\n\nأي مما يلي لم يذكر كنمط برمجة شائع في المقدمة؟",
@@ -127,7 +127,7 @@
       "Object-Oriented / كائني التوجه",
       "Event-Driven / موجه بالأحداث"
     ],
-    "answer": "Linear-Sequential / خطي تتابعي"
+    "answer": 1
   },
   {
     "question": "Why do paradigms matter in software engineering?\n\nلماذا تعتبر أنماط البرمجة مهمة في هندسة البرمجيات؟",
@@ -137,7 +137,7 @@
       "They replace Integrated Development Environments / تستبدل بيئات التطوير المتكاملة",
       "They restrict version control platforms / تقيد منصات التحكم في الإصدارات"
     ],
-    "answer": "They determine the flow and design of your code / تحدد تدفق وتصميم الكود الخاص بك"
+    "answer": 1
   },
   {
     "question": "Which paradigm focuses on functions or procedures that operate on data?\n\nأي نمط برمجيات يركز على الدوال أو الإجراءات التي تعمل على البيانات؟",
@@ -147,7 +147,7 @@
       "Functional Programming / البرمجة الوظيفية",
       "Event-Driven Programming / البرمجة الموجهة بالأحداث"
     ],
-    "answer": "Procedural Programming / البرمجة الإجرائية"
+    "answer": 0
   },
   {
     "question": "Which programming languages are provided as examples of Procedural Programming?\n\nما هي لغات البرمجة المقدمة كأمثلة على البرمجة الإجرائية؟",
@@ -157,7 +157,7 @@
       "Maven, Gradle / ميفن، جرادل",
       "C, Pascal / سي، باسكال"
     ],
-    "answer": "C, Pascal / سي، باسكال"
+    "answer": 3
   },
   {
     "question": "Which paradigm centers around objects, which bundle both data and functions that operate on the data?\n\nأي نمط يتمركز حول الكائنات، التي حزِمَت البيانات والدوال التي تعمل على البيانات معًا؟",
@@ -167,7 +167,7 @@
       "Low-Level Programming / البرمجة منخفضة المستوى",
       "Assembly Programming / برمجة التجميع"
     ],
-    "answer": "Object-Oriented Programming / البرمجة كائنية التوجه"
+    "answer": 1
   },
   {
     "question": "Which features does Object-Oriented Programming promote by organizing code into classes and objects?\n\nما هي الميزات التي تعززها البرمجة كائنية التوجه عن طريق تنظيم الكود في فئات وكائنات؟",
@@ -177,7 +177,7 @@
       "CPU profiling and stack trace generation / تحليل أداء المعالج وإنشاء تتبع المكدس",
       "Automatic compilation and linking / التجميع والربط التلقائي"
     ],
-    "answer": "Modularity, reusability, and maintainability / النمطية، إعادة الاستخدام، وإمكانية الصيانة"
+    "answer": 1
   },
   {
     "question": "In the Procedural Banking System example, what operates directly on global variables?\n\nفي مثال نظام البنك الإجرائي، ما الذي يعمل مباشرة على المتغيرات العامة؟",
@@ -187,7 +187,7 @@
       "Functions / الدوال",
       "Profilers / أدوات تحليل الأداء"
     ],
-    "answer": "Functions / الدوال"
+    "answer": 2
   },
   {
     "question": "According to slide 8, why does OOP win over Procedural approach?\n\nوفقًا للشريحة 8، لماذا تتفوق البرمجة كائنية التوجه على النهج الإجرائي؟",
@@ -197,7 +197,7 @@
       "Enhances code readability and maintainability / تعزز قابلية قراءة الكود وصيانته",
       "It converts C code into Pascal code automatically / تحول كود C إلى كود Pascal تلقائيًا"
     ],
-    "answer": "Enhances code readability and maintainability / تعزز قابلية قراءة الكود وصيانته"
+    "answer": 2
   },
   {
     "question": "How is Modularity achieved in Procedural Programming according to the comparison table?\n\nكيف تتحقق النمطية (Modularity) في البرمجة الإجرائية وفقًا لجدول المقارنة؟",
@@ -207,7 +207,7 @@
       "Strong abstraction through entities / تجريد قوي من خلال الكيانات",
       "Data encapsulated within objects / بيانات مغلفة داخل كائنات"
     ],
-    "answer": "Code organized into functions / كود منظم في دوال"
+    "answer": 1
   },
   {
     "question": "How is Data Handling described in Object-Oriented Programming (OOP)?\n\nكيف توصف معالجة البيانات (Data Handling) في البرمجة كائنية التوجه (OOP)؟",
@@ -217,7 +217,7 @@
       "Functions directly modifying external variables / دوال تعدل المتغيرات الخارجية مباشرة",
       "Unrestricted access to system balance / وصول غير مقيد لرصيد النظام"
     ],
-    "answer": "Data encapsulated within objects (Encapsulation) / بيانات مغلفة داخل كائنات (التغليف)"
+    "answer": 0
   },
   {
     "question": "In OOP, how is high Code Reusability achieved?\n\nفي البرمجة كائنية التوجه، كيف تتحقق إمكانية إعادة استخدام الكود العالية؟",
@@ -227,7 +227,7 @@
       "Through function reuse / من خلال إعادة استخدام الدوال",
       "Through breakpoints and stack traces / من خلال نقاط التوقف وتتبع المكدس"
     ],
-    "answer": "Through inheritance and polymorphism / من خلال الوراثة وتعدد الأشكال"
+    "answer": 0
   },
   {
     "question": "How does Scalability compare between Procedural and OOP paradigms?\n\nكيف تقارن القابلية للتوسع (Scalability) بين النمط الإجرائي والكائني؟",
@@ -237,7 +237,7 @@
       "OOP becomes complex for large systems / OOP تزداد تعقيدًا للأنظمة الكبيرة",
       "Both paradigms handle large scalability identically / كلاهما يتعامل مع التوسع بشكل متطابق"
     ],
-    "answer": "Procedural becomes complex for large systems; OOP is better suited for large, complex systems / الإجرائي يصبح معقدًا للأنظمة الكبيرة؛ OOP أفضل تناسبًا للأنظمة الكبيرة والمعقدة"
+    "answer": 0
   },
   {
     "question": "How is Real-World Modeling characterized in Procedural Programming?\n\nكيف يُوصف نمذجة العالم الحقيقي (Real-World Modeling) في البرمجة الإجرائية؟",
@@ -247,7 +247,7 @@
       "Complete encapsulation of business logic / تغليف كامل لمنطق الأعمال",
       "Weak abstraction for real-world entities / تجريد ضعيف لكيانات العالم الحقيقي"
     ],
-    "answer": "Weak abstraction for real-world entities / تجريد ضعيف لكيانات العالم الحقيقي"
+    "answer": 3
   },
   {
     "question": "Which languages are explicitly listed as examples of Object-Oriented Programming (OOP) in slide 9?\n\nما هي اللغات المذكورة صراحة كأمثلة على البرمجة كائنية التوجه (OOP) في الشريحة 9؟",
@@ -257,7 +257,7 @@
       "Git, SVN, Gradle / جيت، إس في إن، جرادل",
       "Eclipse, NetBeans, IntelliJ / إكليبس، نيت بينز، انتيليجي"
     ],
-    "answer": "Java, C++, Python / جافا، سي بلس بلس، بايثون"
+    "answer": 0
   },
   {
     "question": "According to slide 10, Procedural Programming is better for:\n\nوفقًا للشريحة 10، تعتبر البرمجة الإجرائية أفضل لـ:",
@@ -267,7 +267,7 @@
       "Highly modular enterprise applications / تطبيقات المؤسسات عالية النمطية",
       "Simple, linear tasks / المهام البسيطة والخطية"
     ],
-    "answer": "Simple, linear tasks / المهام البسيطة والخطية"
+    "answer": 3
   },
   {
     "question": "What strongly aligns with real-world problem modeling according to slide 10?\n\nما الذي يتوافق بقوة مع نمذجة مشكلات العالم الحقيقي وفقًا للشريحة 10؟",
@@ -277,7 +277,7 @@
       "Global variable operations / عمليات المتغيرات العامة",
       "Manual breakpoint debugging / تصحيح الأخطاء اليدوي بنقاط التوقف"
     ],
-    "answer": "Object-Oriented Programming / البرمجة كائنية التوجه"
+    "answer": 0
   },
   {
     "question": "In Procedural Programming, code reuse is limited to:\n\nفي البرمجة الإجرائية، يقتصر إعادة استخدام الكود على:",
@@ -287,7 +287,7 @@
       "Object encapsulation / تغليف الكائنات",
       "Function calls / استدعاءات الدوال"
     ],
-    "answer": "Function calls / استدعاءات الدوال"
+    "answer": 3
   },
   {
     "question": "What term is used in slide 11 for mixing paradigms to potentially lead to better solutions?\n\nما المصطلح المستخدم في الشريحة 11 لخلط الأنماط للوصول إلى حلول أفضل؟",
@@ -297,6 +297,6 @@
       "Stack profiling / تحليل أداء المكدس",
       "Versioned debugging / تصحيح الأخطاء بإصدارات"
     ],
-    "answer": "Hybrid programming / البرمجة الهجينة"
+    "answer": 0
   }
 ]
