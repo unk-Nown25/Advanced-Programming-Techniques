@@ -76,22 +76,22 @@ body {
 h1 {
     text-align: center;
     color: var(--primary-color);
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 15px;
 }
 
 .arabicintro {
     text-align: center;
     color: var(--muted-text);
-    line-height: 1.8;
+    line-height: 1.7;
     margin-bottom: 25px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .supervision {
     text-align: center;
     background: #f8f9fa;
-    padding: 15px;
+    padding: 13px;
     border-radius: 10px;
     margin-bottom: 30px;
     border-right: 5px solid var(--accent-color);
@@ -100,13 +100,13 @@ h1 {
 .family-name {
     font-weight: 900;
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Lecture Selection */
 .lecture-selection h3 {
     margin-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--primary-color);
 }
 
@@ -117,12 +117,12 @@ h1 {
 }
 
 .lec-btn {
-    padding: 15px;
+    padding: 14px;
     background: #fff;
     border: 2px solid #eee;
     border-radius: 12px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     transition: var(--transition);
     color: var(--primary-color);
@@ -162,7 +162,7 @@ h1 {
 }
 
 #question-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 25px;
     line-height: 1.5;
 }
@@ -180,7 +180,7 @@ h1 {
     border: 2px solid #f0f0f0;
     border-radius: 12px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     transition: var(--transition);
 }
 
@@ -204,12 +204,12 @@ h1 {
 /* Main Button */
 .main-btn {
     width: 100%;
-    padding: 18px;
+    padding: 16px;
     background: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 12px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     margin-top: 25px;
@@ -223,7 +223,7 @@ h1 {
 
 /* Results */
 .score-display {
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 900;
     color: var(--primary-color);
     margin: 20px 0;
@@ -234,7 +234,7 @@ h1 {
 }
 
 #percentage-text {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--accent-color);
     font-weight: bold;
 }
