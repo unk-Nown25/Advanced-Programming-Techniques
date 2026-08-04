@@ -23,11 +23,11 @@
     "question": "Which of the following automates tasks like compiling code, running tests, and generating executables?\n\nأي مما يلي يقوم بأتمتة المهام مثل تجميع الكود وتغذية الاختبارات وإنشاء الملفات القابلة للتنفيذ؟",
     "options": [
       "Version Control Systems / أنظمة التحكم في الإصدارات",
-      "Debuggers / مصححات الأخطاء",
       "Build Tools / أدوات البناء",
+      "Debuggers / مصححات الأخطاء",
       "Profilers / أدوات تحليل الأداء"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "Which of the following are examples of Build Tools mentioned in the lecture?\n\nأي مما يلي يعتبر من أمثلة أدوات البناء المذكورة في المحاضرة؟",
@@ -43,11 +43,11 @@
     "question": "What tools are used to track and manage changes in code over time?\n\nما هي الأدوات المستخدمة لتتبع وتدبير التغييرات في الكود عبر الوقت؟",
     "options": [
       "Profiling Tools / أدوات تحليل الأداء",
-      "Build Tools / أدوات البناء",
       "Version Control Systems / أنظمة التحكم في الإصدارات",
+      "Build Tools / أدوات البناء",
       "IDE Tools / أدوات بيئة التطوير المتكاملة"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "Which of the following pairs represents Version Control Systems listed in the slides?\n\nأي من الأزواج التالية يمثل أنظمة التحكم في الإصدارات المذكورة في الشرائح؟",
