@@ -1,12 +1,302 @@
 [
   {
-    "question": "ما هو نمط التصميم الذي يضمن وجود نسخة واحدة فقط من الكائن؟",
-    "options": ["Factory", "Observer", "Singleton", "Adapter"],
+    "question": "What is Object-Oriented Programming? / ما هو البرمجة كائنية التوجه؟",
+    "options": [
+      "A programming paradigm that revolves around the concept of objects and classes / نمط برمجي يدور حول مفهوم الكائنات والفئات",
+      "A tool used exclusively for database management / أداة تُستخدم حصراً لإدارة قواعد البيانات",
+      "A hardware architecture for low-level processing / بنية أجهزة للمعالجة منخفضة المستوى",
+      "A linear step-by-step procedural compiler / مترجم إجرائي خطي خطوة بخطوة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does Object-Oriented Programming focus on? / على ماذا تركز البرمجة كائنية التوجه؟",
+    "options": [
+      "Hardware optimization and CPU cycles / تحسين الأجهزة والدورات للمعالج",
+      "The interactions between objects and their properties / التفاعلات بين الكائنات وخصائصها",
+      "Writing procedural code without functions / كتابة كود إجرائي بدون دالّات",
+      "Managing memory addresses manually / إدارة عناوين الذاكرة يدوياً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is a Class according to the text? / ما هي الفئة (Class) وفقاً للنص؟",
+    "options": [
+      "An instance of a memory location / نموذج لموقع في الذاكرة",
+      "A compiled executable binary file / ملف ثنائي تنفيذي مجمع",
+      "A blueprint or template that defines the properties and behavior of an object / مخطط أو قالب يحدد خصائص وسلوك الكائن",
+      "A collection of global variables only / مجموعة من المتغيرات العامة فقط"
+    ],
     "answer": 2
   },
   {
-    "question": "ما الهدف من نمط الـ Observer؟",
-    "options": ["تشفير البيانات", "إدارة علاقة واحد إلى متعدد بين الكائنات", "تحسين سرعة الاتصال", "تقليل حجم الملفات"],
+    "question": "What is an Object according to the slides? / ما هو الكائن (Object) وفقاً للشريحة؟",
+    "options": [
+      "A blueprint for creating functions / مخطط لإنشاء الدوال",
+      "A programming paradigm itself / نمط برمجي بحد ذاته",
+      "A compile-time error handler / معالج أخطاء وقت التجميع",
+      "An instance of a class / كائن ملموس (نسخة) من الفئة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "An object has its own set of: / يمتلك الكائن مجموعته الخاصة من:",
+    "options": [
+      "attributes (data) and methods (functions) / الخصائص (البيانات) والأساليب (الدوال)",
+      "compilers and linkers / المترجمات والمربطات",
+      "interfaces and abstractions only / الواجهات والتجريدات فقط",
+      "build systems and paradigms / أنظمة البناء والأنماط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why do we need Classes and Objects? / لماذا نحتاج إلى الفئات والكائنات؟",
+    "options": [
+      "To remove the need for functions completely / لإلغاء الحاجة للدوال تماماً",
+      "To model real-world entities and systems / لنمذجة كيانات وأنظمة العالم الحقيقي",
+      "To execute code directly without compilation / لتنفيذ الكود مباشرة بدون تجميع",
+      "To make software run without memory / لجعل البرامج تعمل بدون ذاكرة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is listed as a reason for needing Classes and Objects? / أي مما يلي يُذكر كسبب للحاجة إلى الفئات والكائنات؟",
+    "options": [
+      "To eliminate memory usage completely / لإلغاء استخدام الذاكرة بالكامل",
+      "To replace network protocols / لاستبدال بروتوكولات الشبكة",
+      "To create reusable and modular code / لإنشاء كود قابل لإعادة الاستخدام ومُجزأ",
+      "To avoid using methods and variables / لتجنب استخدام الأساليب والمتغيرات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "One of the reasons we need Classes and Objects is: / أحد أسباب حاجتنا للفئات والكائنات هو:",
+    "options": [
+      "To decrease CPU execution speed / لتقليل سرعة تنفيذ المعالج",
+      "To write code without object orientation / لكتابة كود بدون توجه كائني",
+      "To restrict user interface designs / لتقييد تصميمات واجهة المستخدم",
+      "To improve code maintainability and scalability / لتحسين إمكانية صيانة الكود وقابليته للتوسع"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Car example, a car can be represented as an object with attributes like: / في مثال السيارة، يمكن تمثيل السيارة ككائن بخصائص مثل:",
+    "options": [
+      "color, model, and year / اللون، الموديل، والسنة",
+      "startEngine(), accelerate(), and brake() / تشغيل المحرك، التسارع، والفرامل",
+      "deposit(), withdraw(), and transfer() / الإيداع، السحب، والتحويل",
+      "addCourse(), removeCourse(), and gradeStudent() / إضافة مقرر، حذف مقرر، وتقييم الطالب"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Car example, which of the following are listed as methods? / في مثال السيارة، أي مما يلي يُعد من الأساليب (Methods) المذكورة؟",
+    "options": [
+      "color, model, year / اللون، الموديل، السنة",
+      "startEngine(), accelerate(), and brake() / startEngine()، accelerate()، و brake()",
+      "balance, name, date / الرصيد، الاسم، التاريخ",
+      "name, location, founded / الاسم، الموقع، سنة التأسيس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a benefit of using Classes and Objects? / أي مما يلي يعد فائدة من استخدام الفئات والكائنات؟",
+    "options": [
+      "Increased code duplication / زيادة تكرار الكود",
+      "Harder code modification / صعوبة تعديل الكود",
+      "Improved code organization and structure / تحسين تنظيم وهيكلة الكود",
+      "Removal of object relationships / إزالة العلاقات بين الكائنات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Using Classes and Objects leads to: / يؤدي استخدام الفئات والكائنات إلى:",
+    "options": [
+      "Complex and rigid code bases / قواعد كود معقدة وغير مرنة",
+      "Increased implementation details exposure / زيادة كشف تفاصيل التنفيذ",
+      "Slower application scaling / تباطؤ توسع التطبيقات",
+      "Reduced code duplication / تقليل تكرار الكود"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Customer Account Transaction example, which methods are listed for Account? / في مثال حساب العميل والتطبيقات المالية، ما هي الأساليب المذكورة لـ Account؟",
+    "options": [
+      "deposit(), withdraw(), transfer() / deposit()، withdraw()، transfer()",
+      "startEngine(), accelerate(), brake() / startEngine()، accelerate()، brake()",
+      "enrollInCourse(), dropCourse() / enrollInCourse()، dropCourse()",
+      "addDepartment(), removeDepartment() / addDepartment()، removeDepartment()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the University use case, what methods belong to the Student class? / في حالة استخدام الجامعة، ما هي الأساليب التابعة لفئة Student؟",
+    "options": [
+      "teachCourse(), gradeStudent() / teachCourse()، gradeStudent()",
+      "enrollInCourse(), dropCourse() / enrollInCourse()، dropCourse()",
+      "addCourse(), removeCourse() / addCourse()، removeCourse()",
+      "updateGrade(), getGrade() / updateGrade()، getGrade()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the University use case, what attributes belong to the University class? / في حالة استخدام الجامعة، ما هي الخصائص التابعة لفئة University؟",
+    "options": [
+      "grade, date, course / الدرجة، التاريخ، المقرر",
+      "name, id, major / الاسم، المعرف، التخصص",
+      "name, location, founded / الاسم، الموقع، سنة التأسيس",
+      "name, chair, office / الاسم، رئيس القسم، المكتب"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is Encapsulation? / ما هو التغليف (Encapsulation)؟",
+    "options": [
+      "Deriving new classes from existing ones / اشتقاق فئات جديدة من فئات موجودة",
+      "Using a single interface for different data types / استخدام واجهة واحدة لأنواع بيانات مختلفة",
+      "Hiding implementation details and exposing functionality / إخفاء تفاصيل التنفيذ وإظهار الوظيفة فقط",
+      "Binding data and methods together to restrict access to an object's internal state / ربط البيانات والأساليب معاً لتقييد الوصول إلى الحالة الداخلية للكائن"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is Inheritance? / ما هي الوراثة (Inheritance)؟",
+    "options": [
+      "Deriving new classes from existing ones to promote code reuse / اشتقاق فئات جديدة من فئات موجودة لتعزيز إعادة استخدام الكود",
+      "Hiding complex implementation details / إخفاء تفاصيل التنفيذ المعقدة",
+      "Binding data and methods together / ربط البيانات والأساليب معاً",
+      "Using a single interface to represent different data types / استخدام واجهة واحدة لتمثيل أنواع بيانات مختلفة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is Polymorphism? / ما هي تعددية الأشكال (Polymorphism)؟",
+    "options": [
+      "Binding data and methods together / ربط البيانات والأساليب معاً",
+      "Using a single interface to represent different data types and operations / استخدام واجهة واحدة لتمثيل أنواع بيانات وعمليات مختلفة",
+      "Deriving new classes from existing ones / اشتقاق فئات جديدة من فئات موجودة",
+      "Exposing all internal attributes publicly / إظهار جميع الخصائص الداخلية بشكل عام"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is Abstraction? / ما هو التجريد (Abstraction)؟",
+    "options": [
+      "Allowing multiple inheritance of classes / السماح بالوراثة المتعددة للفئات",
+      "Binding methods and data in private scope / ربط الأساليب والبيانات في نطاق خاص",
+      "Hiding the complex implementation details and exposing only the necessary functionality / إخفاء تفاصيل التنفيذ المعقدة وإظهار الوظائف الضرورية فقط",
+      "Deriving sub-interfaces from abstract parent classes / اشتقاق واجهات فرعية من فئات مجردة رئيسية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Encapsulation ensures that an object's internal state can only be modified via: / يضمن التغليف أن الحالة الداخلية للكائن لا يمكن تعديلها إلا عبر:",
+    "options": [
+      "Direct global variable access / الوصول المباشر للمتغيرات العامة",
+      "System call interrupts / مقاطعات نداء النظام",
+      "Subclass inheritance overrides / تجاوزات وراثة الفئات الفرعية",
+      "Specific methods (getters and setters) / أساليب محددة (جالبات ومحددات - getters and setters)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Encapsulation helps in protecting the integrity of the object's data and: / يساعد التغليف في حماية سلامة بيانات الكائن و:",
+    "options": [
+      "preventing unintended interference / منع التدخل غير المقصود",
+      "increasing execution memory size / زيادة حجم ذاكرة التنفيذ",
+      "exposing implementation details / إظهار تفاصيل التنفيذ",
+      "enabling global attribute modifications / تمكين التعديلات العامة على الخصائص"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Java Encapsulation example, the fields 'name' and 'age' are declared as: / في مثال التغليف بلغة جافا، تم تعريف الحقلين 'name' و 'age' كـ:",
+    "options": [
+      "public / عام (public)",
+      "private / خاص (private)",
+      "protected / محمى (protected)",
+      "static / ثابت (static)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Inheritance promotes code reuse and establishes: / تعزز الوراثة إعادة استخدام الكود وتنشئ:",
+    "options": [
+      "global variable access across packages / وصول المتغيرات العامة عبر الحزم",
+      "direct hardware control interfaces / واجهات تحكم مباشرة في الأجهزة",
+      "relationships between classes / علاقات بين الفئات",
+      "independent memory allocation tables / جداول تخصيص ذاكرة مستقلة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the Java Inheritance example, the 'Vehicle' class has fields declared with which access modifier? / في مثال الوراثة بلغة جافا، تم تعريف حقول فئة 'Vehicle' بأي محدد وصول؟",
+    "options": [
+      "private / خاص (private)",
+      "public / عام (public)",
+      "default / افتراضي (default)",
+      "protected / محمى (protected)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Java Inheritance example, which keyword is used by 'Car' to inherit from 'Vehicle'? / في مثال الوراثة بلغة جافا، ما الكلمة المفتاحية المستخدمة من قبل 'Car' للوراثة من 'Vehicle'؟",
+    "options": [
+      "extends / يمتد (extends)",
+      "implements / ينفذ (implements)",
+      "inherits / يرث (inherits)",
+      "super / رئيسي (super)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Polymorphism enables flexibility in code by allowing: / تتيح تعددية الأشكال المرونة في الكود من خلال السماح بـ:",
+    "options": [
+      "direct manipulation of private attributes / التلاعب المباشر بالخصائص الخاصة",
+      "one interface to be implemented by multiple classes, each with its own behavior / تطبيق واجهة واحدة بواسطة فئات متعددة، كل منها بسلوكها الخاص",
+      "creation of objects without classes / إنشاء كائنات بدون فئات",
+      "hiding all public methods from external access / إخفاء جميع الأساليب العامة من الوصول الخارجي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the Java Polymorphism example, 'Circle' and 'Rectangle' use which keyword to draw upon 'Shape'? / في مثال تعددية الأشكال بلغة جافا، تستخدم فئتا 'Circle' و 'Rectangle' أي كلمة مفتاحية بالنسبة لـ 'Shape'؟",
+    "options": [
+      "extends / يمتد (extends)",
+      "override / يتجاوز (override)",
+      "implements / ينفذ (implements)",
+      "interface / واجهة (interface)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the Polymorphism Java code example, what is 'Shape'? / في مثال كود الجافا لتعددية الأشكال، ما هي 'Shape'؟",
+    "options": [
+      "public class / فئة عامة (public class)",
+      "abstract class / فئة مجردة (abstract class)",
+      "private attribute / خاصية خاصة (private attribute)",
+      "public interface / واجهة عامة (public interface)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Abstraction focuses on exposing only the essential features of an object while: / يركز التجريد على إظهار الميزات الأساسية فقط للكائن بينما:",
+    "options": [
+      "hiding the implementation details / يخفي تفاصيل التنفيذ",
+      "exposing internal attributes publicly / يظهر الخصائص الداخلية بشكل عام",
+      "deleting methods from memory / يحذف الأساليب من الذاكرة",
+      "preventing class instantiation / يمنع إنشاء نسخ من الفئة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Abstraction example, what abstracts the complexity of controlling a TV? / في مثال التجريد، ما الذي يجرد تعقيد التحكم في التلفزيون؟",
+    "options": [
+      "A 'Vehicle' class / فئة 'Vehicle'",
+      "A 'RemoteControl' class / فئة 'RemoteControl'",
+      "A 'Shape' interface / واجهة 'Shape'",
+      "An 'Account' class / فئة 'Account'"
+    ],
     "answer": 1
   }
 ]
