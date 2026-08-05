@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which set of characteristics best represents the main architectural advantages of adopting Object-Oriented Programming? / أي من مجموعات الخصائص التالية تمثل المزايا المعمارية الرئيسية لتبني البرمجة الكائنية؟",
+    "options": [
+      "Code Reusability, Modular Structure, and Ease of Maintenance / إعادة استخدام الكود، الهيكلية المجزأة، وسهولة الصيانة",
+      "Procedural Execution, Global Scope, and Direct Memory Manipulation / التنفيذ الإجرائي، النطاق العام، والتعامل المباشر مع الذاكرة",
+      "High Component Interdependency and Execution Overhead / الاعتمادية العالية بين المكونات وعبء التنفيذ الإضافي",
+      "Static Memory Allocation and Deep Inheritance Trees / التخصيص الثابت للذاكرة وشجرات الوراثة العميقة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What primary trade-off is introduced when applying OOP principles to small, simple applications? / ما هو العيب الأساسي الذي يظهر عند تطبيق مفاهيم البرمجة الكائنية على التطبيقات الصغيرة والبيسيطة؟",
+    "options": [
+      "Complete loss of data abstraction / فقدان تجريد البيانات بالكامل",
+      "Unnecessary complexity and architectural overhead / تعقيد غير ضروري وعبء أداء إضافي (Overhead)",
+      "Inability to implement encapsulation / عدم القدرة على تطبيق الكبسلة",
+      "Incompatibility with modern compilers / عدم التوافق مع المحررات والمترجمات الحديثة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Extensive rely on class inheritance throughout a software design often results in which architectural issue? / الاعتماد المفرط على الوراثة بين الكلاسات عبر التصميم البرمجي يؤدي غالباً إلى أي مشكلة معمارية؟",
+    "options": [
+      "Loose coupling between modules / فك الترابط بين الموديولات",
+      "Improved runtime performance / تحسين أداء النظام أثناء التشغيل",
+      "Tight coupling making modifications risky / ربط محكم يجعل التعديلات عالية المخاطر",
+      "Automatic data encryption / تشفير البيانات تلقائياً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If a developer fails to properly restrict access to object fields, what design flaw is exposed? / إذا فشل المطور في تقييد الوصول لمتغيرات الكائن بشكل صحيح، ما هو العيب التصميمي المترتب على ذلك؟",
+    "options": [
+      "Violating single responsibility principle / خرق مبدأ المسؤولية الفردية",
+      "Preventing polymorphic behavior / منع سلوك تعدد الأشكال",
+      "Disabling dynamic binding / تعطيل الربط الديناميكي",
+      "Exposing internal instance states directly to external components / إظهار الحالة الداخلية للكائن مباشرة للمكونات الخارجية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is considered a best practice when structuring class relationships in a sustainable software architecture? / ما هي الممارسة الأفضل عند بناء العلاقات بين الكلاسات في معمارية برمجية مستدامة؟",
+    "options": [
+      "Maintaining shallow and straightforward class hierarchies / الحفاظ على هيكلية كلاسات بسيطة وغير عميقة",
+      "Building deep, multi-layered inheritance chains / بناء سلاسل وراثة معقدة متعددة الطبقات",
+      "Avoiding composition in favor of multiple inheritance / تجنب التركيب والتفضيل الدائم للوراثة المتعددة",
+      "Exposing all member attributes publicly / جعل جميع الصفات عامة للجميع"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "When inheritance creates fragile code bases, which alternative structural design strategy should be preferred? / عندما تتسبب الوراثة في كود هش وصعب التعديل، ما الاستراتيجية الهيكلية البديلة المفضلة؟",
+    "options": [
+      "Global state management / إدارة الحالة العامة (Global State)",
+      "Composition over inheritance / استخدام التركيب (Composition) بزيادة بدلاً من الوراثة",
+      "Procedural functional decomposition / التفكيك الإجرائي الوظيفي",
+      "Bypassing interfaces entirely / التخلي عن استخدام الواجهات تماماً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How does a standard Bank Account class model ensure state integrity and secure mutations? / كيف يضمن تصميم كلاس البنك سلامة البيانات والتحكم في تعديلها؟",
+    "options": [
+      "By allowing direct variable modification from any scope / بسماح التعديل المباشر للمتغيرات من أي مكان",
+      "By marking all methods as static and private / بجعل جميع الطرق استاتيكية وخاصة",
+      "By hiding attributes privately and providing controlled public operations / بإخفاء الصفات بخصائص خاصة وتوفير عمليات عامة محددة للتعديل",
+      "By executing account operations as global procedural logic / بتنفيذ عمليات الحساب كمنطق إجرائي عام"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which application scenario correctly exemplifies the practical use of Polymorphism? / أي من السيناريوهات التالية يمثل تطبيقاً عملياً صحيحاً لمفهوم تعدد الأشكال (Polymorphism)؟",
+    "options": [
+      "Creating distinct independent variables without a shared contract / إنشاء متغيرات مستقلة دون وجود عقد أو رابط مشترك",
+      "Writing repetitive code blocks for every concrete shape / كتابة كود مكرر لكل شكل هندسي منفصل",
+      "Hardcoding shape types into conditional switch statements / كتابة أنواع الأشكال داخل جمل شرطية ثابتة",
+      "Invoking a unified interface method where underlying sub-classes provide custom implementations / استدعاء طريقة عبر واجهة موحدة مع قيام الكلاسات الابنة بتقديم تنفيذها الخاص"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What makes a utility module like a Logging service suitable for broad system usage? / ما الذي يجعل موديول الخدمة مثل كلاس السجلات (Logger) مناسباً للاستخدام الواسع في النظام؟",
+    "options": [
+      "High reusability and independence from specific domain logic / قابليته العالية لإعادة الاستخدام واستقلاليته عن منطق النظام الخاص",
+      "Tight dependency on database models / اعتماده الشديد على نماذج قواعد البيانات",
+      "Direct exposure of its file handles publicly / إظهاره المباشر لمعالجات الملفات للعامة",
+      "Forcing callers to extend its implementation / إجباره للبرامج على وراثته بشكل مباشر"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Separating Payment Processing logic from Inventory Management directly supports which structural quality? / فصل منطق عمليات الدفع عن إدارة المخزون يدعم بشكل مباشر أي صفة معمارية؟",
+    "options": [
+      "Increased structural coupling / زيادة الترابط الهيكلي",
+      "System Modularity / موديلية واستقلالية النظام (Modularity)",
+      "Procedural chaining / التسلسل الإجرائي",
+      "Monolithic architecture / المعمارية الأحادية المدمجة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do sound Encapsulation and Abstraction practices directly enhance software Maintainability? / كيف يعزز التطبيق السليم للكبسلة والتجريد من قابلية صيانة التطبيقات؟",
+    "options": [
+      "By exposing all database schema details to UI components / بإظهار تفاصيل قاعدة البيانات لمكونات واجهة المستخدم",
+      "By forcing full re-compilation whenever logic shifts / بإجبار النظام على إعادة التجميع بالكامل عند كل تغيير",
+      "By containing localized changes and preventing ripple effects across the system / باحتواء التغييرات محلية المنشأ ومنع أثرها التتابعي على بقية النظام",
+      "By completely eliminating the need for automated testing / بإلغاء الحاجة للتجارب والاختبارات التلقائية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the context of the SOLID principles, what does the letter 'S' specify? / في سياق مبادئ SOLID البرمجية، إلى ماذا يشير حرف 'S'؟",
+    "options": [
+      "Sequential Execution Principle / مبدأ التنفيذ المتسلسل",
+      "Structural Isolation Principle / مبدأ العزل الهيكلي",
+      "System Scalability Principle / مبدأ توسع الأنظمة",
+      "Single Responsibility Principle / مبدأ المسؤولية الفردية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which design guideline correctly defines the Single Responsibility Principle? / أي من الإرشادات التالية يعرّف مبدأ المسؤولية الفردية بشكل صحيح؟",
+    "options": [
+      "A class should be focused on one domain actor, having a single rationale for modification / يجب أن يركز الكلاس على دور واحد، بحيث يكون له سبب واحد فقط للتغيير",
+      "A class must encapsulate all system functionalities within one file / يجب أن يجمع الكلاس كافة وظائف النظام داخل ملف واحد",
+      "A method must take only one single parameter / يجب أن تقبل الطريقة (Method) متغيراً واحداً فقط",
+      "An application must execute on a single core processor / يجب أن يعمل التطبيق على معالج ثنائي النواة فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What principle is encapsulated by the 'O' acronym in SOLID design patterns? / ما هو المبدأ الذي يمثله الحرف 'O' في نماذج SOLID؟",
+    "options": [
+      "Operational Coupling Principle / مبدأ الترابط التشغيلي",
+      "Open/Closed Principle / مبدأ المفتوح/المغلق",
+      "Object Allocation Principle / مبدأ حجز الكائنات",
+      "Overriding Optimization Principle / مبدأ تحسين إعادة التعريف"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "According to the Open/Closed Principle, how should component behavior be expanded? / وفقاً لمبدأ المفتوح/المغلق، كيف ينبغي توسيع سلوك المكونات البرمجية؟",
+    "options": [
+      "By directly editing verified legacy code / عبر تعديل الكود القديم المعتمد بشكل مباشر",
+      "By deleting unused parent interfaces / عبر حذف الواجهات الرئيسية غير المستعملة",
+      "By adding new code extensions without altering established logic / عبر إضافة امتدادات برمجية جديدة دون تعديل الكود المستقر",
+      "By disabling sub-classing entirely / عبر تعطيل الوراثة بالكامل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What principle governs contract substitution in class hierarchies (represented by 'L' in SOLID)? / ما المبدأ الذي يحكم توافق الاستبدال داخل هيكليات الكلاسات (الممثل بحرف 'L')؟",
+    "options": [
+      "Linear Logic Principle / مبدأ المنطق الخطي",
+      "Layered Subsystem Principle / مبدأ الأنظمة الفرعية الطبقية",
+      "Legacy Refactoring Principle / مبدأ إعادة هيكلة الكود القديم",
+      "Liskov Substitution Principle / مبدأ ليسكوف للاستبدال"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does the Liskov Substitution Principle demand regarding sub-classes? / ما الذي يتطلبه مبدأ ليسكوف للاستبدال فيما يتعلق بالكلاسات المشتقة؟",
+    "options": [
+      "Derived objects must seamlessly replace base objects without breaking system correctness / الكائنات المشتقة يجب أن تستبدل الكائنات الأساسية بمرونة دون إخلال بصحة النظام",
+      "Derived classes must override all methods with empty implementations / الكلاسات المشتقة يجب أن تلغي كل الطرق بتنفيذ فارغ",
+      "Sub-classes should never share methods with parent classes / الكلاسات الفرعية لا ينبغي أن تشترك في أي طرق مع الأب",
+      "Sub-classes must break super-class interfaces when necessary / الكلاسات الفرعية يجب أن تكسر قيود الواجهة عند الحاجة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "The Interface Segregation Principle ('I' in SOLID) encourages designers to create: / يشجع مبدأ فصل الواجهات ('I' في SOLID) المصممين على إنشاء:",
+    "options": [
+      "Large, multipurpose interfaces that cover every feature / واجهات ضخمة متعددة الأغراض تغطي كل الميزات",
+      "Small, targeted interfaces so clients only depend on methods they require / واجهات صغيرة ومحددة حتى لا تعتمد الكائنات إلا على ما تحتاجه فعلياً",
+      "Interfaces exclusively bound to concrete implementations / واجهات مرتبطة حصرياً بتنفيذات ملموسة محدودة",
+      "Single global interfaces per application / واجهة عامة واحدة لكل تطبيق"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What architectural direction is advocated by the Dependency Inversion Principle ('D' in SOLID)? / ما التوجه المعماري الذي يدعو إليه مبدأ عكس التبعيات ('D' في SOLID)؟",
+    "options": [
+      "High-level modules should depend directly on low-level concretions / الموديولات العليا يجب أن تعتمد مباشرة على الموديولات المنخفضة الملموسة",
+      "Abstractions must depend entirely on implementation details / التجريد يجب أن يعتمد كلياً على التفاصيل التنفيذية",
+      "Both high and low-level modules should depend upon abstractions / الموديولات عالية ومنخفضة المستوى يجب أن تعتمد على التجريدات (Abstractions)",
+      "Classes must depend exclusively on static hardcoded values / الكلاسات يجب أن تعتمد فقط على قيم ثابتة ومباشرة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What fundamental software engineering rule is expressed by the acronym DRY? / ما هي القاعدة الأساسية في هندسة البرمجيات التي يختصرها المفهوم DRY؟",
+    "options": [
+      "Data Recovery Yield / عائد استعادة البيانات",
+      "Dynamic Runtime Yielding / التخلي الديناميكي أثناء التشغيل",
+      "Distributed Resource Yield / عائد الموارد الموزعة",
+      "Don't Repeat Yourself / لا تكرر نفسك"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Applying the DRY guideline effectively delivers which primary architectural outcome? / تطبيق إرشاد DRY بفاعلية يحقق أي نتيجة معمارية رئيسية؟",
+    "options": [
+      "Elimination of redundant logic, reducing maintenance effort and discrepancies / القضاء على التكرار البرمجي، مما يقلل جهد الصيانة والتناقضات",
+      "Significant increase in line count across codebase / زيادة كبيرة في عدد أسطر الكود بالنظام",
+      "Forcing procedural structures over modular structures / فرض البنية الإجرائية بدلاً من البنية المجزأة",
+      "Making unit testing impossible to perform / جعل الاختبارات الأحادية مستحيلة التنفيذ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How should common Authentication routines be designed according to DRY principles? / كيف ينبغي تصميم روتينات المصادقة المشتركة وفقاً لمبادئ DRY؟",
+    "options": [
+      "By copy-pasting code across every distinct microservice / بنسخ ولصق الكود داخل كل خدمة منفصلة",
+      "By isolating auth logic into a reusable shared component or service / بعزل منطق المصادقة داخل مكون أو خدمة مشتركة قابلة لإعادة الاستخدام",
+      "By writing customized login checks inside every user controller / بكتابة فحص تسجيل دخول مخصص داخل كل شاشة",
+      "By hardcoding credentials inside individual classes / بتضمين بيانات الدخول ثابته داخل الكلاسات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In large-scale system designs, how does Object-Oriented software generally compare to procedural equivalents? / في الأنظمة الضخمة، كيف يقارن أداء البرمجيات الكائنية مع نظيراتها الإجرائية؟",
+    "options": [
+      "Procedural designs scale much better for enterprise systems / التصاميم الإجرائية تتوسع بشكل أفضل في أنظمة المؤسسات",
+      "OOP is inherently too slow for enterprise applications / البرمجة الكائنية بطيئة بطبيعتها وغير صالحة للتطبيقات الكبيرة",
+      "OOP offers superior scalability and structural organization for complex domains / البرمجة الكائنية تقدم قدرة توسع وتنظيم هيكلي أفضل للمجالات المعقدة",
+      "Procedural programs provide lower memory consumption in huge domain models / البرمجيات الإجرائية تستهلك ذاكرة أقل في الأنظمة المعقدة جداً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the primary role of Version Control Tools in team-based software engineering? / ما هو دور أدوات التحكم بالنسخ (Version Control) في هندسة البرمجيات الجماعية؟",
+    "options": [
+      "Optimizing memory execution speeds / تحسين سرعة استهلاك الذاكرة",
+      "Generating automated UML diagrams / إنشاء مخططات الكلاسات تلقائياً",
+      "Replacing standard compiler tools / استبدال المحررات والمترجمات التقليدية",
+      "Managing concurrent modifications and maintaining historical code bases / إدارة التعديلات المتزامنة والحفاظ على سجل التغييرات التاريخي للكود"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Modern Integrated Development Environments (IDEs) improve developer efficiency mainly through: / تحسن بيئات التطوير المتكاملة (IDEs) الحديثة كفاءة المطور بالأساس من خلال:",
+    "options": [
+      "Tailored code completion, automated refactoring, and integrated debugging tools / الإكمال الذكي للكود، التتبع الآلي، وأدوات اكتشاف الأخطاء المدمجة",
+      "Eliminating the need to write unit testing logic / إلغاء الحاجة لكتابة كود الاختبارات",
+      "Automatically converting OOP applications to procedural code / تحويل كود البرمجة الكائنية إلى كود إجرائي تلقائياً",
+      "Enforcing tight coupling between components / فرض الترابط المحكم بين المكونات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What architectural indicator suggests that a codebase suffers from Tight Coupling? / ما هو المؤشر المعماري الذي يدل على أن النظام يعاني من الربط المحكم (Tight Coupling)؟",
+    "options": [
+      "Modules communicate strictly through abstract interfaces / تواصل الموديولات يتم فقط عبر واجهات مجردة",
+      "A simple change in one class forces cascading modifications across dependent classes / تغيير بسيط في كلاس واحد يحتم إجراء تعديلات متتالية على كلاسات متعددة",
+      "Classes can be replaced independently without recompilation / إمكانية استبدال الكلاسات بشكل مستقل دون إعادة تجميع",
+      "All attributes are properly protected behind encapsulation / جميع المتغيرات محمية بأسلوب كبسلة صحيح"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In practical OOP, what encapsulates the idea of Modularity? / في البرمجة الكائنية العملية، ما الذي يعبر عن مفهوم الموديلية (Modularity)؟",
+    "options": [
+      "Combining all logic inside a massive monolith class / دمج كل العمليات داخل كلاس واحد ضخم",
+      "Eliminating interfaces from component interactions / إلغاء استخدام الواجهات في التواصل بين المكونات",
+      "Designing self-contained, independent units that integrate cleanly into broader systems / تصميم وحدات مستقلة بذاتها ومجهزة للاندماج بنظافة داخل نظام أكبر",
+      "Forcing runtime execution to occur sequentially / فرض التنفيذ ليعمل بتسلسل خطي صارم"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What technical burden directly stems from creating excessively deep class hierarchies? / ما العبء البرمجي الناتج مباشرة عن إنشاء هيكليات وراثة عميقة ومفرطة؟",
+    "options": [
+      "Enhanced code comprehension and fast unit test creation / تحسين فهم الكود وسرعة كتابة الاختبارات",
+      "Automatic prevention of memory leaks / الوقاية التلقائية من تسريب الذاكرة",
+      "Guaranteed compliance with DRY principles / الضمان الآلي للتوافق مع مبدأ DRY",
+      "Severe code fragility, making tracing and refactoring extremely difficult / هشاشة الكود مما يجعل تتبع الأخطاء وإعادة الهيكلة عملية معقدة للغاية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Adhering strictly to established software Design Principles directly impacts code quality by: / الالتزام الصارم بمبادئ تصميم البرمجيات يؤثر بشكل مباشر على جودة الكود من خلال:",
+    "options": [
+      "Boosting long-term maintainability, structural robustness, and extensibility / تعزيز الصيانة طويلة الأمد، المتانة الهيكلية، وقابلية التوسع",
+      "Maximizing code duplication for safety / زيادة تكرار البرمجيات للحماية",
+      "Increasing execution dependency on hardware specs / زيادة اعتماد التنفيذ على مواصفات الجهاز",
+      "Removing the need for object instances / الاستغناء عن إنشاء كائنات في الذاكرة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What strategy best maintains clean and flexible inter-class communication in modern application design? / ما الاستراتيجية الأفضل للحفاظ على تواصل نظيف ومرن بين الكلاسات في التصاميم الحديثة؟",
+    "options": [
+      "Leveraging inheritance for all code sharing needs / استخدام الوراثة في كل حالات مشاركة الكود",
+      "Keeping relationships explicit and simple using encapsulation and interfaces / جعل العلاقات واضحة وبسيطة باستخدام الكبسلة والواجهات",
+      "Making class attributes public to streamline data access / جعل متغيرات الكلاس عامة لتسهيل الوصول إليها",
+      "Constructing static monolithic controllers / بناء كلاسات تحكم استاتيكية ضخمة"
+    ],
+    "answer": 1
+  }
+]
