@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is Single Inheritance in Java? / ما هو الوراثة الفردية في جافا؟",
+    "options": [
+      "One class inherits from one parent class / كلاس واحد يرث من كلاس أب واحد",
+      "A class inherits from multiple superclasses / كلاس يرث من عدة كلاسات فائقة",
+      "Multiple sub classes inherit from one superclass / كلاسات فرعية متعددة ترث من كلاس فائق واحد",
+      "A chain of inheritance / سلسلة من الوراثة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which benefit allows a sub class to be an extension of the super class? / أي فائدة تسمح للكلاس الفرعي أن يكون امتداداً للكلاس الفائق؟",
+    "options": [
+      "Code reusability / إعادة استخدام الكود",
+      "Extensibility / القابلية للتوسع",
+      "Polymorphism / تعدد الأشكال",
+      "Diamond problem / مشكلة الماسية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the employee management system scenario, which of the following is a sub class? / في سيناريو نظام إدارة الموظفين، أي مما يلي يعد كلاس فرعي؟",
+    "options": [
+      "Employee / الموظف",
+      "Vehicle / المركبة",
+      "Manager / المدير",
+      "Animal / الحيوان"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a shared attribute in the Employee super class? / أي مما يلي يعد خاصية مشتركة في الكلاس الفائق الموظف؟",
+    "options": [
+      "Assign tasks / إسناد المهام",
+      "Write code / كتابة الكود",
+      "Load cargo / تحميل البضائع",
+      "Department / القسم"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the vehicle hierarchy scenario, what is the super class? / في سيناريو تسلسل المركبات، ما هو الكلاس الفائق؟",
+    "options": [
+      "Vehicle / المركبة",
+      "Car / السيارة",
+      "Bike / الدراجة النارية",
+      "Truck / الشاحنة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a shared attribute in the Vehicle super class? / أي مما يلي يعد خاصية مشتركة في الكلاس الفائق المركبة؟",
+    "options": [
+      "Ride / القيادة",
+      "Fuel capacity / سعة الوقود",
+      "Load cargo / تحميل البضائع",
+      "Assign tasks / إسناد المهام"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the specific behavior of the Truck sub class? / ما هو التصرف الخاص بكلاس الشاحنة الفرعي؟",
+    "options": [
+      "Ride / القيادة",
+      "Write code / كتابة الكود",
+      "Load cargo / تحميل البضائع",
+      "Assign tasks / إسناد المهام"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What defines Multilevel Inheritance? / ما الذي يحدد الوراثة متعددة المستويات؟",
+    "options": [
+      "One class inherits from one parent class / كلاس واحد يرث من كلاس أب واحد",
+      "Multiple sub classes inherit from one superclass / كلاسات فرعية متعددة ترث من كلاس فائق واحد",
+      "A class inherits from multiple superclasses / كلاس يرث من عدة كلاسات فائقة",
+      "Class C inherits from Class B, and Class B inherits from Class A / كلاس C يرث من كلاس B، وكلاس B يرث من كلاس A"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What defines Hierarchical Inheritance? / ما الذي يحدد الوراثة الهرمية؟",
+    "options": [
+      "Multiple sub classes inherit from one superclass / كلاسات فرعية متعددة ترث من كلاس فائق واحد",
+      "One class inherits from one parent class / كلاس واحد يرث من كلاس أب واحد",
+      "Class C inherits from Class B and Class A / كلاس C يرث من كلاس B وكلاس A",
+      "Class inherits from multiple superclasses / كلاس يرث من عدة كلاسات فائقة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which type of inheritance is NOT supported by Java for classes? / أي نوع من الوراثة لا تدعمه جافا للكلاسات؟",
+    "options": [
+      "Single inheritance / الوراثة الفردية",
+      "Multiple inheritance / الوراثة المتعددة",
+      "Multilevel inheritance / الوراثة متعددة المستويات",
+      "Hierarchical inheritance / الوراثة الهرمية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why does Java not support multiple inheritance for classes? / لماذا لا تدعم جافا الوراثة المتعددة للكلاسات؟",
+    "options": [
+      "Code reusability / إعادة استخدام الكود",
+      "Polymorphism / تعدد الأشكال",
+      "Diamond problem / مشكلة الماسية",
+      "Extensibility / القابلية للتوسع"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is used in Java to achieve multiple inheritance concepts? / ما الذي يُستخدم في جافا لتحقيق مفاهيم الوراثة المتعددة؟",
+    "options": [
+      "Superclass / الكلاس الفائق",
+      "Subclass / الكلاس الفرعي",
+      "Private members / الأعضاء الخاصة",
+      "Interfaces / الواجهات"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Single Inheritance code example, which class is the superclass? / في مثال كود الوراثة الفردية، أي كلاس هو الكلاس الفائق؟",
+    "options": [
+      "Animal / الحيوان",
+      "Dog / الكلب",
+      "Test / الاختبار",
+      "Cat / القط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Single Inheritance example, what method does class Dog have? / في مثال الوراثة الفردية، ما هي الدالة التي يمتلكها كلاس Dog؟",
+    "options": [
+      "eat() / eat()",
+      "bark() / bark()",
+      "walk() / walk()",
+      "meow() / meow()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the Multilevel Inheritance code example, class Dog inherits directly from which class? / في مثال كود الوراثة متعددة المستويات، يرث كلاس Dog مباشرة من أي كلاس؟",
+    "options": [
+      "Animal / الحيوان",
+      "Test / الاختبار",
+      "Mammal / الثدييات",
+      "Cat / القط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "An object of class Dog in Multilevel Inheritance can access which of the following methods? / كائن من كلاس Dog في الوراثة متعددة المستويات يمكنه الوصول إلى أي من الدوال التالية؟",
+    "options": [
+      "Only bark() / فقط bark()",
+      "Only walk() / فقط walk()",
+      "Only eat() / فقط eat()",
+      "eat(), walk(), and bark() / eat() و walk() و bark()"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Hierarchical Inheritance example, which two classes extend class Animal? / في مثال الوراثة الهرمية، أي كلاسين يمتدان من كلاس Animal؟",
+    "options": [
+      "Dog and Cat / Dog و Cat",
+      "Dog and Mammal / Dog و Mammal",
+      "Mammal and Cat / Mammal و Cat",
+      "Animal and Test / Animal و Test"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Hierarchical Inheritance example, why can't Dog object call meow()? / في مثال الوراثة الهرمية، لماذا لا يمكن لكائن Dog استدعاء meow()؟",
+    "options": [
+      "meow() is private in Animal / meow() خاصة في Animal",
+      "meow() is defined in Cat class and inaccessible to Dog / meow() معرفة في كلاس Cat وغير متاح الوصول إليها بالنسبة لـ Dog",
+      "meow() is static / meow() ساكنة",
+      "meow() is protected / meow() محمية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is an Access Specifier/Modifier? / ما هو محدد الوصول؟",
+    "options": [
+      "A method to create objects / دالة لإنشاء الكائنات",
+      "A type of inheritance / نوع من أنواع الوراثة",
+      "A prefix placed before properties or methods to specify access limits / بادئة توضع قبل الخصائص أو الدوال لتحديد حدود الوصول",
+      "A solution to the diamond problem / حل لمشكلة الماسية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How does public access specifier behave in inheritance? / كيف يتصرف محدد الوصول public في الوراثة؟",
+    "options": [
+      "Not inherited nor accessible / لا يُورث ولا يمكن الوصول إليه",
+      "Inherited and accessible only within same package / يُورث ويمكن الوصول إليه فقط داخل نفس الباكدج",
+      "Inherited and accessible only to sub classes / يُورث ويمكن الوصول إليه فقط للكلاسات الفرعية",
+      "Inherited and accessible anywhere / يُورث ويمكن الوصول إليه في أي مكان"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How does protected access specifier behave in inheritance? / كيف يتصرف محدد الوصول protected في الوراثة؟",
+    "options": [
+      "Inherited and accessible to sub classes or classes in same package / يُورث ويمكن الوصول إليه للكلاسات الفرعية أو الكلاسات في نفس الباكدج",
+      "Accessible anywhere / يمكن الوصول إليه في أي مكان",
+      "Not inherited and not accessible / لا يُورث ولا يمكن الوصول إليه",
+      "Accessible only within main function / يمكن الوصول إليه فقط داخل الدالة الرئيسية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If a member has default access, when is it accessible in a sub class? / إذا كان للعضو وصول افتراضي default، متى يمكن الوصول إليه في كلاس فرعي؟",
+    "options": [
+      "Always accessible / يمكن الوصول إليه دائماً",
+      "Only if the sub class is in the same package / فقط إذا كان الكلاس الفرعي في نفس الباكدج",
+      "Accessible even outside the package / يمكن الوصول إليه حتى خارج الباكدج",
+      "Never accessible / لا يمكن الوصول إليه أبداً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How does private access specifier behave in all types of inheritance? / كيف يتصرف محدد الوصول private في جميع أنواع الوراثة؟",
+    "options": [
+      "Inherited and accessible everywhere / يُورث ويمكن الوصول إليه في كل مكان",
+      "Inherited but not accessible / يُورث ولكن لا يمكن الوصول إليه",
+      "Not inherited and not accessible / لا يُورث ولا يمكن الوصول إليه",
+      "Accessible only in sub class / يمكن الوصول إليه فقط في الكلاس الفرعي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If no access specifier is specified for a property, what is its default type? / إذا لم يتم تحديد محدد وصول لخاصية ما، ما هو نوعها الافتراضي؟",
+    "options": [
+      "Public / Public",
+      "Private / Private",
+      "Protected / Protected",
+      "Default / Default"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Access Modifiers code example, which variable is declared as private? / في مثال كود محددات الوصول، أي متغير تم الإعلان عنه كـ private؟",
+    "options": [
+      "privateVar / privateVar",
+      "publicVar / publicVar",
+      "protectedVar / protectedVar",
+      "defaultVar / defaultVar"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What keyword is used in Java to establish inheritance between classes? / ما هي الكلمة المفتاحية المستخدمة في جافا لإنشاء الوراثة بين الكلاسات؟",
+    "options": [
+      "implements / implements",
+      "extends / extends",
+      "inherits / inherits",
+      "super / super"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How is polymorphism defined in the context of inheritance? / كيف يُعرّف تعدد الأشكال في سياق الوراثة؟",
+    "options": [
+      "Creating multiple objects of the same class / إنشاء كائنات متعددة من نفس الكلاس",
+      "Restricting access to variables / تقييد الوصول إلى المتغيرات",
+      "Dynamic invocation or modifying methods inherited from super class / الاستدعاء الديناميكي أو تعديل الدوال المورثة من الكلاس الفائق",
+      "Inheriting from multiple superclasses / الوراثة من عدة كلاسات فائقة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is a Subclass? / ما هو الكلاس الفرعي (Subclass)؟",
+    "options": [
+      "The parent class that provides properties / الكلاس الأب الذي يقدم الخصائص",
+      "A class that cannot be inherited / كلاس لا يمكن ورثه",
+      "An interface / واجهة",
+      "The class that inherits properties and behaviors from a super class / الكلاس الذي يرث الخصائص والتصرفات من الكلاس الفائق"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If a sub class is outside the package of a super class with a default member, can it access that member? / إذا كان الكلاس الفرعي خارج باكدج الكلاس الفائق الذي يحتوي على عضو افتراضي default، هل يمكنه الوصول إلى ذلك العضو؟",
+    "options": [
+      "No, it cannot access it / لا، لا يمكنه الوصول إليه",
+      "Yes, it can access it / نعم، يمكنه الوصول إليه",
+      "Only if it is static / فقط إذا كان ساكناً",
+      "Only if it is private / فقط إذا كان خاصاً"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Employee system example, what is the specific behavior of the Developer class? / في مثال نظام الموظفين، ما هو التصرف الخاص بكلاس Developer؟",
+    "options": [
+      "Assign task / إسناد المهمة",
+      "Write code / كتابة الكود",
+      "Load cargo / تحميل البضائع",
+      "Ride / القيادة"
+    ],
+    "answer": 1
+  }
+]
