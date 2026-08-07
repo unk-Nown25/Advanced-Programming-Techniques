@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which type of inheritance is allowed in Java? / أي نوع من الوراثة مسموح به في الجافا؟",
+    "options": [
+      "Multilevel inheritance / الوراثة متعددة المستويات",
+      "Multiple inheritance of classes / الوراثة المتعددة للكلاسات",
+      "Triple class inheritance / الوراثة الثلاثية الكلاسات",
+      "Circular class inheritance / الوراثة الدائرية للكلاسات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If no access specifier is specified, what access modifier does the compiler assign by default? / إذا لم يتم تحديد مخصص وصول، فما هو مخصص الوصول الذي يعينه المترجم افتراضياً؟",
+    "options": [
+      "Protected / محمي (Protected)",
+      "Default / افتراضي (Default)",
+      "Private / خاص (Private)",
+      "Public / عام (Public)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Private attributes of a superclass are: / الخصائص الخاصة (Private) في الكلاس الأعلى تكون:",
+    "options": [
+      "Accessible by all packages / قابل للوصول من كل الحزم",
+      "Accessible by sub-classes only / قابل للوصول بواسطة الكلاسات الفرعية فقط",
+      "Not accessible by the sub-class / غير قابلة للوصول بواسطة الكلاس الفرعي",
+      "Accessible within the same package only / قابل للوصول داخل نفس الحزمة فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Default attributes of a superclass are accessible only if the sub-class is in the: / الخصائص الافتراضية (Default) للكلاس الأعلى تكون قابلة للوصول فقط إذا كان الكلاس الفرعي في:",
+    "options": [
+      "Different package / حزمة مختلفة",
+      "Global scope / النطاق العام",
+      "Sub-package / حزمة فرعية",
+      "Same package / نفس الحزمة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hierarchical inheritance occurs when: / تحدث الوراثة الهرمية (Hierarchical inheritance) عندما:",
+    "options": [
+      "Multiple sub-classes inherit from one superclass / تنسلخ كلاسات فرعية متعددة من كلاس أصل واحد",
+      "One class inherits from multiple superclasses / يرث كلاس واحد من كلاسات أصل متعددة",
+      "Classes inherit in a single chain / ترث الكلاسات في سلسلة واحدة",
+      "No inheritance is used / لا يتم استخدام الوراثة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary role of a constructor in Java? / ما هو الدور الأساسي للمنشئ (Constructor) في الجافا؟",
+    "options": [
+      "To delete created objects from memory / لحذف الكائنات المنشأة من الذاكرة",
+      "To initialize attributes when creating an object / لتهيئة الخصائص عند إنشاء كائن",
+      "To override methods automatically / لإعادة كتابة الدوال تلقائياً",
+      "To prevent inheritance / ليمنع الوراثة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used inside a sub-class constructor to invoke a superclass constructor? / أي كلمة محجوزة تُستخدم داخل منشئ الكلاس الفرعي لاستدعاء منشئ الكلاس الأعلى؟",
+    "options": [
+      "this / هذا (this)",
+      "parent / الأصل (parent)",
+      "super / الأعلى (super)",
+      "extends / يمتد (extends)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If super() is called without any parameters, it invokes the superclass's: / إذا تم استدعاء ()super بدون أي وسائط، فإنه يستدعي منشئ الكلاس الأعلى الذي يكون:",
+    "options": [
+      "Parameterized constructor / منشئ مع برامترات",
+      "Private constructor / منشئ خاص",
+      "Static constructor / منشئ ساكن",
+      "Non-argument constructor / منشئ بدون برامترات (Non-argument)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If no explicit call to super() is written in a subclass constructor, what does the compiler do? / إذا لم يكتب استدعاء صريح لـ ()super في منشئ الكلاس الفرعي، فماذا يفعل المترجم؟",
+    "options": [
+      "Automatically calls the superclass no-arg constructor / يستدعي تلقائياً منشئ الكلاس الأعلى الخالي من البرامترات",
+      "Throws a compile error immediately / يعطي خطأ تجميع فوراً",
+      "Skips superclass constructor execution / يتجاهل تنفيذ منشئ الكلاس الأعلى",
+      "Deletes the superclass instance / يحذف كائن الكلاس الأعلى"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is invoking the superclass constructor necessary during sub-class instantiation? / لماذا يعتبر استدعاء منشئ الكلاس الأعلى ضرورياً عند إنشاء كائن الكلاس الفرعي؟",
+    "options": [
+      "To duplicate sub-class variables / لتكرار متغيرات الكلاس الفرعي",
+      "To initialize attributes inherited from the parent class / لتهيئة الخصائص الموروثة من الكلاس الأصل",
+      "To create separate memory space for methods / لإنشاء مساحة ذاكرة منفصلة للدوال",
+      "To restrict access to public members / لتقييد الوصول إلى الأعضاء العامة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword refers to the current object instance in Java? / أي كلمة محجوزة تشير إلى الكائن الحالي (Current object) في الجافا؟",
+    "options": [
+      "super / الأعلى (super)",
+      "class / كلاس (class)",
+      "this / هذا (this)",
+      "object / كائن (object)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "An object in Java memory is actually instantiated using which keyword? / يتم إنشاء كائن فعلياً في ذاكرة الجافا باستخدام أي كلمة محجوزة؟",
+    "options": [
+      "create / إنشاء (create)",
+      "build / بناء (build)",
+      "instantiate / تجسيد (instantiate)",
+      "new / جديد (new)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In constructor chaining (Grandparent -> Parent -> Child), which constructor executes first? / في تسلسل المنشئات (جد -> أصل -> ابن)، أي منشئ يتم تنفيذه أولاً؟",
+    "options": [
+      "Grandparent constructor / منشئ الجد (Grandparent)",
+      "Parent constructor / منشئ الأصل (Parent)",
+      "Child constructor / منشئ الابن (Child)",
+      "Executes in random order / ينفذ بترتيب عشوائي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens if a superclass defines ONLY a parameterized constructor and the sub-class constructor does not call super(args)? / ماذا يحدث إذا عرف الكلاس الأعلى منشئ ببرامترات فقط، ولم يقم منشئ الكلاس الفرعي باستدعاء (args)super؟",
+    "options": [
+      "Program runs normally / يعمل البرنامج بشكل طبيعي",
+      "Compilation error occurs / حدث خطأ في التجميع (Compile Error)",
+      "The compiler invents a default constructor / ينشئ المترجم منشئاً افتراضياً تلقائياً",
+      "Variables are set to null silently / تصبح المتغيرات null تلقائياً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which advice is recommended for writing constructors in Java? / ما هي النصيحة الموصى بها عند كتابة المنشئات في الجافا؟",
+    "options": [
+      "Write complex logic inside constructors / كتابة منطق معقد داخل المنشئات",
+      "Call as many regular methods as possible inside constructors / استدعاء أكبر عدد من الدوال العادية داخل المنشئات",
+      "Keep constructors simple and avoid calling non-constructor methods / الحفاظ على بساطة المنشئ وتجنب استدعاء دوال غير المنشئات",
+      "Make constructors private in all classes / جعل المنشئات خاصة في جميع الكلاسات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Making an attribute private when a sub-class directly needs access to display or modify it leads to: / جعل الخاصية خاصة (private) عندما يحتاج الكلاس الفرعي للوصول إليها مباشرة يؤدي إلى:",
+    "options": [
+      "Faster execution / تنفيذ أسرع",
+      "Automatic override / إعادة كتابة تلقائية",
+      "Proper encapsulation without error / تغليف صحيح بدون أخطاء",
+      "Incorrect use of access specifier mistake / خطأ في الاستخدام غير الصحيح لمخصص الوصول"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the common mistake termed 'Over-inheritance'? / ما هو الخطأ الشائع المسمى 'الإفراط في الوراثة' (Over-inheritance)؟",
+    "options": [
+      "Inheriting from a class where there is no logical IS-A relationship / الوراثة من كلاس لا توجد معه علاقة منطقية (IS-A)",
+      "Creating more than two subclasses / إنشاء أكثر من كلاسين فرعيين",
+      "Inheriting from an interface instead of a class / الوراثة من واجهة بدلاً من كلاس",
+      "Using super keyword multiple times / استخدام الكلمة المحجوزة super عدة مرات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In object-oriented design, the relationship between Car and Engine is properly described as: / في التصميم كائني التوجه، العلاقة بين Car و Engine تُوصف بشكل صحيح على أنها:",
+    "options": [
+      "Car IS-A Engine (Inheritance) / السيارة هي محرك (وراثة)",
+      "Car HAS-AN Engine (Composition / Object reference) / السيارة تمتلك محرك (تركيب / مرجع كائن)",
+      "Engine IS-A Car (Inheritance) / المحرك هو سيارة (وراثة)",
+      "Engine extends Car / المحرك يمتد من السيارة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "To avoid over-inheritance when Car needs Engine functionality, you should: / لتجنب الإفراط في الوراثة عندما تحتاج Car إلى وظائف Engine، يجب عليك:",
+    "options": [
+      "Make Engine extend Car / جعل Engine يمتد من Car",
+      "Make Car extend Engine / جعل Car يمتد من Engine",
+      "Create an Engine object inside Car class / إنشاء كائن من النوع Engine داخل كلاس Car",
+      "Use private inheritance / استخدام وراثة خاصة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which annotation tells the compiler that a method in a sub-class is overriding a superclass method? / أي توشيح (Annotation) يخبر المترجم بأن الدالة في الكلاس الفرعي تعيد كتابة دالة في الكلاس الأعلى؟",
+    "options": [
+      "@Inherit / @Inherit",
+      "@SuperMethod / @SuperMethod",
+      "@Overload / @Overload",
+      "@Override / @Override"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the benefit of using the @Override annotation? / ما هي فائدة استخدام التوشيح @Override؟",
+    "options": [
+      "It helps compiler catch method name or signature typos / يساعد المترجم في اكتشاف أخطاء الطباعة في اسم الدالة أو توقيعها",
+      "It increases program execution speed / يزيد من سرعة تنفيذ البرنامج",
+      "It converts private methods to public / يحول الدوال الخاصة إلى عامة",
+      "It forces the method to run in background / يجبر الدالة على العمل في الخلفية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the Diamond Problem in object-oriented programming? / ما هي مشكلة الألماسة (Diamond Problem) في البرمجة كائنية التوجه؟",
+    "options": [
+      "A problem caused by private variables in superclasses / مشكلة تسببها المتغيرات الخاصة في الكلاسات العليا",
+      "Ambiguity when a class inherits from two classes that share a common ancestor / غموض يحدث عندما يرث كلاس من كلاسين يتشاركان في أصل واحد",
+      "An error caused by using too many constructors / خطأ ناتج عن استخدام عدد كبير من المنشئات",
+      "A memory leak when calling super() repeatedly / تسريب في الذاكرة عند استدعاء super() بشكل متكرر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How does Java solve the Diamond Problem caused by multiple inheritance of classes? / كيف تحل الجافا مشكلة الألماسة الناتجة عن الوراثة المتعددة للكلاسات؟",
+    "options": [
+      "By allowing multiple class inheritance with keywords / بالسماح بالوراثة المتعددة للكلاسات مع كلمات محجوزة",
+      "By ignoring duplicate methods automatically / بتجاهل الدوال المكررة تلقائياً",
+      "By disallowing multiple class inheritance and using interfaces instead / بمنع الوراثة المتعددة للكلاسات واستخدام الواجهات (Interfaces) بدلاً منها",
+      "By converting all classes to abstract classes / بتحويل كل الكلاسات إلى كلاسات مجردة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When a class implements two interfaces that contain a method with the same name, how is ambiguity resolved? / عندما يطبق كلاس واجهتين تحتويان على دالة بنفس الاسم، كيف يتم حل الغموض؟",
+    "options": [
+      "The compiler chooses the first interface automatically / يختار المترجم الواجهة الأولى تلقائياً",
+      "Java deletes both methods from compilation / تحذف الجافا كلتا الدالتين من التجميع",
+      "It cannot be resolved in Java / لا يمكن حلها في الجافا",
+      "By explicitly implementing the method and specifying which interface to invoke / بتطبيق الدالة صراحة وتحديد الواجهة المراد استدعاؤها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Public members of a superclass are accessible: / الأعضاء العامة (Public) في الكلاس الأعلى تكون قابلة للوصول:",
+    "options": [
+      "From any class in any package / من أي كلاس في أي حزمة",
+      "Only within the same package / داخل نفس الحزمة فقط",
+      "Only inside subclasses / داخل الكلاسات الفرعية فقط",
+      "Only inside the defining class / داخل الكلاس المعرف فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Protected members of a superclass are accessible by subclasses: / الأعضاء المحمية (Protected) في الكلاس الأعلى تكون قابلة للوصول بواسطة الكلاسات الفرعية:",
+    "options": [
+      "Only if they are in the same package / فقط إذا كانت في نفس الحزمة",
+      "Even if the subclass is in a different package / حتى لو كان الكلاس الفرعي في حزمة مختلفة",
+      "Only through public getters / فقط من خلال دالتي الجلب العامة",
+      "Never accessible outside superclass / غير قابلة للوصول أبداً خارج الكلاس الأعلى"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When is the superclass constructor executed relative to the subclass constructor? / متى يتم تنفيذ منشئ الكلاس الأعلى بالنسبة لمنشئ الكلاس الفرعي؟",
+    "options": [
+      "After the subclass constructor finishes / بعد انتهاء منشئ الكلاس الفرعي",
+      "At the exact same time in parallel / في نفس الوقت بالضبط بشكل متوازي",
+      "First, before the subclass constructor body executes / أولاً، قبل تنفيذ جسم منشئ الكلاس الفرعي",
+      "Only when explicitly requested by user at runtime / فقط عند طلب المستخدم صراحة أثناء التشغيل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Parameter names in constructors and super calls should be kept consistent to: / يجب الحفاظ على اتساق أسماء البرامترات في المنشئات واستدعاءات super لـ:",
+    "options": [
+      "Increase memory size / زيادة حجم الذاكرة",
+      "Allow multiple inheritance / السماح بالوراثة المتعددة",
+      "Bypass compile time checks / تجاوز فحص وقت التجميع",
+      "Maintain code clarity and avoid logical confusion / الحفاظ على وضوح الكود وتجنب التشتت المنطقي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which keyword is used by a class to implement an interface in Java? / أي كلمة محجوزة تُستخدم بواسطة الكلاس لتطبيق واجهة (Interface) في الجافا؟",
+    "options": [
+      "implements / يطبق (implements)",
+      "extends / يمتد (extends)",
+      "inherits / يرث (inherits)",
+      "uses / يستخدم (uses)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In Java, can a class extend multiple classes simultaneously? / في الجافا، هل يمكن لكلاس أن يمتد (extend) من كلاسات متعددة في نفس الوقت؟",
+    "options": [
+      "Yes, always allowed / نعم، مسموح به دائماً",
+      "No, Java does not support multiple class inheritance / لا، الجافا لا تدعم الوراثة المتعددة للكلاسات",
+      "Yes, but only if they are abstract / نعم، ولكن فقط إذا كانت مجردة (abstract)",
+      "Yes, if all methods are private / نعم، إذا كانت جميع الدوال خاصة"
+    ],
+    "answer": 1
+  }
+]
