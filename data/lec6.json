@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the sixth common mistake related to inheritance called? / ماذا يسمى الخطأ الشائع السادس المتعلق بالوراثة؟",
+    "options": [
+      "Tight coupling / الارتباط الشديد",
+      "Unintended behavior / السلوك غير المتوقع",
+      "Fragile base class / كلاس القاعدة الهش",
+      "Overriding error / خطأ إعادة الكتابة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which example is mentioned in the lecture to illustrate an improper tight coupling between classes? / أي مثال تم ذكره في المحاضرة لتوضيح الارتباط الشديد غير المناسب بين الكلاسات؟",
+    "options": [
+      "Parent and Child classes / كلاس الأب والابن",
+      "Engine class as superclass for Car class / كلاس Engine كـ سوبر كلاس لكلاس Car",
+      "Service interface and Class C / انترفيس Service وكلاس C",
+      "Base class and Derived class / البيس كلاس والدرايفد كلاس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the preferred solution to avoid tight coupling between classes? / ما هو الحل المفضل لتجنب الارتباط الشديد بين الكلاسات؟",
+    "options": [
+      "Increasing inheritance levels / زيادة مستويات الوراثة",
+      "Modifying the base class constantly / تعديل كلاس القاعدة باستمرار",
+      "Loose coupling using interfaces / تقليل الارتباط باستخدام الانترفيس",
+      "Suppressing compiler warnings / كبت تحذيرات الكومبايلر"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the tight coupling solution example, which method was defined inside the interface Service? / في مثال حل الارتباط الشديد، ما هي الميثود التي تم تعريفها داخل الانترفيس Service؟",
+    "options": [
+      "calculate() / calculate()",
+      "show() / show()",
+      "service() / service()",
+      "perform() / perform()"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the solution for tight coupling, which keyword is used by class C to implement interface Service? / في حل الارتباط الشديد، ما هي الكلمة المفتاحية التي يستخدمها كلاس C لتطبيق الانترفيس Service؟",
+    "options": [
+      "implements / implements",
+      "extends / extends",
+      "override / override",
+      "annotation / annotation"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the cause of the seventh common mistake 'unintended behavior'? / ما هو سبب الخطأ الشائع السابع 'السلوك غير المتوقع'؟",
+    "options": [
+      "Using interfaces / استخدام الانترفيس",
+      "Forgetting to account for inherited methods / نسيان أخذ الميثودز الموروثة في الاعتبار",
+      "Adding @Override annotation / إضافة أنوتيشن @Override",
+      "Modifying the derived class / تعديل الكلاس المشتق"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does forgetting to account for inherited methods lead to? / إلى ماذا يؤدي نسيان أخذ الميثودز الموروثة في الاعتبار؟",
+    "options": [
+      "Compilation error / خطأ في التجميع",
+      "Tight coupling / ارتباط شديد",
+      "Unanticipated code behavior / سلوك غير متوقع للكود",
+      "Automatic deletion of methods / حذف تلقائي للميثودز"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the solution proposed for preventing unintended behavior? / ما هو الحل المقترح لمنع السلوك غير المتوقع؟",
+    "options": [
+      "Using @Deprecated / استخدام @Deprecated",
+      "Creating multiple sub classes / إنشاء كلاسات فرعية متعددة",
+      "Removing all calculate methods / إزالة جميع ميثودز calculate",
+      "Careful design taking inheritance concepts into account / التصميم الدقيق مع أخذ مفاهيم الوراثة في الاعتبار"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does the 'new' keyword actually do in memory when creating an object? / ماذا تفعل الكلمة المفتاحية 'new' فعلياً في الذاكرة عند إنشاء أوبجكت؟",
+    "options": [
+      "Allocates real space/area in memory / تحجز مساحة/منطقة فعلية في الذاكرة",
+      "Deletes the object reference / تحذف مرجع الأوبجكت",
+      "Suppress warnings / تكبت التحذيرات",
+      "Calls the @Override annotation / تستدعي أنوتيشن @Override"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the unintended error example, what creates ambiguity during method execution? / في مثال الخطأ غير المقصود، ما الذي يسبب الغموض أثناء تنفيذ الميثود؟",
+    "options": [
+      "Interface implementation / تطبيق الانترفيس",
+      "Initializing Parent object reference with Child constructor / تهيئة مرجع أوبجكت Parent باستخدام كونستركتر Child",
+      "Using functional interfaces / استخدام الفانكشنال انترفيس",
+      "Suppressing warnings / كبت التحذيرات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What characterizes the Fragile Base Class problem? / بماذا تتميز مشكلة كلاس القاعدة الهش (Fragile Base Class)؟",
+    "options": [
+      "Base class cannot be inherited / لا يمكن وراثة البيس كلاس",
+      "Derived class has no methods / الكلاس المشتق لا يحتوي على ميثودز",
+      "Base class is not written strongly and requires modifications / البيس كلاس غير مكتوب بصورة قوية ومضطر لعمل تعديلات فيه",
+      "Code compiles without warnings / الكود يجمع بدون تحذيرات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What happens automatically when you modify a fragile base class? / ماذا يحدث تلقائياً عند تعديل كلاس قاعدة هش؟",
+    "options": [
+      "It fixes all warnings / يصلح جميع التحذيرات",
+      "It creates an interface / ينشئ انترفيس",
+      "It suppresses all errors / يكبت جميع الأخطاء",
+      "It breaks the functionality of the derived class / يكسر المهمة التي يقوم بها الكلاس المشتق"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If modifications are needed in a fragile base class structure, where should you make the changes? / إذا كانت هناك حاجة للتعديل في هيكل البيس كلاس الهش، أين يجب أن تجري التعديل؟",
+    "options": [
+      "In the derived class / في الكلاس المشتق (Derived class)",
+      "In the base class / في كلاس القاعدة (Base class)",
+      "In the compiler settings / في إعدادات الكومبايلر",
+      "In the main method only / في الميثود الرئيسية فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How are Annotations defined in Java technology according to the lecture? / كيف تُعرَّف الأنوتيشنز (Annotations) في تقنية الجافا وفقاً للمحاضرة؟",
+    "options": [
+      "Direct execution code / كود تنفيذ مباشر",
+      "Provide metadata code / توفر كود البيانات الوصفية (Metadata code)",
+      "Memory allocation functions / دوال حجز ذاكرة",
+      "Inheritance base classes / كلاسات قاعدة للوراثة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary purpose of using annotations in code? / ما هو الغرض الأساسي من استخدام الأنوتيشنز في الكود؟",
+    "options": [
+      "To increase memory consumption / لزيادة استهلاك الذاكرة",
+      "To create object references / لإنشاء مراجع الأوبجكت",
+      "To give instructions or messages to compiler or runtime execution / إعطاء تعليمات أو رسائل للكومبايلر أو الرن تايم",
+      "To delete child classes / لحذف الكلاسات الفرعية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which annotation provides instructions to the compiler indicating that a method overrides a superclass method? / أي أنوتيشن تعطى توجيهات للكومبايلر تشير إلى أن الميثود تعمل أوفرايد لميثود في السوبر كلاس؟",
+    "options": [
+      "@Deprecated / @Deprecated",
+      "@SuppressWarnings / @SuppressWarnings",
+      "@FunctionalInterface / @FunctionalInterface",
+      "@Override / @Override"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How does Method Overriding differ from Method Overloading? / كيف يختلف أوفرايد الميثود (Overriding) عن أوفلاود الميثود (Overloading)؟",
+    "options": [
+      "Overriding retains function prototype but changes content; Overloading changes prototype / الأوفرايد يحتفظ بـ prototype الميثود ويعدل المضمون؛ الأوفرلود يغير الـ prototype",
+      "Overriding changes prototype; Overloading keeps content / الأوفرايد يغير الـ prototype؛ الأوفرلود يحتفظ بالمضمون",
+      "Overriding is for interfaces only; Overloading is for base classes only / الأوفرايد للانترفيس فقط؛ الأوفرلود لكلاس القاعدة فقط",
+      "Overriding creates memory space; Overloading suppresses warnings / الأوفرايد يحجز مساحة؛ الأوفرلود يكبت التحذيرات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does marking a method or class with @Deprecated mean? / ماذا يعني تعليم ميثود أو كلاس بأنوتيشن @Deprecated؟",
+    "options": [
+      "It is mandatory to execute / إجباري التنفيذ",
+      "It is neglected or bypassed / مهمل أو متجاوز عنه",
+      "It causes compilation error / يسبب خطأ تجميع",
+      "It converts class into interface / يحول الكلاس إلى انترفيس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How does the compiler handle a method marked as @Deprecated during compilation? / كيف يتعامل الكومبايلر مع الميثود المعلمة بـ @Deprecated أثناء التجميع؟",
+    "options": [
+      "Executes it with priority / ينفذها بأولوية",
+      "Throws a fatal error / يطلق خطأ قاتل",
+      "Ignores it and does not perform processing / يهملها ولا يجري عليها أي شكل معالجة",
+      "Creates a child class / ينشئ كلاس فرعي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the distinction between a 'Warning' and an 'Error' during code execution? / ما هو الفرق بين 'التحذير Warning' و 'الخطأ Error' أثناء تنفيذ الكود؟",
+    "options": [
+      "Warnings stop execution; Errors do not / التحذيرات توقف التنفيذ؛ الأخطاء لا توقف",
+      "Errors are suppressed by compiler; Warnings require fix / الأخطاء تكبت بالكومبايلر؛ التحذيرات تتطلب معالجة",
+      "Both completely stop program compilation / كلاهما يوقف تجميع البرنامج تماماً",
+      "Warning allows code execution; Error requires fixing / التحذير يسمح بتنفيذ الكود؛ الخطأ يستلزم معالجة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which annotation is used to instruct the compiler to suppress specific warnings in a code section? / أي أنوتيشن تُستخدم لتوجيه الكومبايلر لكبت تحذيرات معينة في جزء من الكود؟",
+    "options": [
+      "@SuppressWarnings / @SuppressWarnings",
+      "@Override / @Override",
+      "@Deprecated / @Deprecated",
+      "@FunctionalInterface / @FunctionalInterface"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens when @FunctionalInterface annotation is placed before an interface? / ماذا يحدث عند وضع أنوتيشن @FunctionalInterface قبل انترفيس؟",
+    "options": [
+      "It causes tight coupling / يسبب ارتباط شديد",
+      "It directly converts the interface into a functional interface / يحول الانترفيس مباشرة إلى فانكشنال انترفيس",
+      "It suppresses all execution errors / يكبت جميع أخطاء التنفيذ",
+      "It marks the interface as deprecated / يعلم الانترفيس كـ مهمل"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which research topic did the lecturer assign students to search for in the group? / ما هو موضوع البحث الذي كلّف المحاضر الطلاب بالبحث عنه في الجروب؟",
+    "options": [
+      "Difference between Tight Coupling and Loose Coupling / الفرق بين الارتباط الشديد والضعيف",
+      "Difference between Base Class and Derived Class / الفرق بين البيس كلاس والدرايفد كلاس",
+      "Difference between Functional Interface and Default Interface / الفرق بين الفانكشنال انترفيس والديفولت انترفيس",
+      "Difference between Compiler Errors and Warnings / الفرق بين أخطاء الكومبايلر والتحذيرات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method name was used in the superclass example to demonstrate method overriding with @Override? / ما اسم الميثود التي استخدمت في مثال السوبر كلاس لتوضيح أوفرايد الميثود باستخدام @Override؟",
+    "options": [
+      "calculate() / calculate()",
+      "perform() / perform()",
+      "service() / service()",
+      "show() / show()"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which lectures cover the topic of Inheritance without including exercises? / ما هي المحاضرات التي تغطي موضوع الوراثة (Inheritance) دون أن تحتوي على تمارين؟",
+    "options": [
+      "Lecture 4 1, Lecture 5 2, Lecture 6 3 / المحاضرة 4 1، المحاضرة 5 2، المحاضرة 6 3",
+      "Lecture 1 1, Lecture 2 2, Lecture 3 3 / المحاضرة 1 1، المحاضرة 2 2، المحاضرة 3 3",
+      "Lecture 7 1, Lecture 8 2, Lecture 9 3 / المحاضرة 7 1، المحاضرة 8 2، المحاضرة 9 3",
+      "Lecture 2 1, Lecture 3 2, Lecture 4 3 / المحاضرة 2 1، المحاضرة 3 2، المحاضرة 4 3"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which upcoming lectures are scheduled to cover the topic of Polymorphism? / ما هي المحاضرات القادمة المحددة لتغطية موضوع البوليمورفيزم (Polymorphism)؟",
+    "options": [
+      "Lecture 4 1 and Lecture 5 / المحاضرة 4 1 والمحاضرة 5",
+      "Lecture 7 1 and Lecture 8 / المحاضرة 7 1 والمحاضرة 8",
+      "Lecture 2 and Lecture 3 / المحاضرة 2 والمحاضرة 3",
+      "Lecture 9 1 and Lecture 10 / المحاضرة 9 1 والمحاضرة 10"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Who is the teaching assistant responsible for receiving the exercise submissions from students? / من هي أستاذة المادة/المعيدة المسؤولة عن استلام تسليمات التمارين من الطلاب؟",
+    "options": [
+      "Ms. Mona / أستاذة مونا",
+      "Ms. Amal / أستاذة أمل",
+      "Ms. Sara / أستاذة سارة",
+      "Ms. Fatima / أستاذة فاطمة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When will the comprehensive large exercise be assigned to students? / متى سيتم إعطاء التمرين الكبير الشامل للطلاب؟",
+    "options": [
+      "At the beginning of Lecture 1 / في بداية المحاضرة 1",
+      "After completing Lecture 6 3 / بعد إكمال المحاضرة 6 3 مباشرة",
+      "During the polymorphism intro / أثناء مقدمة البوليمورفيزم",
+      "At the end of the advanced features series / في نهاية سلسلة الميزات المتقدمة (Advanced features)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which exercises are currently required for submission to Ms. Sara? / ما هي التمارين المطلوب تسليمها حالياً لأستاذة سارة؟",
+    "options": [
+      "Exercise 1 (OOP Intro) and Exercise 2 in Lecture 2 / تمرين 1 (مقدمة الـ OOP) وتمرين 2 في المحاضرة 2",
+      "Exercise 3 and Exercise 4 in Lecture 6 / تمرين 3 وتمرين 4 في المحاضرة 6",
+      "Final large exercise only / التمرين النهائي الكبير فقط",
+      "Polymorphism exercises only / تمارين البوليمورفيزم فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How is metadata code described conceptually in relation to annotations in the lecture? / كيف وُصِف كود البيانات الوصفية (metadata code) مفاهيمياً فيما يتعلق بالأنوتيشنز في المحاضرة؟",
+    "options": [
+      "As a memory pointer / كمؤشر ذاكرة",
+      "Like a template placed to give a preliminary idea / كالقالب الذي تُوضع عليه الأشياء لإعطاء فكرة مسبقة",
+      "As an execution log / كسجل تنفيذ",
+      "As a strict parent class / كـ كلاس أب صارم"
+    ],
+    "answer": 1
+  }
+]
