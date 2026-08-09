@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What does the word Polymorphism mean in Object-Oriented Programming? / ماذا تعني كلمة البوليمورفيزم في البرمجة الكائنية التوجه؟",
+    "options": [
+      "Having one interface with multiple forms / وجود واجهة واحدة بأساليب متعددة",
+      "Creating unique class names / إنشاء أسماء كلاسات فريدة",
+      "Preventing method inheritance / منع وراثة الدوال",
+      "Converting classes into primitive data types / تحويل الكلاسات إلى أنواع بيانات أولية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is associated with Compile-time Polymorphism in Java? / أي مما يلي يرتبط بالبوليمورفيزم أثناء التجميع في الجافا؟",
+    "options": [
+      "Method Overriding / إعادة كتابة الدوال",
+      "Method Overloading / التحميل الزائد للدوال",
+      "Dynamic Binding / الربط الديناميكي",
+      "Multiple Inheritance / الوراثة المتعددة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Where does Method Overloading strictly occur? / أين يحدث التحميل الزائد للدوال حصراً؟",
+    "options": [
+      "Between parent and child classes / بين الكلاس الأب والكلاس الابن",
+      "Across different packages / عبر حزم مختلفة",
+      "Within the same class / داخل نفس الكلاس",
+      "Inside an interface only / داخل الواجهة البرمجية فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which concept in Java is directly related to Run-time Polymorphism? / أي مفهوم في الجافا يرتبط مباشرة بالبوليمورفيزم أثناء التشغيل؟",
+    "options": [
+      "Method Overloading / التحميل الزائد للدوال",
+      "Operator Overloading / التحميل الزائد للعوامل",
+      "Constructor Overloading / التحميل الزائد للمنشئات",
+      "Method Overriding / إعادة كتابة الدوال"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is a mandatory requirement for Method Overriding to take place? / ما هو الشرط الإجباري لحدوث إعادة كتابة الدوال؟",
+    "options": [
+      "Inheritance between classes / الوراثة بين الكلاسات",
+      "Changing parameter data types / تغيير أنواع بيانات البرامترات",
+      "Private access modifiers / محددات الوصول الخاصة",
+      "Static method definitions / تعريفات الدوال الثابتة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How does Polymorphism improve code quality in Java applications? / كيف يحسن البوليمورفيزم من جودة الكود في تطبيقات الجافا؟",
+    "options": [
+      "Decreases execution speed / يقلل من سرعة التنفيذ",
+      "Promotes flexibility and reusability / يعزز المرونة وإعادة الاستخدام",
+      "Restricts method calls / يحدد استدعاء الدوال",
+      "Increases memory allocation / يزيد من تخصيص الذاكرة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Does Java support user-defined Operator Overloading? / هل تدعم الجافا التحميل الزائد للعوامل المخصص من قبل المستخدم؟",
+    "options": [
+      "Yes, for all arithmetic operators / نعم، لجميع العوامل الحسابية",
+      "Yes, but only in sub-classes / نعم، ولكن في الكلاسات الفرعية فقط",
+      "No, it is not supported in Java / لا، غير مدعوم في الجافا",
+      "Yes, using special keywords / نعم، باستخدام كلمات مفتاحية خاصة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which language explicitly supports user-defined Operator Overloading as mentioned in the lecture? / أي لغة تدعم صراحة التحميل الزائد للعوامل كما ذكر في المحاضرة؟",
+    "options": [
+      "Java / جافا",
+      "HTML / إتش تي إم إيل",
+      "SQL / إس كيو إيل",
+      "C++ / سي بلس بلس"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In Java, what is the operator '+' built-in overloaded to perform besides addition? / في الجافا، ما هي الوظيفة المحملة ضمناً لعامل '+' بجانب الجمع الحسابي؟",
+    "options": [
+      "String Concatenation / دمج النصوص",
+      "Array Expansion / توسيع المصفوفات",
+      "Memory Allocation / تخصيص الذاكرة",
+      "Bitwise Operations / العمليات البتية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What comprises a Method Signature in Java? / مما يتكون توقيع الدالة (Method Signature) في الجافا؟",
+    "options": [
+      "Method name and return type / اسم الدالة ونوع الإرجاع",
+      "Method name and parameter list / اسم الدالة وقائمة البرامترات",
+      "Access modifier and method name / محدد الوصول واسم الدالة",
+      "Return type and parameter values / نوع الإرجاع وقيم البرامترات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "To overload a method, what must be modified in the parameter list? / لتحميل دالة زئدياً، ما الذي يجب تعديله في قائمة البرامترات؟",
+    "options": [
+      "Only the variable names / أسماء المتغيرات فقط",
+      "Only the return type / نوع الإرجاع فقط",
+      "Number, type, or order of parameters / عدد أو نوع أو ترتيب البرامترات",
+      "The access modifier of parameters / محدد الوصول للبرامترات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can a method be overloaded by changing ONLY its return type? / هل يمكن تحميل الدالة زائدياً بتغيير نوع الإرجاع فـقـط؟",
+    "options": [
+      "Yes, always allowed / نعم، مسموح دائماً",
+      "Yes, if it returns double / نعم، إذا كانت ترجع دبل",
+      "Yes, if it returns void / نعم، إذا كانت ترجع فويد",
+      "No, return type alone cannot overload / لا، نوع الإرجاع وحده لا يكفي للتحميل الزائد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What happens at compile-time during Method Overloading resolution? / ماذا يحدث أثناء وقت التجميع عند حل استدعاء الدالة المحملة زائدياً؟",
+    "options": [
+      "The compiler differentiates methods based on arguments / يفرّق الكومبايلر بين الدوال بناءً على الوسائط",
+      "The JVM allocates dynamic heap memory / يخصص الجهاز الافتراضي ذاكرة ديناميكية",
+      "The child class overrides the parent method / يقوم الكلاس الابن بإعادة كتابة دالة الأب",
+      "The method body is completely deleted / يتم حذف جسم الدالة بالكامل"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Can constructors undergo Constructor Overloading in Java? / هل يمكن للمنشئات أن تخضع للتحميل الزائد (Constructor Overloading) في الجافا؟",
+    "options": [
+      "No, constructors cannot be overloaded / لا، لا يمكن تحميل المنشئات زائدياً",
+      "Yes, by varying parameter lists / نعم، بتغيير قوائم البرامترات",
+      "Only if they return integer / فقط إذا كانت ترجع عدد صحيح",
+      "Only in abstract classes / في الكلاسات المجردة فقط"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is Constructor Overloading considered a special case of overloading? / لماذا يُعتبر التحميل الزائد للمنشئات حالة خاصة من التحميل الزائد؟",
+    "options": [
+      "Because constructors have return types / لأن المنشئات لها أنواع إرجاع",
+      "Because constructors are inherited / لأن المنشئات تُورث",
+      "Because constructors are special member methods without return types / لأن المنشئات دوال عضو خاصة بدون نوع إرجاع",
+      "Because constructors cannot take parameters / لأن المنشئات لا تاخذ برامترات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What issue occurs when the compiler cannot determine which overloaded method to invoke? / ما المشكلة التي تحدث عندما لا يستطيع الكومبايلر تحديد أي دالة محملة زائدياً يتم استدعاؤها؟",
+    "options": [
+      "Null Pointer Exception / استثناء المشر الفارغ",
+      "Infinite Loop Error / خطأ التكرار اللانهائي",
+      "Class Cast Exception / استثناء تحويل الكلاس",
+      "Ambiguity Error / خطأ الإبهام أو الغموض"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Given `show(int, float)` and `show(float, int)`, what does `show(10, 10)` cause? / عند وجود `show(int, float)` و `show(float, int)`، ماذا يسبب الاستدعاء `show(10, 10)`؟",
+    "options": [
+      "Compile-time Ambiguity Error / خطأ إبهام أثناء التجميع",
+      "Successful execution of both / تنفيذ ناجح للدالتين",
+      "Runtime Crash / انهيار أثناء التشغيل",
+      "Automatic deletion of arguments / حذف تلقائي للوسائط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How can a developer resolve an Ambiguity Error during overloaded method calls? / كيف يمكن للمطور حل مشكلة خطأ الإبهام عند استدعاء الدوال المحملة زائدياً؟",
+    "options": [
+      "By deleting the main method / بحذف الدالة الرئيسية",
+      "By using explicit Type Casting / باستخدام التحويل الصريح للأنواع",
+      "By making variables private / بجعل المتغيرات خاصة",
+      "By renaming the class / بتغيير اسم الكلاس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the default primitive type for literal integer values like `10` in Java? / ما هو النوع الأولي الافتراضي للقيم الصحيحة المباشرة مثل `10` في الجافا؟",
+    "options": [
+      "float / فلوت",
+      "double / دبل",
+      "int / إنتجر",
+      "long / لونج"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In Method Overriding, what happens to the content (implementation) of the method? / في إعادة كتابة الدوال (Overriding)، ماذا يحدث لمحتوى (تنفيذ) الدالة؟",
+    "options": [
+      "It must remain identical to parent / يجب أن يظل مطابقاً للأب",
+      "It is completely ignored by JVM / يتم تجاهله تماماً بواسطة JVM",
+      "It causes a syntax error / يسبب خطأ في القواعد",
+      "It is modified in the subclass / يتم تعديله في الكلاس الفرعي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In Method Overriding, what must happen to the Method Signature? / في إعادة كتابة الدوال (Overriding)، ماذا يجب أن يحدث لتوقيع الدالة؟",
+    "options": [
+      "It must remain exactly the same / يجب أن يظل كما هو تماماً",
+      "It must change parameter types / يجب أن يغير أنواع البرامترات",
+      "It must increase parameter count / يجب أن يزيد عدد البرامترات",
+      "It must change the method name / يجب أن يغير اسم الدالة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Given `Animal a = new Dog();`, which class's overridden `speak()` method is executed? / عند كتابة `Animal a = new Dog();`، أي دالة `speak()` معاد كتابتها سيتم تنفيذها؟",
+    "options": [
+      "The Animal class method / دالة كلاس Animal",
+      "The Dog class method / دالة كلاس Dog",
+      "Neither, it throws an error / لا أحد منهما، تعطي خطأ",
+      "Both methods sequentially / الدالتين التوالي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When does actual object initialization and memory creation occur in Java? / متى يحدث التهيئة الفعلية للكائن وإنشاؤه في الذاكرة في الجافا؟",
+    "options": [
+      "When declaring reference variable `Animal a;` / عند الإعلان عن المتغير المرجعي `Animal a;`",
+      "During code compilation / أثناء تجميع الكود",
+      "When invoking `new Dog()` constructor / عند استدعاء المنشئ `new Dog()`",
+      "When closing the program / عند إغلاق البرنامج"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which annotation is commonly used in Java to indicate Method Overriding? / أي التوضيحات (Annotation) تُستخدم شائعة في الجافا للإشارة إلى إعادة كتابة الدالة؟",
+    "options": [
+      "@Overload / أوفردلود",
+      "@CompileTime / كومبايل تايم",
+      "@Polymorphic / بوليمورفيك",
+      "@Override / أوفرايد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why does Method Overloading enhance Readability? / لماذا يحسن التحميل الزائد للدوال من مقروئية الكود (Readability)؟",
+    "options": [
+      "It allows using a single meaningful name for similar operations / يسمح باستخدام اسم واحد معبر للعمليات المماثلة",
+      "It reduces the number of lines to zero / يقلل عدد الأسطر إلى الصفر",
+      "It forces all variables to be global / يجبر جميع المتغيرات على أن تكون عامة",
+      "It eliminates the need for main method / يلغي الحاجة للدالة الرئيسية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary difference between Overloading and Overriding regarding class structure? / ما الفرق الأساسي بين Overloading و Overriding من حيث بنيّة الكلاس؟",
+    "options": [
+      "Overloading requires inheritance, Overriding does not / Overloading يتطلب وراثة، بينما Overriding لا يتطلب",
+      "Overloading is within same class, Overriding requires inheritance / Overloading داخل نفس الكلاس، بينما Overriding يتطلب وراثة",
+      "Both require multiple inheritance / كلاهما يتطلب وراثة متعددة",
+      "Neither can be used in classes / لا يمكن استخدام أي منهما في الكلاسات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If method `add(int a, int b)` exists, which of the following successfully overloads it? / إذا كانت الدالة `add(int a, int b)` موجودة، أي مما يلي يحملها زائدياً بنجاح؟",
+    "options": [
+      "int add(int x, int y) / دالة ترجع int وتاخذ متغيرين int",
+      "void add(int a, int b) / دالة ترجع void وتاخذ متغيرين int",
+      "double add(double a, double b) / دالة ترجع double وتاخذ متغيرين double",
+      "int add(int a, int b) / دالة مطابقة تماماً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What determines which method is called during Run-time Polymorphism? / ما الذي يحدد أي دالة سيتم استدعاؤها أثناء البوليمورفيزم في وقت التشغيل؟",
+    "options": [
+      "The reference type of variable / نوع المرجع للمتغير",
+      "The compiler version / إصدار الكومبايلر",
+      "The return type only / نوع الإرجاع فقط",
+      "The actual object type created in memory / نوع الكائن الفعلي المنشأ في الذاكرة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In a real-world example, how can the action 'Run' illustrate Polymorphism? / في مثال من العالم الحقيقي، كيف يمكن لفعل 'Run' أن يوضح البوليمورفيزم؟",
+    "options": [
+      "It changes meaning based on context like 'person running' vs 'program running' / يتغير معناه حسب السياق مثل 'جري شخص' مقابل 'تشغيل برنامج'",
+      "It always performs the exact same operation / ينفذ دائماً نفس العملية بالضبط",
+      "It can only be used by numbers / يمكن استخدامه فقط مع الأرقام",
+      "It represents static variables / يمثل المتغيرات الثابتة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the lecture example `Box(double w, double h, double d)`, what does the constructor do? / في مثال المحاضرة `Box(double w, double h, double d)`، ماذا يفعل المنشئ؟",
+    "options": [
+      "Calculates the area directly / يحسب المساحة مباشرة",
+      "Initializes box dimensions with given parameters / يتهيأ أبعاد الصندوق بالبرامترات المعطاة",
+      "Deletes the object memory / يحذف ذاكرة الكائن",
+      "Overrides the main method / يعيد كتابة الدالة الرئيسية"
+    ],
+    "answer": 1
+  }
+]
