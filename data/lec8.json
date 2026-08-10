@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Where does Method Overriding occur in Object-Oriented Programming? / أين يحدث تجاوز الدوال (Method Overriding) في البرمجة الكائنية التوجه؟",
+    "options": [
+      "In a subclass / في كلاس ابن (subclass)",
+      "In a single class only / في كلاس واحد فقط",
+      "In the superclass constructor / في مشيد الكلاس الأب",
+      "In private methods only / في الدوال الخاصة فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "When does Method Overriding get resolved in Java? / متى يتم حل وتحديد تجاوز الدوال (Method Overriding) في جافا؟",
+    "options": [
+      "At compile time / في وقت التجميع (Compile time)",
+      "At run time / في وقت التشغيل (Run time)",
+      "During code editing / أثناء تحرير الكود",
+      "At class loading time only / أثناء تحميل الكلاس فقط"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What must remain exactly the same between the superclass method and overridden method in the subclass? / ما الذي يجب أن يظل كما هو تماماً بين دالة الكلاس الأب والدالة المتجاوزة في الكلاس الابن؟",
+    "options": [
+      "The method body / جسم الدالة",
+      "The class name / اسم الكلاس",
+      "The method signature / توقيع الدالة (Method signature)",
+      "The access level making it private / مستوى الوصول بحيث يكون خاصاً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is modified when performing Method Overriding? / أي مما يلي يتم تعديله عند إجراء تجاوز للدالة (Method Overriding)؟",
+    "options": [
+      "The method signature / توقيع الدالة",
+      "The parameters type / نوع البرامترات",
+      "The number of parameters / عدد البرامترات",
+      "The body of the method / جسم الدالة (Body of the method)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Method Overriding promotes which key advantage in Java? / ما هي الفائدة الأساسية التي يعززها تجاوز الدوال (Method Overriding) في جافا؟",
+    "options": [
+      "Extensibility and flexibility / الامتدادية والمرونة (Extensibility and flexibility)",
+      "Private encapsulation / التغليف الخاص",
+      "Faster compile time / وقت تجميع أسرع",
+      "Overloading constructors / زيادة تحميل المشيدات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why can private methods NOT be overridden in Java? / لماذا لا يمكن تجاوز الدوال الخاصة (Private methods) في جافا؟",
+    "options": [
+      "Because they are static / لأنها استاتيكية",
+      "Because they are not inherited by subclasses / لأنها لا تُورث للكلاسات الأبناء",
+      "Because they lack a return type / لأنها تفتقر لنو ع الإرجاع",
+      "Because they require annotations / لأنها تتطلب وسوماً تقييدية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What happens if a method is declared as final in a superclass? / ماذا يحدث إذا تم الإعلان عن دالة كـ final في الكلاس الأب؟",
+    "options": [
+      "It can be overridden freely / يمكن تجاوزها بحرية",
+      "It becomes a constructor / تتحول إلى مشيد",
+      "It cannot be overridden in a subclass / لا يمكن تجاوزها في الكلاس الابن",
+      "It forces runtime error on load / تسبب خطأ وقت التشغيل عند التحميل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why can constructors NOT be overridden in Java? / لماذا لا يمكن تجاوز المشيدات (Constructors) في جافا؟",
+    "options": [
+      "Because they are always private / لأنها دائماً خاصة",
+      "Because they are always static / لأنها دائماً استاتيكية",
+      "Because they do not return any value / لأنها لا ترجع أي قيمة",
+      "Because they must have the same name as their class / لأن اسمها يجب أن يطابق اسم كلاسها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In Method Overriding, what is the restriction regarding the access level of the overriding method? / في تجاوز الدوال، ما هو القيد المتعلق بمستوى الوصول للدالة المتجاوزة؟",
+    "options": [
+      "It cannot be more restrictive than the superclass method / لا يمكن أن يكون أكثر تقييداً من دالة الكلاس الأب",
+      "It must be private / يجب أن يكون خاصاً (private)",
+      "It must be less visible than protected / يجب أن يكون أقل ظهوراً من protected",
+      "It can be any modifier regardless of superclass / يمكن أن يكون أي محدد بغض النظر عن الأب"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If a superclass method has protected access, which access modifier is valid for the overriding subclass method? / إذا كانت دالة الكلاس الأب بتمتع بـ protected، أي محدد وصول يكون صالحاً للدالة المتجاوزة في الكلاس الابن؟",
+    "options": [
+      "Private / خاص (private)",
+      "Public or protected / عام أو محمي (Public or protected)",
+      "Only private / خاص فقط",
+      "Strictly default only / افتراضي حصراً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary role of the @Override annotation in Java? / ما هو دور الـ @Override annotation الأساسي في جافا؟",
+    "options": [
+      "To execute the code faster / لتنفيذ الكود بشكل أسرع",
+      "To make a method final / لجعل الدالة نهائية (final)",
+      "To improve readability and prevent errors / لتحسين القراءة وتجنب الأخطاء",
+      "To allow method overloading / للسماح بزيادة تحميل الدوال"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What common error occurs if you mistakenly change the method signature while attempting to override? / ما هو الخطأ الشائع الذي يحدث إذا غيرت توقيع الدالة بالخطأ أثناء محاولة التجاوز؟",
+    "options": [
+      "It creates a constructor / ينشئ مشيداً",
+      "It throws a runtime exception / يطلق استثناء وقت التشغيل",
+      "It makes the method final / يجعل الدالة نهائية",
+      "It results in Method Overloading instead / ينتج عن ذلك زيادة تحميل للدالة (Method Overloading)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which polymorphism type is associated with Method Overloading? / أي نوع من تعديدية الأشكال ترتبط بـ Method Overloading؟",
+    "options": [
+      "Compile-time polymorphism / تعديدية الأشكال في وقت التجميع (Compile-time)",
+      "Run-time polymorphism / تعديدية الأشكال في وقت التشغيل (Run-time)",
+      "Dynamic polymorphism / تعديدية الأشكال الديناميكية",
+      "Late binding polymorphism / تعديدية الأشكال عبر الربط المتأخر"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which polymorphism type is associated with Method Overriding? / أي نوع من تعديدية الأشكال ترتبط بـ Method Overriding؟",
+    "options": [
+      "Compile-time polymorphism / تعديدية الأشكال في وقت التجميع",
+      "Run-time polymorphism / تعديدية الأشكال في وقت التشغيل (Run-time)",
+      "Static binding / الربط الثابت",
+      "Early binding / الربط المبكر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If a method in a superclass is static, can it be overridden in a subclass? / إذا كانت الدالة في الكلاس الأب static، هل يمكن تجاوزها في الكلاس الابن؟",
+    "options": [
+      "Yes, using @Override / نعم باستخدام @Override",
+      "Yes, but only if private / نعم ولكن إذا كانت private فقط",
+      "No, static methods cannot be overridden / لا، الدوال الاستاتيكية لا يمكن تجاوزها",
+      "Yes, at runtime / نعم أثناء وقت التشغيل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is changing the method parameter list (types, count, or sequence) within the same class known as? / ما هو تغيير قائمة البرامترات (الأنواع، العدد، أو الترتيب) داخل نفس الكلاس؟",
+    "options": [
+      "Method Overriding / تجاوز الدوال",
+      "Dynamic Binding / الربط الديناميكي",
+      "Inheritance / الوراثة",
+      "Method Overloading / زيادة تحميل الدوال (Method Overloading)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What happens when a subclass provides its own specific implementation for a method already defined in its superclass? / ماذا يحدث عندما يقدم الكلاس الابن تنفيذه الخاص لدالة معرفة في الكلاس الأب؟",
+    "options": [
+      "Method Overriding occurs / يحدث تجاوز للدالة (Method Overriding)",
+      "Method Overloading occurs / يحدث تحميل زائد للدالة",
+      "Compile-time error occurs / يحدث خطأ في وقت التجميع",
+      "The superclass is deleted / يتم حذف الكلاس الأب"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If a superclass method is public, what access modifier MUST the overriding method in the subclass have? / إذا كانت دالة الكلاس الأب public، ما هو محدد الوصول الذي يجب أن تحمله الدالة المتجاوزة في الابن؟",
+    "options": [
+      "Protected / محمي (protected)",
+      "Public / عام (public)",
+      "Private / خاص (private)",
+      "Package-private / خاص بالحزمة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is @Override recommended when writing an overridden method? / لماذا يُوصى بـ @Override عند كتابة دالة متجاوزة؟",
+    "options": [
+      "It overrides static constructors / لتجاوز المشيدات الاستاتيكية",
+      "It converts runtime errors to warnings / لتحويل أخطاء التشغيل إلى تحذيرات",
+      "It allows the compiler to catch signature mistakes / لتسمح للكومبايلر باكتشاف أخطاء التوقيع",
+      "It changes access level to public / لـتغيير مستوى الوصول إلى public تلقائياً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which component is modified during Method Overriding? / أي مكون يتم تعديله أثناء تجاوز الدالة (Method Overriding)؟",
+    "options": [
+      "Method Name / اسم الدالة",
+      "Return Type / نوع الإرجاع",
+      "Parameter list / قائمة البرامترات",
+      "Method Body / جسم الدالة (Method Body)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If you try to override a method and make its access modifier more restrictive, what will happen? / إذا حاولت تجاوز دالة وجعلت محدد وصولها أكثر تقييداً، ماذا سيحدث؟",
+    "options": [
+      "A compilation error occurs / سيحدث خطأ تجميع (Compilation error)",
+      "The code runs normally / سيعمل الكود بشكل طبيعي",
+      "A runtime exception is thrown / سيتم إطلاق استثناء وقت التشغيل",
+      "The method becomes static / ستتحول الدالة إلى static"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In Java, can private methods be overridden by a subclass? / في جافا، هل يمكن تجاوز الدوال الخاصة (private) بواسطة كلاس ابن؟",
+    "options": [
+      "Yes, if they use @Override / نعم، إذا استخدمت @Override",
+      "No, because they are not visible to the subclass / لا، لأنها غير مرئية للكلاس الابن",
+      "Yes, if the subclass is public / نعم، إذا كان الكلاس الابن عاماً",
+      "Yes, at run time / نعم، في وقت التشغيل"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What requirement is necessary for Method Overriding to take place? / ما هو الشرط الضروري لوقوع تجاوز الدوال (Method Overriding)؟",
+    "options": [
+      "Multiple constructors in class / وجود مشيدات متعددة في الكلاس",
+      "Static methods only / دوال استاتيكية فقط",
+      "An inheritance relationship (IS-A) / وجود علاقة وراثة (IS-A)",
+      "Private visibility / رؤية خاصة (Private visibility)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If both parent and child classes define static methods with the exact same signature, what is this called? / إذا عرف كل من الكلاس الأب والابن دوال static بنفس التوقيع تماماً، ماذا يُسمى ذلك؟",
+    "options": [
+      "Method Overriding / تجاوز الدوال",
+      "Dynamic Polymorphism / تعديدية الأشكال الديناميكية",
+      "Compile-time Error / خطأ في وقت التجميع",
+      "Method Hiding / إخفاء الدوال (Method Hiding)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Where is the decision made regarding which method to execute during Method Overloading? / أين يتم اتخاذ القرار بشأن الدالة التي سيتم تنفيذها في الـ Method Overloading؟",
+    "options": [
+      "At compile time / في وقت التجميع (Compile time)",
+      "At run time / في وقت التشغيل (Run time)",
+      "At garbage collection / أثناء تجميع القمامة البرمجية",
+      "During class loading / أثناء تحميل الكلاس"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of these can NEVER be overridden in Java? / أي من هذه العناصر لا يمكن تجاوزها إطلاقاً في جافا؟",
+    "options": [
+      "Public methods / الدوال العامة",
+      "Constructors / المشيدات (Constructors)",
+      "Protected methods / الدوال المحمية",
+      "Subclass methods / دوال الكلاس الابن"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the result of defining a method in a subclass with the same name as the superclass but different parameters? / ما هي نتيجة تعريف دالة في كلاس ابن بنفس اسم دالة الكلاس الأب ولكن ببرامترات مختلفة؟",
+    "options": [
+      "Method Overriding / تجاوز الدوال",
+      "Runtime Exception / استثناء وقت التشغيل",
+      "Method Overloading / تحميل زائد للدالة (Method Overloading)",
+      "Compilation Error / خطأ تجميع"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which annotation is optionally used to indicate that a method is overriding a superclass method? / ما هو الوسم الاختياري المستخدم للإشارة إلى أن الدالة تتجاوز دالة الكلاس الأب؟",
+    "options": [
+      "@Overload / @Overload",
+      "@Inherit / @Inherit",
+      "@Static / @Static",
+      "@Override / @Override"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "When overriding a method, how should the return type behave in standard Java? / عند تجاوز دالة، كيف يجب أن يتصرف نوع الإرجاع (Return type) في جافا القياسية؟",
+    "options": [
+      "It must be the same or a covariant type / يجب أن يكون نفسه أو نوعاً متوافقاً (Covariant)",
+      "It must be void always / يجب أن يكون void دائماً",
+      "It can be any primitive type / يمكن أن يكون أي نوع أولي",
+      "It must be private / يجب أن يكون خاصاً"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is Method Overriding referred to as Dynamic Polymorphism? / لماذا يُشار إلى تجاوز الدوال (Method Overriding) بتعديدية الأشكال الديناميكية؟",
+    "options": [
+      "Because it uses static binding / لأنها تستخدم الربط الاستاتيكي",
+      "Because method resolution occurs at run time / لأن تحديد الدالة يتم أثناء وقت التشغيل (Run time)",
+      "Because it speeds up compilation / لأنها تسرع التجميع",
+      "Because it forces method hiding / لأنها تجبر على إخفاء الدوال"
+    ],
+    "answer": 1
+  }
+]
