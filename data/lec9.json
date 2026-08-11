@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What happens if you try to instantiate an abstract class directly using the 'new' keyword? / ماذا يحدث إذا حاولت إنشاء كائن من abstract class مباشرة باستخدام الكلمة المفتاحية 'new'؟",
+    "options": [
+      "A compile-time error occurs / يحدث خطأ أثناء التجميع (Compile-time error)",
+      "An object is created successfully / يتم إنشاء الكائن بنجاح",
+      "A runtime exception is thrown / يتم رمي استثناء أثناء التشغيل",
+      "The class automatically becomes concrete / يتحول الكلاس تلقائياً إلى كلاس ملموس"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword must be used to declare an abstract class in Java? / ما هي الكلمة المفتاحية التي يجب استخدامها للإعلان عن abstract class في جافا؟",
+    "options": [
+      "interface / interface",
+      "abstract / abstract",
+      "implements / implements",
+      "extends / extends"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What defines an abstract method in an abstract class? / ما الذي يميز الـ abstract method داخل الـ abstract class؟",
+    "options": [
+      "It must contain a complete method body / يجب أن تحتوي على جسم دالة مكتمل",
+      "It cannot be overridden by subclasses / لا يمكن إعادة تعريفها بواسطة الكلاسات الفرعية",
+      "It has no implementation and ends with a semicolon / ليس لها تطبيق وتنتهي بفاصلة منقوطة",
+      "It must be declared as private / يجب الإعلان عنها كـ private"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is a concrete method inside an abstract class? / ما هي الـ concrete method داخل الـ abstract class؟",
+    "options": [
+      "A method that has no body / دالة ليس لها جسم",
+      "A method that cannot be called / دالة لا يمكن استدعاؤها",
+      "A method declared with the interface keyword / دالة معلنة باستخدام كلمة interface",
+      "A method that provides a complete implementation / دالة توفر تطبيقاً كاملاً (Implementation)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Primary architectural role of an abstract class for its subclasses: / الدور المعماري الأساسي للـ abstract class بالنسبة للكلاسات الفرعية هو:",
+    "options": [
+      "It provides a blueprint or structural layout / يوفر مخططاً أو هيكلاً عاماً (Blueprint)",
+      "It prevents code inheritance completely / يمنع وراثة الكود تماماً",
+      "It executes all main methods / ينفذ جميع الدوال الرئيسية",
+      "It converts non-static fields to static / يحول الحقول غير الاستاتيكية إلى استاتيكية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How does an abstract class help in software design regarding code organization? / كيف يساعد الـ abstract class في تصميم البرمجيات من حيث تنظيم الكود؟",
+    "options": [
+      "By forcing all variables to be final / بإجبار جميع المتغيرات على أن تكون final",
+      "By reducing code duplication across related classes / بتقليل تكرار الكود بين الكلاسات المرتبطة",
+      "By disabling constructor calls / بإلغاء استدعاءات الـ constructor",
+      "By allowing multiple class inheritance / بالسماح بالوراثة المتعددة للكلاسات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is required of a non-abstract subclass that inherits from an abstract class? / ما هو المطلوب من الكلاس الفرعي غير التجريدي (Concrete Subclass) الذي يورث من abstract class؟",
+    "options": [
+      "It must delete all inherited concrete methods / يجب أن يحذف جميع الدوال الملموسة الموروثة",
+      "It must be declared as static / يجب الإعلان عنه كـ static",
+      "It must override and implement all abstract methods / يجب أن يعيد تعريف ويطبق جميع الدوال التجريدية",
+      "It must declare a new interface / يجب أن يعلن عن interface جديد"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can an abstract class contain a constructor? / هل يمكن للـ abstract class أن يحتوي على constructor؟",
+    "options": [
+      "No, constructors are strictly forbidden / لا، البناءون ممنوعون تماماً",
+      "Yes, but it can only be invoked directly via new / نعم، ولكن يمكن استدعاؤه فقط مباشرة عبر new",
+      "No, because it causes a runtime error / لا، لأنه يسبب خطأ في زمن التشغيل",
+      "Yes, and it is called when a subclass object is created / نعم، ويوجه استدعاؤه عند إنشاء كائن من الكلاس الفرعي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "When a subclass object is created, in what order are constructors executed? / عند إنشاء كائن من الكلاس الفرعي، بأي ترتيب يتم تنفيذ الـ constructors؟",
+    "options": [
+      "The abstract superclass constructor runs first / ينفذ constructor الكلاس الأب التجريدي أولاً",
+      "Only the subclass constructor executes / ينفذ constructor الكلاس الفرعي فقط",
+      "The subclass constructor runs before the superclass constructor / ينفذ constructor الكلاس الفرعي قبل الأب",
+      "Constructors execute in random order / تنفذ الـ constructors بترتيب عشوائي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Regarding nested classes, can an abstract class contain inner classes? / فيما يتعلق بالكلاسات المتداخلة، هل يمكن للـ abstract class أن يحتوي على inner classes؟",
+    "options": [
+      "No, inner classes are not allowed inside abstract classes / لا، الكلاسات الداخلية غير مسموحة",
+      "Yes, an abstract class can contain inner classes / نعم، يمكن للـ abstract class أن يحتوي على كلاسات داخلية",
+      "Yes, but only if the inner class is an interface / نعم، فقط إذا كان الكلاس الداخلي interface",
+      "No, inner classes require concrete superclasses / لا، الكلاسات الداخلية تتطلب كلاسات أب ملموسة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can static methods be declared inside an abstract class? / هل يمكن الإعلان عن static methods داخل الـ abstract class؟",
+    "options": [
+      "No, static methods are incompatible with abstract classes / لا، الدوال الاستاتيكية غير متوافقة",
+      "Yes, but they must be overridden in subclasses / نعم، ولكن يجب إعادة تعريفها في الكلاسات الفرعية",
+      "Yes, static methods belong to the class and can be defined / نعم، الدوال الاستاتيكية تتبع الكلاس ويمكن تعريفها",
+      "No, because static methods cannot have bodies / لا، لأن الدوال الاستاتيكية لا يمكن أن تحتوي على جسم"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How do static methods in an abstract class behave regarding inheritance and overriding? / كيف تتصرف الـ static methods في الـ abstract class من حيث الوراثة وإعادة التعريف؟",
+    "options": [
+      "They are inherited and can be dynamically overridden / تورث ويمكن إعادة تعريفها ديناميكياً",
+      "They automatically convert to abstract methods / تحول تلقائياً إلى دوال تجريدية",
+      "They must be implemented using the implements keyword / يجب تطبيقها باستخدام كلمة implements",
+      "They belong to the class itself and are not overridden / تتبع الكلاس نفسه ولا يتم إعادة تعريفها (No Overriding)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In object polymorphism, what is valid for variable declaration and object creation? / في التعددية الشكلية (Polymorphism)، ما هو الصحيح لإعلان المتغير وإنشاء الكائن؟",
+    "options": [
+      "Superclass reference variable holding Subclass instance / متغير مرجعي من الكلاس الأب يحمل كائناً من الكلاس الفرعي",
+      "Subclass reference holding abstract Superclass instance using new / مرجع من الكلاس الفرعي يحمل كائن أب تجريدي بـ new",
+      "Direct creation of abstract class instance using new / إنشاء مباشر لكائن من abstract class بـ new",
+      "Abstract reference holding interface instance directly / مرجع تجريدي يحمل كائن من interface مباشرة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Given `Shape s = new Circle();`, where `Shape` is abstract and `Circle` is concrete: / بفرض `Shape s = new Circle();` حيث `Shape` تجريدي و`Circle` ملموس:",
+    "options": [
+      "The memory allocation creates a Shape object / حجز الذاكرة ينشئ كائناً من نوع Shape",
+      "The memory allocation in heap matches the Circle layout / حجز الذاكرة في الهيب يطابق شكل كلاس Circle",
+      "This line results in a syntax error / هذا السطر ينتج عنه خطأ بناء جملة (Syntax error)",
+      "The variable 's' cannot invoke overridden methods / المتغير 's' لا يمكنه استدعاء الدوال الملموسة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How many classes can a Java class directly extend (Single vs Multiple Inheritance)? / كم عدد الكلاسات التي يمكن لكلاس جافا أن يورث منها مباشرة (الوراثة الأحادية مقابل المتعددة)؟",
+    "options": [
+      "Multiple abstract classes / عدة كلاسات تجريدية",
+      "Unlimited superclasses / عدد غير محدود من الكلاسات الأب",
+      "Only one superclass (Single Inheritance) / كلاس أب واحد فقط (وراثة أحادية)",
+      "Up to four superclasses / حتى أربعة كلاسات أب"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How does an Interface differ from an Abstract Class regarding multiple inheritance? / كيف يختلف الـ Interface عن الـ Abstract Class فيما يتعلق بالوراثة المتعددة؟",
+    "options": [
+      "Interface supports single inheritance only / الـ Interface يدعم الوراثة الأحادية فقط",
+      "Abstract class allows implementing multiple classes / الـ Abstract class يسمح بتطبيق كلاسات متعددة",
+      "Neither supports multiple implementation / كلاهما لا يدعم التطبيق المتعدد",
+      "A class can implement multiple interfaces simultaneously / يمكن لكلاس تطبيق عدة interfaces في وقت واحد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What types of variables/fields are typically allowed in an Interface? / ما هي أنواع المتغيرات/الحقول المسموح بها عادة في الـ Interface؟",
+    "options": [
+      "Only public static final constants / فقط ثوابت من نوع public static final",
+      "Non-static private variables / متغيرات خاصة غير استاتيكية",
+      "Protected instance variables / متغيرات محميّة خاصة بالكائن",
+      "Mutable instance fields / حقول كائن قابلة للتعديل"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What access modifiers can fields in an Abstract Class have? / ما هي محددات الوصول (Access Modifiers) التي يمكن أن تمتلكها الحقول في الـ Abstract Class؟",
+    "options": [
+      "Only public / public فقط",
+      "Any access modifier (private, protected, public, package) / أي محدد وصول (private, protected, public)",
+      "Only static final / static final فقط",
+      "Only protected and final / protected و final فقط"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can an Interface contain constructors? / هل يمكن للـ Interface أن يحتوي على constructors؟",
+    "options": [
+      "Yes, default constructors only / نعم، constructors افتراضية فقط",
+      "Yes, parameterized constructors only / نعم، constructors بمعاملات فقط",
+      "No, interfaces cannot have constructors / لا، الـ interfaces لا يمكن أن تحتوي على constructors",
+      "Yes, if all methods are default / نعم، إذا كانت جميع الدوال افتراضية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If a class extends an abstract class but does NOT implement all its abstract methods, it must be: / إذا ورث كلاس من abstract class ولم يطبق جميع دواله التجريدية، فإن هذا الكلاس يجب أن يكون:",
+    "options": [
+      "Declared as final / معلناً عنه كـ final",
+      "Declared as an interface / معلناً عنه كـ interface",
+      "Instantiated using static calls / منشأً باستخدام استدعاءات استاتيكية",
+      "Declared as abstract itself / معلناً عنه كـ abstract هو نفسه"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the shape example (`Shape`, `Circle`, `Rectangle`), why is `getArea()` made abstract in `Shape`? / في مثال الأشكال الهندسة (`Shape`, `Circle`, `Rectangle`)، لماذا جعلت دالة `getArea()` تجريدية في `Shape`؟",
+    "options": [
+      "Because area calculation depends on the specific shape geometry / لأن حساب المساحة يعتمد على شكل كل مجسم",
+      "To prevent subclasses from overriding area calculation / لمنع الكلاسات الفرعية من إعادة تعريف حساب المساحة",
+      "Because geometric shapes do not have area / لأن الأشكال الهندسية لا تمتلك مساحة",
+      "To force all shapes to return zero / لإجبار جميع الأشكال على إرجاع قيمة صفر"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens when a subclass provides its own version of a superclass method? / ماذا يحدث عندما يقدم الكلاس الفرعي نسخته الخاصة من دالة موجودة في الكلاس الأب؟",
+    "options": [
+      "Method Overloading / إعادة تحميل الدالة (Method Overloading)",
+      "Method Overriding / إعادة تعريف الدالة (Method Overriding)",
+      "Method Cloning / استنساخ الدالة (Method Cloning)",
+      "Method Encapsulation / تغليف الدالة (Method Encapsulation)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used by a concrete class to inherit from an abstract class? / ما هي الكلمة المفتاحية التي يستخدمها كلاس ملموس للوراثة من abstract class؟",
+    "options": [
+      "implements / implements",
+      "abstract / abstract",
+      "extends / extends",
+      "inherits / inherits"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword is used by a class to implement an interface? / ما هي الكلمة المفتاحية التي يستخدمها كلاس لتطبيق interface؟",
+    "options": [
+      "extends / extends",
+      "super / super",
+      "interface / interface",
+      "implements / implements"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can an abstract class extend another abstract class? / هل يمكن لـ abstract class أن يورث من abstract class آخر؟",
+    "options": [
+      "Yes, and it is not required to implement abstract methods / نعم، وغير مجبر على تطبيق الدوال التجريدية",
+      "No, abstract classes cannot extend anything / لا، الكلاسات التجريدية لا يمكنها الوراثة",
+      "Yes, but it must be marked as final / نعم، ولكن يجب وسمه كـ final",
+      "No, only concrete classes can extend abstract classes / لا، فقط الكلاسات الملموسة توث الكلاسات التجريدية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the result of attempting to mark an abstract class as `final`? / ما هي نتيجة محاولة جعل الـ abstract class معلماً بـ `final`؟",
+    "options": [
+      "It works perfectly without errors / يعمل بشكل ممتاز دون أخطاء",
+      "A compilation error occurs because abstract requires inheritance while final prevents it / خطأ تجميع لأن abstract يتطلب وراثة و final يمنعها",
+      "The class becomes a concrete class / يتحول الكلاس إلى كلاس ملموس",
+      "All methods automatically become static / جميع الدوال تحول تلقائياً إلى استاتيكية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the main purpose of combining abstract classes and polymorphism in Java? / ما هو الهدف الرئيسي من دمج الكلاسات التجريدية والتعددية الشكلية (Polymorphism) في جافا؟",
+    "options": [
+      "To speed up memory allocation during compilation / لتسريع حجز الذاكرة أثناء التجميع",
+      "To eliminate the need for constructors / لإلغاء الحاجة إلى الـ constructors",
+      "To handle different subclass objects through a uniform superclass reference / للتعامل مع كائنات فرعية مختلفة عبر مرجع موحد من الأب",
+      "To prevent method overriding in derived classes / لمنع إعادة تعريف الدوال في الكلاسات المشتقة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can an abstract class have zero abstract methods? / هل يمكن لـ abstract class أن يحتوي على صفر من الدوال التجريدية (بدون أي abstract method)؟",
+    "options": [
+      "No, it must contain at least one abstract method / لا، يجب أن يحتوي على دالة تجريدية واحدة على الأقل",
+      "No, it will result in a syntax error / لا، سيرتج عنه خطأ في بناء الجملة",
+      "Yes, but it cannot have any concrete methods either / نعم، بشرط ألا يحتوي على دوال ملموسة أيضاً",
+      "Yes, a class can be declared abstract even without any abstract methods / نعم، يمكن الإعلان عن كلاس كـ abstract حتى بدون دوال تجريدية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How are methods declared in an Interface by default in Java (prior to default methods)? / كيف يتم الإعلان عن الدوال في الـ Interface بشكل افتراضي في جافا (قبل الدوال الافتراضية)؟",
+    "options": [
+      "public abstract / public abstract",
+      "private static / private static",
+      "protected concrete / protected concrete",
+      "package-private final / package-private final"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why cannot an abstract class be instantiated directly? / لماذا لا يمكن إنشاء كائن مباشر من الـ abstract class؟",
+    "options": [
+      "Because it lacks a memory layout definition / لأنه يفتقر لتعريف تخطيط الذاكرة",
+      "Because it represents an incomplete concept and may contain unimplemented methods / لأنه يمثل مفهوماً غير مكتمل وقد يحتوي على دوال غير مطبقة",
+      "Because Java disables the new operator for all superclasses / لأن جافا تلغي معامل new لجميع كلاسات الأب",
+      "Because it does not inherit from Object class / لأنه لا يورث من كلاس Object"
+    ],
+    "answer": 1
+  }
+]
