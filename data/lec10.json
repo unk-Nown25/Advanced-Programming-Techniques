@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What happens when you try to instantiate an abstract class using the new keyword? / ماذا يحدث عندما تحاول إنشاء كائن من كلاس مجرد باستخدام الكلمة المفتاحية new؟",
+    "options": [
+      "Compile error / خطأ في الترجمة",
+      "Runtime error / خطأ عند التشغيل",
+      "Successful instantiation / إنشاء ناجح",
+      "Warning message / رسالة تحذير"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What error occurs if a sub-class forgets to override an abstract method from its abstract super-class? / ما الخطأ الذي يحدث إذا نسي الكلاس الفرعي إعادة تعريف دالة مجردة من الكلاس الفائق المجرد؟",
+    "options": [
+      "Logical error / خطأ منطقي",
+      "Compile error / خطأ في الترجمة",
+      "Null pointer exception / استثناء مؤشر فارغ",
+      "No error occurs / لا يحدث أي خطأ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the payment system example, what type of method is processPayment in the abstract Payment class? / في مثال نظام الدفع، ما هو نوع الدالة processPayment في كلاس Payment المجرد؟",
+    "options": [
+      "Concrete method / دالة خرسانية محددة",
+      "Private method / دالة خاصة",
+      "Abstract method / دالة مجردة",
+      "Static method / دالة ساكنة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Where does the implementation of an abstract method take place? / أين يتم تنفيذ الدالة المجردة؟",
+    "options": [
+      "In the interface / في الواجهة",
+      "In the main method / في الدالة الرئيسية",
+      "In the abstract super-class / في الكلاس الفائق المجرد",
+      "In the sub-class / في الكلاس الفرعي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "When a method is shared and identical across all sub-classes, what type of method is it in the abstract class? / عندما تكون الدالة مشتركة ومتطابقة عبر جميع الكلاسات الفرعية، ما نوع هذه الدالة في الكلاس المجرد؟",
+    "options": [
+      "Concrete method / دالة خرسانية محددة",
+      "Abstract method / دالة مجردة",
+      "Interface method / دالة واجهة",
+      "Virtual method / دالة افتراضية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Animal advanced example, which component is called automatically when an object of the sub-class is created? / في مثال Animal المتقدم، أي مكون يتم استدعاؤه تلقائياً عند إنشاء كائن من الكلاس الفرعي؟",
+    "options": [
+      "Abstract method / الدالة المجردة",
+      "Super-class constructor / منشئ الكلاس الفائق",
+      "Interface implementation / تنفيذ الواجهة",
+      "Static initializer / المبدئ الساكن"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used inside the sub-class constructor to call the constructor of the abstract super-class? / ما هي الكلمة المفتاحية المستخدمة داخل منشئ الكلاس الفرعي لاستدعاء منشئ الكلاس الفائق المجرد؟",
+    "options": [
+      "this / هذا",
+      "abstract / مجرد",
+      "super / فائق",
+      "extends / يمتد"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which scenario represents a primary reason to use an abstract class? / أي سيناريو يمثل سبباً رئيسياً لاستخدام الكلاس المجرد؟",
+    "options": [
+      "Multiple inheritance of implementation / التوريث المتعدد للتنفيذ",
+      "Creating objects directly / إنشاء الكائنات مباشرة",
+      "Hiding all attributes / إخفاء جميع السلمات",
+      "Sharing code among closely related classes / مشاركة الكود بين كلاسات متقاربة جداً"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the Shape example, what method would be defined as abstract in the super-class? / في مثال Shape، ما هي الدالة التي يتم تعريفها كدالة مجردة في الكلاس الفائق؟",
+    "options": [
+      "Compute area / حساب المساحة",
+      "Print shape name / طباعة اسم الشكل",
+      "Set color / تحديد اللون",
+      "Display graphics / عرض الرسوميات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Vehicle example, which method is a concrete method inherited by Car and Bike as is? / في مثال Vehicle، أي دالة تعتبر دالة خرسانية يرثها Car و Bike كما هي؟",
+    "options": [
+      "start / بدء التشغيل",
+      "stop / إيقاف التشغيل",
+      "accelerate / تسارع",
+      "refuel / إعادة التعبئة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the Vehicle example, which method is an abstract method that requires new implementation in Car and Bike? / في مثال Vehicle، أي دالة تعتبر دالة مجردة تتطلب تنفيذاً جديداً في Car و Bike؟",
+    "options": [
+      "stop / إيقاف التشغيل",
+      "park / ركن",
+      "start / بدء التشغيل",
+      "brake / كبح"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "An abstract class serves as a clear contract between which two components? / يعتبر الكلاس المجرد عقداً واضحاً بين أي مكونين؟",
+    "options": [
+      "Interface and Main class / الواجهة والكلاس الرئيسي",
+      "Compiler and Interpreter / المترجم والمفسر",
+      "Private method and Public field / الدالة الخاصة والحقل العام",
+      "Sub-class and Super-class / الكلاس الفرعي والكلاس الفائق"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What concept is achieved by bundling shared behavior and state inside an abstract class? / ما هو المفهوم الذي يتحقق بتجميع السلوك والحالة المشتركة داخل كلاس مجرد؟",
+    "options": [
+      "Encapsulation / الكبسلة",
+      "Polymorphism / تعدد الأشكال",
+      "Abstraction only / التجريد فقط",
+      "Overloading / التحميل الزائد"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What type of inheritance does Java abstract classes support? / ما نوع التوريث الذي تدعمه الكلاسات المجردة في جافا؟",
+    "options": [
+      "Multiple inheritance / التوريث المتعدد",
+      "Single inheritance / التوريث الفردي",
+      "Hybrid inheritance / التوريث الهجين",
+      "Circular inheritance / التوريث الدائري"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Compared to abstract classes, what advantage do Interfaces provide in Java? / مقارنة بالكلاسات المجردة، ما الفائدة التي تقدمها الواجهات (Interfaces) في جافا؟",
+    "options": [
+      "Direct instantiation / الإنشاء المباشر",
+      "Constructors availability / توفر المنشئات",
+      "More flexibility / مرونة أكثر",
+      "Concrete states only / حالات خرسانية فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Improper design of abstract classes can lead to which of the following problems? / التصميم غير الصحيح للكلاسات المجردة يمكن أن يؤدي إلى أي من المشاكل التالية؟",
+    "options": [
+      "Faster execution / تنفيذ أسرع",
+      "Memory leaks / تسريب الذاكرة",
+      "Syntax bypass / تجاوز القواعد",
+      "Form of complexity / شكل من أشكال التعقيد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which best practice applies when creating an abstract class? / أي أفضل ممارسة تطبق عند إنشاء كلاس مجرد؟",
+    "options": [
+      "Contain only common functionality / احتواء الوظائف المشتركة فقط",
+      "Include all sub-class methods / تضمين جميع دوال الكلاسات الفرعية",
+      "Avoid using fields / تجنب استخدام الحقول",
+      "Make all methods abstract / جعل جميع الدوال مجردة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What should programmers do above abstract methods as a best practice? / ماذا يجب على المبرمجين أن يفعلوا فوق الدوال المجردة كأفضل ممارسة؟",
+    "options": [
+      "Write code implementation / كتابة تنفيذ الكود",
+      "Document with comments / التوثيق باستخدام التعليقات",
+      "Add private modifier / إضافة معدل الوصول الخاص",
+      "Instantiate objects / إنشاء كائنات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the PayPalPayment class, PayPal acts similarly to which real-world service according to the lecture? / في كلاس PayPalPayment، يعمل باي بال بشكل مشابه لأي خدمة واقعية وفقاً للمحاضرة؟",
+    "options": [
+      "Bank teller / صراف البنك",
+      "Credit card machine / ماكينة بطاقة الائتمان",
+      "Shared PO Box / صندوق البريد المشترك",
+      "Direct cash transfer / التحويل النقدي المباشر"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can an abstract class contain attributes (fields) and constructors? / هل يمكن للكلاس المجرد أن يحتوي على سلمات (حقول) ومنشئات؟",
+    "options": [
+      "No, only methods / لا، دوال فقط",
+      "No, only constants / لا، ثوابت فقط",
+      "Yes, but only attributes / نعم، لكن سلمات فقط",
+      "Yes, it can contain both / نعم، يمكنه احتواء كلاهما"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What topic is announced to be covered in the next lecture following Abstract Classes? / ما الموضوع المكتوب للإلقاء في المحاضرة القادمة بعد الكلاسات المجردة؟",
+    "options": [
+      "Interface / الواجهة",
+      "Polymorphism / تعدد الأشكال",
+      "Encapsulation / الكبسلة",
+      "Exception Handling / معالجة الاستثناءات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Dog sub-class example, what happens to the sound abstract method? / في مثال الكلاس الفرعي Dog، ماذا يحدث للدالة المجردة sound؟",
+    "options": [
+      "It remains abstract / تبقى مجردة",
+      "It gets overridden / يتم إعادة تعريفها",
+      "It is deleted / يتم حذفها",
+      "It becomes private / تصبح خاصة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When an abstract class is used as a Base Class, can direct objects be created from it? / عندما يُستخدم الكلاس المجرد كـ Base Class، هل يمكن إنشاء كائنات مباشرة منه؟",
+    "options": [
+      "Yes, at any time / نعم، في أي وقت",
+      "Yes, inside sub-classes / نعم، داخل الكلاسات الفرعية",
+      "No, objects cannot be created / لا، لا يمكن إنشاء كائنات منه",
+      "Only during compilation / فقط أثناء الترجمة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If a sub-class is created from an abstract class, what must it do for all abstract methods? / إذا تم إنشاء كلاس فرعي من كلاس مجرد، ماذا يجب عليه أن يفعل لجميع الدوال المجردة؟",
+    "options": [
+      "Ignore them / تجاهلها",
+      "Make them static / جعلها ساكنة",
+      "Hide them / إخفاؤها",
+      "Provide implementation / تقديم تنفيذ لها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In abstract class design, what represents the shared state? / في تصميم الكلاس المجرد، ما الذي يمثل الحالة المشتركة (shared state)؟",
+    "options": [
+      "Concrete methods / الدوال الخرسانية المحققة",
+      "Abstract methods / الدوال المجردة",
+      "Interfaces / الواجهات",
+      "Compiler errors / أخطاء الترجمة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In abstract class design, what represents the shared behavior? / في تصميم الكلاس المجرد، ما الذي يمثل السلوك المشترك (shared behavior)؟",
+    "options": [
+      "Constructors / المنشئات",
+      "Abstract methods / الدوال المجردة",
+      "Private fields / الحقول الخاصة",
+      "Object instances / نماذج الكائنات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What type of method in an abstract class does NOT have a body (no implementation)? / أي نوع من الدوال في الكلاس المجرد لا يحتوي على جسم (بدون تنفيذ)؟",
+    "options": [
+      "Concrete method / دالة خرسانية محددة",
+      "Default method / دالة افتراضية",
+      "Abstract method / دالة مجردة",
+      "Final method / دالة نهائية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What type of method in an abstract class HAS a complete body implementation? / أي نوع من الدوال في الكلاس المجرد يحتوي على تنفيذ كامل للجسم؟",
+    "options": [
+      "Abstract method / دالة مجردة",
+      "Virtual method / دالة افتراضية",
+      "Interface method / دالة واجهة",
+      "Concrete method / دالة خرسانية محددة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following classes in the Shape scenario extends the abstract Shape class? / أي من الكلاسات التالية في سيناريو Shape يمتد من كلاس Shape المجرد؟",
+    "options": [
+      "Rectangle / المستطيل",
+      "Payment / الدفع",
+      "Vehicle / المركبة",
+      "Animal / الحيوان"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In Java syntax, which keyword is used to declare a class as abstract? / في بناء جملة جافا، أي كلمة مفتاحية تُستخدم للإعلان عن الكلاس أنه مجرد؟",
+    "options": [
+      "interface / واجهة",
+      "abstract / مجرد",
+      "implements / ينفذ",
+      "virtual / افتراضي"
+    ],
+    "answer": 1
+  }
+]
