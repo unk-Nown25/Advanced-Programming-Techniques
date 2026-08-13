@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What object-oriented problem does an interface solve in Java? / ما هي المشكلة في البرمجة كائنية التوجه التي يعالجها الـ Interface في جافا؟",
+    "options": [
+      "Multiple inheritance problem / مشكلة الوراثة المتعددة (Multiple inheritance)",
+      "Multilevel inheritance problem / مشكلة الوراثة متعددة المستويات",
+      "Single inheritance problem / مشكلة الوراثة الأحادية",
+      "Constructor overloading problem / مشكلة التحميل الزائد للـ Constructor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How is an Interface defined in Java according to the lecture? / كيف يُعرّف الـ Interface في جافا وفقاً للمحاضرة؟",
+    "options": [
+      "A concrete class with full implementations / كلاس ملموس بتطبيقات كاملة",
+      "A blueprint of a class containing abstract methods / هيكل عام (Blueprint) للكلاس يحتوي على دوال تجريدية",
+      "A static instance created in heap memory / كائن استاتيكي يُنشأ في ذاكرة الهيب",
+      "A private package containing final objects / حزمة خاصة تحتوي على كائنات نهائية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword must be used to declare an interface in Java? / ما هي الكلمة المفتاحية التي يجب استخدامها للإعلان عن Interface في جافا؟",
+    "options": [
+      "abstract / abstract",
+      "implements / implements",
+      "interface / interface",
+      "extends / extends"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "By default, variables inside an Interface are: / بشكل افتراضي، المتغيرات داخل الـ Interface تكون:",
+    "options": [
+      "private, static, and final / private و static و final",
+      "protected, abstract, and mutable / protected و abstract وقابلة للتعديل",
+      "package-private and non-static / خاصة بالحزمة وغير استاتيكية",
+      "public, static, and final / public و static و final"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "What is required for Interface variables regarding initialization? / ما هو المطلوب بالنسبة لمتغيرات الـ Interface من حيث إعطاء القيمة الإبتدائية (Initialization)؟",
+    "options": [
+      "They must be initialized at declaration / يجب إعطاؤها قيمة ابتدائية عند الإعلان",
+      "They can be initialized inside subclass constructors / يمكن إعطاؤها قيمة داخل constructor الكلاس الفرعي",
+      "They are initialized automatically to null or zero / تُعطى قيمة افتراضية تلقائياً كـ null أو صفر",
+      "Initialization is strictly forbidden / إعطاء القيمة الابتدائية ممنوع تماماً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Prior to Java 8, methods in an Interface were strictly: / قبل إصداره Java 8، كانت الدوال في الـ Interface حصراً:",
+    "options": [
+      "private and static / private و static",
+      "public and abstract / public و abstract",
+      "protected and concrete / protected و concrete",
+      "default and final / default و final"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which feature was added to Interfaces starting from Java 8? / ما هي الميزة التي أضيفت للـ Interfaces بدءاً من إصدار Java 8؟",
+    "options": [
+      "Instance constructors / الـ constructors الخاصة بالكائنات",
+      "Private instance variables / متغيرات الكائنات الخاصة",
+      "Default methods with implementation / دوال افتراضية (Default methods) تحتوي على تطبيق",
+      "Final class declarations / الإعلان عن الكلاس كـ final"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which keyword does a concrete class use to inherit properties from an Interface? / ما هي الكلمة المفتاحية التي يستخدمها كلاس ملموس للوراثة من Interface؟",
+    "options": [
+      "extends / extends",
+      "inherits / inherits",
+      "interface / interface",
+      "implements / implements"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "When a class implements an Interface method, what access modifier must be explicitly added to the method in the class? / عندما يطبق كلاس دالة من Interface، ما هو محدد الوصول الذي يجب إضافته صراحة للدالة في الكلاس؟",
+    "options": [
+      "public / public",
+      "protected / protected",
+      "private / private",
+      "package-private / package-private"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What happens if you omit the 'public' modifier when implementing an interface method inside a class? / ماذا يحدث إذا نسيت كتابة الكلمة المفتاحية 'public' عند تطبيق دالة الـ interface داخل الكلاس؟",
+    "options": [
+      "The code compiles cleanly / يتجمع الكود بنجاح دون أخطاء",
+      "A compilation error occurs / يحدث خطأ أثناء التجميع (Compilation error)",
+      "The method becomes private automatically / تتحول الدالة تلقائياً إلى private",
+      "A runtime exception is thrown at execution / يتم رمي استثناء أثناء التشغيل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How is polymorphically instantiating an object of an Interface type performed correctly? / كيف يتم إنشاء كائن من نوع Interface باستخدام التعددية الشكلية (Polymorphism) بشكل صحيح؟",
+    "options": [
+      "Interface obj = new Interface(); / إنشاء مباشر بـ new Interface()",
+      "Class obj = new Interface(); / مرجع كلاس يحمل new Interface()",
+      "Interface obj = new ImplementingClass(); / مرجع Interface يحمل كائن من الكلاس المطبق",
+      "Interface obj = Interface.create(); / استدعاء دالة إنشاء استاتيكية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Where does physical memory allocation occur when writing `Animal a = new Dog();`? / أين يحدث حجز الذاكرة الفعلي عند كتابة `Animal a = new Dog();`؟",
+    "options": [
+      "For the Animal interface in stack memory / للـ Animal interface في ذاكرة الاستاك",
+      "No memory allocation occurs / لا يحدث أي حجز للذاكرة",
+      "For both Animal and Dog equally / لكل من Animal و Dog بالتساوي",
+      "For the Dog class in heap memory / للكلاس Dog في ذاكرة الهيب (Heap memory)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "What happens if you attempt to directly instantiate an Interface using `new InterfaceName()`? / ماذا يحدث إذا حاولت إنشاء كائن مباشر من Interface باستخدام `new InterfaceName()`؟",
+    "options": [
+      "A compilation error occurs / يحدث خطأ أثناء التجميع (Compile-time error)",
+      "An instance is created successfully / يتم إنشاء الكائن بنجاح",
+      "A NullPointerException is thrown / يتم رمي NullPointerException",
+      "The interface automatically turns into a class / يتحول الـ interface تلقائياً إلى كلاس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In terms of inheritance structure, what is true regarding Interfaces and Classes? / من حيث هيكلية الوراثة، ما هو الصحيح فيما يتعلق بـ Interfaces و Classes؟",
+    "options": [
+      "A class can extend multiple classes / يمكن لكلاس وراثة عدة كلاسات عبر extends",
+      "A class can implement multiple interfaces / يمكن لكلاس تطبيق عدة interfaces عبر implements",
+      "An interface can implement a concrete class / يمكن لـ interface تطبيق كلاس ملموس",
+      "A class can extend multiple interfaces / يمكن لكلاس وراثة عدة interfaces عبر extends"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When one Interface inherits from another Interface, which keyword is used? / عندما يورث Interface من Interface آخر، ما هي الكلمة المفتاحية المستخدمة؟",
+    "options": [
+      "implements / implements",
+      "inherits / inherits",
+      "extends / extends",
+      "super / super"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the advanced example (`Animal`, `Mammal`, `Dolphin`), why does `Dolphin` implement both `eat()` and `giveBirth()`? / في المثال المتقدم (`Animal`, `Mammal`, `Dolphin`)، لماذا يطبق `Dolphin` كلاً من `eat()` و `giveBirth()`؟",
+    "options": [
+      "Because Dolphin is an abstract class / لأن Dolphin عبارة عن abstract class",
+      "Because Dolphin overrides Object class / لأن Dolphin يعيد تعريف كلاس Object",
+      "Because Mammal implements Animal / لأن Mammal يطبق Animal",
+      "Because Mammal extends Animal, inheriting its abstract methods / لأن Mammal يورث Animal بالـ extends فيرث دواله التجريدية"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "When should Interfaces be primarily used according to scenarios mentioned in the lecture? / متى ينبغي استخدام الـ Interfaces بشكل أساسي وفقاً للسيناريوهات المذكورة في المحاضرة؟",
+    "options": [
+      "When unrelated classes need to share common behavior / عندما تحتااج كلاسات غير مرتبطة لمشاركة سلوك مشترك",
+      "When classes have a strong hierarchical parent-child relationship / عندما تكون للكلاسات علاقة أب وابن قوية",
+      "When speed of execution is the main goal / عندما يكون سرعة التنفيذ هي الهدف الرئيسي",
+      "When constructors need to be inherited / عندما تلزم وراثة الـ constructors"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do Interfaces contribute to software design architecture? / كيف تساهم الـ Interfaces في تصميم وتنسيق هيكلية البرمجيات؟",
+    "options": [
+      "By enforcing tight coupling / بفرض التقران القوي (Tight coupling)",
+      "By achieving loose coupling and flexibility / بتحقيق الاقتران الضعيف (Loose coupling) والمرونة",
+      "By preventing method overriding / لمنع إعادة تعريف الدوال (Overriding)",
+      "By disabling polymorphism / بإلغاء التعددية الشكلية (Polymorphism)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is a primary advantage of using Interfaces in software development? / ما هي الميزة الرئيسية لاستخدام الـ Interfaces في تطوير البرمجيات؟",
+    "options": [
+      "Direct memory management / إدارة الذاكرة المباشرة",
+      "Automatic constructor creation / إنشاء الـ constructors تلقائياً",
+      "Clear separation between contract and implementation / الفصل الواضح بين العقد (Contract) والتطبيق (Implementation)",
+      "Elimination of heap memory / إلغاء ذاكرة الهيب"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is listed in the lecture as a disadvantage or drawback of overusing Interfaces? / ما الذي ذُكر في المحاضرة كعيب أو نتيجة سلبية للإفراط في استخدام الـ Interfaces؟",
+    "options": [
+      "Increasing code compilation speed / زيادة سرعة تجميع الكود",
+      "Decreasing memory usage / تقليل استهلاك الذاكرة",
+      "Forcing single inheritance / إجبار الوراثة الأحادية",
+      "Code duplication and making code hard to follow / تكرار الكود (Redundancy) وجعل تتبع الكود صعباً"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Regarding fields, what limitation do Interfaces have compared to Abstract Classes? / فيما يتعلق بالحقول، ما هي القيدية التي تمتلكها الـ Interfaces مقارنة بـ Abstract Classes؟",
+    "options": [
+      "Limited strictly to public static final constants / محصورة فقط في الثوابت من نوع public static final",
+      "Allowed to have private non-static fields / يُسمح لها بحقول خاصة غير استاتيكية",
+      "Cannot hold any numerical values / لا يمكنها إمساك قيم عددية",
+      "Fields must be declared as volatile / يجب الإعلان عن الحقول كـ volatile"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Best practice: What should an Interface mainly define? / أفضل الممارسات (Best practice): ما الذي ينبغي أن يحدده الـ Interface بشكل أساسي؟",
+    "options": [
+      "Database connections / اتصالات قاعدة البيانات",
+      "A contract or API for external communication / عقد (Contract) أو API للتواصل الخارجي",
+      "Complex mathematical calculations / الحسابات الرياضية المعقدة",
+      "Global private state variables / متغيرات حالة خاصة عامة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Best practice: How should Interfaces be named in Java code? / أفضل الممارسات: كيف ينبغي تسمية الـ Interfaces في كود الجافا؟",
+    "options": [
+      "Using single character names / باستخدام أسماء من حرف واحد",
+      "Starting with numbers and lowercase / البدء بأرقام وأحرف صغيرة",
+      "Using meaningful descriptive names / باستخدام أسماء ذات معنى وتوصف الوظيفة (Meaningful names)",
+      "Using all uppercase words with underscores / استخدام كل الأحرف كبيرة مع الفواصل"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can an Interface contain constructors in Java? / هل يمكن للـ Interface أن يحتوي على constructors في جافا؟",
+    "options": [
+      "Yes, default constructors only / نعم، constructors افتراضية فقط",
+      "Yes, static constructors only / نعم، constructors استاتيكية فقط",
+      "Yes, parameterized constructors only / نعم، constructors بمعاملات فقط",
+      "No, Interfaces cannot have constructors / لا، الـ Interfaces لا يمكن أن تحتوي على constructors"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "In the multi-interface example (`Walkable` and `Talkable`), how does class `Robot` implement them? / في مثال الـ Interfaces المتعددة (`Walkable` و `Talkable`)، كيف يطبقهما كلاس `Robot`؟",
+    "options": [
+      "class Robot implements Walkable, Talkable / تفصل بينهما فاصلة (comma)",
+      "class Robot extends Walkable, Talkable / باستخدام كلمة extends بينهما",
+      "class Robot implements Walkable and Talkable / باستخدام كلمة and",
+      "class Robot implements Walkable implements Talkable / بتكرار كلمة implements"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comparing Abstract Class and Interface state management: Abstract classes have state because: / بمقارنة إدارة الحالة بين Abstract Class و Interface: يمتلك الـ Abstract Class حالة (State) لأن:",
+    "options": [
+      "They contain no concrete methods / لا يحتوي على دوال ملموسة",
+      "They can have implemented methods and instance variables / يمكن أن يحتوي على دوال مجهزة ومتغيرات كائنات",
+      "They extend from interfaces / يورث من الـ interfaces",
+      "They cannot be inherited / لا يمكن وراثتة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Difference between relationship types: Concrete Class and Interface have an: / الفرق بين أنواع العلاقات: الكلاس الملموس (Concrete Class) والـ Interface يربطهما علاقة:",
+    "options": [
+      "extends relationship / علاقة وراثة (extends)",
+      "has-a relationship / علاقة احتواء (has-a)",
+      "implements relationship / علاقة تطبيق (implements)",
+      "super relationship / علاقة أب (super)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why can an Interface be used for sharing constants across multiple classes? / لماذا يمكن استخدام الـ Interface لمشاركة الثوابت عبر كلاسات متعددة؟",
+    "options": [
+      "Because constants can be modified dynamically / لأن الثوابت يمكن تعديلها ديناميكياً",
+      "Because constants are kept private / لأن الثوابت تكون خاصة",
+      "Because constants require explicit objects / لأن الثوابت تتطلب كائنات صريحة",
+      "Because interface fields are implicitly public, static, and final / لأن حقول الـ interface بطبيعتها public و static و final"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "When documentation is added to an Interface before implementation, what does it help ensure? / عند إضافة التوثيق (Documentation) للـ Interface قبل التطبيق، ما الذي يساعد على ضمانه؟",
+    "options": [
+      "It clarifies the intended behavior and contract before writing code / يوضح السلوك المطلوب والعقد قبل كتابة الكود",
+      "It automatically generates concrete code / يولد الكود الملموس تلقائياً",
+      "It prevents syntax errors at runtime / يمنع أخطاء بناء الجملة أثناء التشغيل",
+      "It reduces memory size in JVM / يقلل حجم الذاكرة في الـ JVM"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In Java's inheritance hierarchy, how many superclasses can a class extend versus how many interfaces can it implement? / في تسلسل الوراثة بجافا، كم عدد الكلاسات الأب التي يمكن لكلاس وراثتها مقابل عدد الـ interfaces التي يمكنه تطبيقها؟",
+    "options": [
+      "Multiple superclasses and only one interface / كلاسات أب متعددة و interface واحد فقط",
+      "Only one superclass and multiple interfaces / كلاس أب واحد فقط و interfaces متعددة",
+      "Multiple superclasses and multiple interfaces / كلاسات أب متعددة و interfaces متعددة",
+      "Only one superclass and only one interface / كلاس أب واحد فقط و interface واحد فقط"
+    ],
+    "answer": 2
+  }
+]
