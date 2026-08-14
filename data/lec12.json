@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the root class for all classes in Java? / ما هو الكلاس الجذري لكل الكلاسات في الجافا؟",
+    "options": [
+      "Object class / كلاس Object",
+      "String class / كلاس String",
+      "Example class / كلاس Example",
+      "Student class / كلاس Student"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How is every class created in Java related to the Object class? / كيف يرتبط كل كلاس يتم إنشاؤه في الجافا بكلاس Object؟",
+    "options": [
+      "Explicitly a superclass / بصورة واضحة كـ Superclass",
+      "Implicitly a subclass / بصورة غير ظاهرة كـ Subclass",
+      "Explicitly a subclass / بصورة واضحة كـ Subclass",
+      "Not related / غير مرتبط"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method returns a string representation of the object? / أي ميثود ترجع تمثيل نصوصي للأوبجكت؟",
+    "options": [
+      "getClass() / ميثود getClass",
+      "hashCode() / ميثود hashCode",
+      "toString() / ميثود toString",
+      "equals() / ميثود equals"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the primary function of the equals() method? / ما هي الوظيفة الأساسية لميثود equals؟",
+    "options": [
+      "Copies an object / تستنسخ الأوبجكت",
+      "Returns a numeric value / ترجع قيمة عددية",
+      "Returns runtime class / ترجع نوع الكلاس أثناء التشغيل",
+      "Compares objects for equality / تقارن الأوبجكتات للتحقق من التساوي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How many parameters does the equals() method take? / كم عدد الباراميترز التي تأخذها ميثود equals؟",
+    "options": [
+      "Two objects / أوبجكتين",
+      "One object / أوبجكت واحد",
+      "No parameters / بدون باراميترز",
+      "One string / نص واحد"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method returns a hash code value for the object? / أي ميثود ترجع قيمة عددية (hash code) للأوبجكت؟",
+    "options": [
+      "hashCode() / ميثود hashCode",
+      "clone() / ميثود clone",
+      "getClass() / ميثود getClass",
+      "toString() / ميثود toString"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does the getClass() method return? / ماذا ترجع ميثود getClass؟",
+    "options": [
+      "The object's properties / خصائص الأوبجكت",
+      "A cloned object / أوبجكت مستنسخ",
+      "The runtime class of the object / نوع الكلاس للأوبجكت أثناء التشغيل",
+      "A boolean value / قيمة منطقية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method is invoked by the garbage collector before an object is destroyed? / أي ميثود يتم استدعاؤها بواسطة الـ garbage collector قبل تدمير الأوبجكت؟",
+    "options": [
+      "wait() / ميثود wait",
+      "clone() / ميثود clone",
+      "notify() / ميثود notify",
+      "finalize() / ميثود finalize"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the main purpose of the garbage collector? / ما هو الهدف الأساسي للـ garbage collector؟",
+    "options": [
+      "Release memory automatically / تحرير المساحة في الذاكرة أوتوماتيكياً",
+      "Create new objects / إنشاء أوبجكتات جديدة",
+      "Execute threads / تشغيل الخيوط البرمجية",
+      "Compare classes / مقارنة الكلاسات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which methods are related to thread communication? / أي الميثودز لها علاقة بالاتصال بين الخيوط البرمجية (thread communication)؟",
+    "options": [
+      "toString, equals, hashCode / الميثودز toString, equals, hashCode",
+      "wait, notify, notifyAll / الميثودز wait, notify, notifyAll",
+      "clone, finalize, getClass / الميثودز clone, finalize, getClass",
+      "String, Example, Student / الميثودز String, Example, Student"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How is a Process defined in memory? / كيف يتم تعريف الـ Process في الذاكرة؟",
+    "options": [
+      "An object in memory / أوبجكت في الذاكرة",
+      "A garbage collector / منظف الذاكرة",
+      "Any program in memory / أي برنامج في الذاكرة",
+      "A subclass / كلاس فرعي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is a Thread compared to a Process? / ما هو الـ Thread مقارنة بالـ Process؟",
+    "options": [
+      "Larger than a process / أكبر من الـ Process",
+      "Not executable / غير قابل للتشغيل",
+      "A different program / برنامج مختلف",
+      "An executable part smaller than the process / جزء قابل للتشغيل أصغر من الـ Process"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the equals() method example, what is the first condition checked? / في مثال ميثود equals، ما هو أول شرط يتم فحصه؟",
+    "options": [
+      "this == obj / مقارنة this مع obj",
+      "obj == null / هل obj يساوي null",
+      "id == obj.id / مقارنة الـ id",
+      "getClass() == obj.getClass() / مقارنة الكلاسات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If 'this == obj' evaluates to true in equals(), what happens next? / إذا تحقق الشرط 'this == obj' في ميثود equals، ماذا يحدث؟",
+    "options": [
+      "Throws an exception / يرمي استثناء",
+      "Returns true and execution ends / ترجع true وينتهي التنفيذ",
+      "Checks for null / يفحص الـ null",
+      "Returns false / ترجع false"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does 'getClass() != obj.getClass()' check in equals()? / ماذا يفحص 'getClass() != obj.getClass()' في ميثود equals؟",
+    "options": [
+      "If objects have different IDs / إذا كانت الـ IDs مختلفة",
+      "If the parameter is null / إذا كان الباراميتر null",
+      "If objects are from different classes / إذا كان الأوبجكتين من كلاسين مختلفين",
+      "If they share the same memory / إذا كانا يتشاركان نفس الذاكرة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What operation changes the shape of the object in the equals() method? / ما هي العملية التي تغير شكل الأوبجكت في ميثود equals؟",
+    "options": [
+      "Cloning / الاستنساخ",
+      "Overriding / الأوفررايد",
+      "Finalizing / الإنهاء",
+      "Casting / الكاستينغ (تغيير الشكل)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which interface must a class implement to use the clone() method safely? / أي انترفيس يجب أن يطبقه الكلاس لاستخدام ميثود clone بأمان؟",
+    "options": [
+      "Runnable interface / انترفيس Runnable",
+      "Cloneable interface / انترفيس Cloneable",
+      "Object interface / انترفيس Object",
+      "String interface / انترفيس String"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the main advantage of using clone()? / ما هي الفائدة الأساسية من استخدام clone؟",
+    "options": [
+      "Deletes old objects / تحذف الأوبجكتات القديمة",
+      "Creates threads / تنشئ خيوط برمجية",
+      "Reduces process overhead / تقلل الجهد (overhead) على العمليات",
+      "Compares object data / تقارن بيانات الأوبجكتات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does clone() avoid doing? / ماذا تتجنب ميثود clone فعله؟",
+    "options": [
+      "Using memory entirely / استخدام الذاكرة بالكامل",
+      "Creating an object from scratch / إنشاء الأوبجكت من الصفر",
+      "Throwing exceptions / رمي الاستثناءات",
+      "Returning an object / إرجاع أوبجكت"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is the String word not appearing in blue (reserved word) in the IDE? / لماذا لا تظهر كلمة String باللون الأزرق (ككلمة محجوزة) في المحرر؟",
+    "options": [
+      "Because it is a class, not a reserved word / لأنها كلاس وليست كلمة محجوزة",
+      "Because it is an interface / لأنها انترفيس",
+      "Because it is a primitive type / لأنها نوع بدائي",
+      "Because it is an object / لأنها أوبجكت"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the clone() implementation, which method is actually called to do the copying? / في تطبيق الـ clone، أي ميثود يتم استدعاؤها فعلياً للقيام بالنسخ؟",
+    "options": [
+      "this.clone() / ميثود this.clone",
+      "Object.copy() / ميثود Object.copy",
+      "super.clone() / ميثود super.clone",
+      "getClass().clone() / ميثود getClass().clone"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What must be included when overriding the clone() method due to potential errors? / ماذا يجب تضمينه عند عمل أوفررايد لميثود clone بسبب الأخطاء المحتملة؟",
+    "options": [
+      "Garbage Collection / منظف الذاكرة",
+      "Exception Handling (throws) / معالجة الاستثناءات (throws)",
+      "Thread synchronization / مزامنة الخيوط",
+      "Casting / تغيير الشكل"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What happens if you clone object s1 into s2? / ماذا يحدث إذا استنسخت الأوبجكت s1 إلى s2؟",
+    "options": [
+      "s2 becomes null / s2 يصبح null",
+      "s2 gets a new ID only / s2 يأخذ ID جديد فقط",
+      "s1 is destroyed / s1 يتم تدميره",
+      "s2 becomes an exact copy of s1 / s2 يصبح صورة طبق الأصل من s1"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is a best practice for changing the general meaning or name of an object? / ما هي الممارسة الأفضل لتغيير المعنى العام أو اسم الأوبجكت؟",
+    "options": [
+      "Use hashCode() / استخدام hashCode",
+      "Override toString() / عمل أوفررايد لـ toString",
+      "Call finalize() / مناداة finalize",
+      "Use clone() / استخدام clone"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If you override equals(), what other method should you also implement according to best practices? / إذا قمت بعمل أوفررايد لـ equals، أي ميثود أخرى يجب عليك تطبيقها حسب أفضل الممارسات؟",
+    "options": [
+      "hashCode() / ميثود hashCode",
+      "toString() / ميثود toString",
+      "finalize() / ميثود finalize",
+      "getClass() / ميثود getClass"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why use getClass() during runtime execution? / لماذا نستخدم getClass أثناء التشغيل (runtime)؟",
+    "options": [
+      "To destroy the object / لتدمير الأوبجكت",
+      "To clone the object / لاستنساخ الأوبجكت",
+      "For specific logic to know the class type / لمنطق محدد لمعرفة نوع الكلاس",
+      "To convert to a string / للتحويل إلى نص"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When comparing Object e1 and Object e2 with identical values using e1.equals(e2), what is the expected return? / عند مقارنة e1 و e2 بقيم متطابقة باستخدام e1.equals(e2)، ماذا نتوقع أن ترجع؟",
+    "options": [
+      "true / القيمة true",
+      "false / القيمة false",
+      "null / القيمة null",
+      "Exception / استثناء"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why must you be cautious when using clone()? / لماذا يجب أن تكون حذراً عند استخدام clone؟",
+    "options": [
+      "It deletes data / لأنها تحذف البيانات",
+      "It requires the Cloneable interface and exception handling / لأنها تتطلب انترفيس Cloneable ومعالجة الاستثناءات",
+      "It slows down the system / لأنها تبطئ النظام",
+      "It changes the class type / لأنها تغير نوع الكلاس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Is the equals() method implicitly available in newly created classes? / هل ميثود equals متاحة بصورة غير ظاهرة في الكلاسات المنشأة حديثاً؟",
+    "options": [
+      "No, it must be written from scratch / لا، يجب كتابتها من الصفر",
+      "Only if Cloneable is implemented / فقط إذا تم تطبيق Cloneable",
+      "Yes, because it is inherited from Object / نعم، لأنها موروثة من Object",
+      "Only for Strings / فقط للنصوص"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If 'id == example.id' is true, and 'name.equals(example.name)' is false in the equals() method, what is the result? / إذا كان تطابق الـ id صحيحاً، وتطابق الـ name خاطئاً في ميثود equals، ما هي النتيجة؟",
+    "options": [
+      "true / القيمة true",
+      "false / القيمة false",
+      "null / القيمة null",
+      "Throws exception / ترمي استثناء"
+    ],
+    "answer": 1
+  }
+]
