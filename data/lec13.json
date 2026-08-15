@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the primary topic discussed in this lecture? / ما هو الموضوع الأساسي المناقش في هذه المحاضرة؟",
+    "options": [
+      "Copying Objects / نسخ الكائنات",
+      "Exception Handling / معالجة الاستثناءات",
+      "File Streams / تدفقات الملفات",
+      "Multithreading Techniques / تقنيات تعدد المسارات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In Java, what does shallow copy copy? / في الجافا، ماذا ينسخ النسخ السطحي (Shallow copy)؟",
+    "options": [
+      "Methods only / الدوال فقط",
+      "The object only, without having a reference in memory / الكائن فقط، بدون ما يكون عنده ريفرنس في الذاكرة",
+      "All complete physical memory locations / جميع المواقع الفيزيائية الكاملة في الذاكرة",
+      "The class definition files / ملفات تعريف الكلاس"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does shallow copy rely on? / على ماذا يعتمد النسخ السطحي (Shallow copy)؟",
+    "options": [
+      "Method parameters only / معاملات الدوال فقط",
+      "Class inheritance structure / هيكل وراثة الكلاس",
+      "Values of fields only / قيم الفيلدز فقط",
+      "Hardware CPU speed / سرعة معالج الجهاز"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What happens in shallow copy if we change the referenced object created with the 'new' keyword? / ماذا يحدث في النسخ السطحي إذا غيرنا الكائن المرجعي (Reference object) المنشأ بالكلمة المحجوزة 'new'؟",
+    "options": [
+      "Only the copied object changes / يتأثر الكائن المنسوخ فقط",
+      "No objects will be affected / لا يتأثر أي كائن",
+      "A runtime exception is thrown immediately / يتم إطلاق استثناء في زمن التشغيل فوراً",
+      "Both the original and copied objects will be affected / يتأثر به الأوريجينال والكوبي أوبجكت"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which interface contains the clone method used for copying? / ما هو الواجهة (Interface) التي تحتوي على الدالة clone المستخدمة للنسخ؟",
+    "options": [
+      "Cloneable / كلاونابل (Cloneable)",
+      "Serializable / سيريالايزابل (Serializable)",
+      "Comparable / كومبارابل (Comparable)",
+      "Runnable / رانابل (Runnable)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How is deep copy described in terms of copying objects? / كيف يُوصف النسخ العميق (Deep copy) من حيث نسخ الكائنات؟",
+    "options": [
+      "Partial copy of reference / نسخ جزئي للمرجع",
+      "Complete copy / نسخ كامل (Complete copy)",
+      "Temporary declaration only / إعلان مؤقت فقط",
+      "Read-only reference copy / نسخ مرجعي للقراءة فقط"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why are changes to the referenced object in deep copy not affecting the original? / لماذا لا تؤثر التغييرات في الكائن المرجعي في النسخ العميق على الكائن الأصلي؟",
+    "options": [
+      "Because they share the exact same memory reference / لأنهما يتشاركان نفس المرجع في الذاكرة تماماً",
+      "Because the original object is deleted automatically / لأن الكائن الأصلي يتم حذفه تلقائياً",
+      "Because each one of them is independent / لأن كل واحد فيهم مستقل",
+      "Because deep copy disables memory modifications / لأن النسخ العميق يمنع تعديلات الذاكرة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does deep copy require when overriding the clone method? / ماذا يتطلب النسخ العميق (Deep copy) عند إعادة تعريف الدالة clone؟",
+    "options": [
+      "Implicit garbage collection / تجميع القمامة الضمني",
+      "Static variable declaration / الإعلان عن متغيرات استاتيكية",
+      "No implementation code at all / عدم كتابة أي كود تنفيذي على الإطلاق",
+      "Explicit implementation / تطبيق صريح (Explicit implementation)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the shallow copy example, what is the type of the local attribute 'city' in the Address class? / في مثال النسخ السطحي، ما هو نوع الخاصية المحلية (city) في كلاس Address؟",
+    "options": [
+      "String / سترينج (String)",
+      "Address / أدريس (Address)",
+      "Person / بيرسون (Person)",
+      "Object / أوبجكت (Object)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the Person class, what is the type of the attribute 'address'? / في كلاس Person، ما هو نوع الخاصية (address)؟",
+    "options": [
+      "String / سترينج (String)",
+      "Address / من نوع الكلاس الذي اسمه أدريس (Address)",
+      "Person / بيرسون (Person)",
+      "boolean / بولين (boolean)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How many parameters does the constructor of the Person class take? / كم عدد المعاملات (Parameters) التي يأخذها الكونستركتر لكلاس Person؟",
+    "options": [
+      "One parameter / معامل واحد",
+      "Three parameters / ثلاثة معاملات",
+      "Two parameters / معاملان (Two parameters)",
+      "Four parameters / أربعة معاملات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What exception must be handled when performing cloning in Java? / ما هو الاستثناء (Exception) الذي يجب التعامل معه عند إجراء الكلونينج في الجافا؟",
+    "options": [
+      "NullPointerException / نل بوينتر إكسبشن (NullPointerException)",
+      "ClassNotFoundException / كلاس نوت فاوند إكسبشن (ClassNotFoundException)",
+      "IOException / آي أو إكسبشن (IOException)",
+      "CloneNotSupportedException / كلون نوت سبورتد إكسبشن (CloneNotSupportedException)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Starting from which Java version was cloning discussed as starting onwards? / ابتداءً من أي إصدار للجافا تم ذكر أن الكلونينج يعمل إنت وطالع؟",
+    "options": [
+      "Java 8 and 9 / جافا 8 وجافا 9 (Java 8 & 9)",
+      "Java 1.4 and 5 / جافا 1.4 وجافا 5",
+      "Java 11 and 17 / جافا 11 وجافا 17",
+      "Java 21 and 22 / جافا 21 وجافا 22"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the shallow copy main method, what city name was passed to the 'addr' object constructor? / في دالة main لمثال النسخ السطحي، ما اسم المدينة الذي مُرّر لكونستركتر الكائن 'addr'؟",
+    "options": [
+      "San Francisco / سان فرانسيسكو",
+      "New York / نيويورك (New York)",
+      "London / لندن",
+      "Chicago / شيكاغو"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why did we perform casting when assigning p1.clone() to p2 in shallow copy? / لماذا قمنا بعمل casting عند إسناد p1.clone() إلى p2 في النسخ السطحي؟",
+    "options": [
+      "To convert String to Address / لتحويل السترينج إلى أدريس",
+      "To delete the memory reference / لحذف المرجع من الذاكرة",
+      "To change the returned object type to Person / لتغيير شكل الأوبجكت المراجع إلى بيرسون (Person)",
+      "To prevent compiler warning errors / لمنع تحذيرات الكومبايلر فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the shallow copy example, when changing p2.address.city to 'San Francisco', what is printed by p1.address.city? / في مثال النسخ السطحي، عند تغيير p2.address.city إلى 'San Francisco'، ماذا يطبع p1.address.city؟",
+    "options": [
+      "New York / نيويورك",
+      "Null / نل",
+      "Address / أدريس",
+      "San Francisco / سان فرانسيسكو (San Francisco)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why did p1.address.city print 'San Francisco' in the shallow copy example? / لماذا طبع p1.address.city القيمة 'San Francisco' في مثال النسخ السطحي؟",
+    "options": [
+      "Because p1 and p2 became the same in reference / لأن p1 و p2 أصبحا نفس الشيء (p1 and p2 became same)",
+      "Because deep copy created a new physical object / لأن النسخ العميق أنشأ كائناً فيزيائياً جديداً",
+      "Because New York was deleted from the string pool / لأن نيويورك تم حذفها من الميموري",
+      "Because clone() always creates independent memory copies / لأن clone() تنشئ دائماً نسخاً مستقلة بالذاكرة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the deep copy implementation of the Address class, what does the clone method return? / في تطبيق النسخ العميق لكلاس Address، ماذا ترجع الدالة clone؟",
+    "options": [
+      "super.clone() directly without new / super.clone() مباشرة بدون new",
+      "A physical object created using new Address(city) / أوبجكت فيزيائي ينادي الكونستركتر باستخدام new Address(city)",
+      "null value / قيمة نل (null)",
+      "A String representing the city name / نص سترينج يمثل اسم المدينة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the deep copy implementation of Person's clone method, what extra step is performed on clone.address? / في تطبيق النسخ العميق لدالة clone في كلاس Person، ما الخطوة الإضافية التي تم تنفيذيها على clone.address؟",
+    "options": [
+      "Setting address to null / تعيين العنوان إلى نل",
+      "Printing address details to console / طباعة تفاصيل العنوان في الشاشة",
+      "Calling (Address) address.clone() explicitly / المناداة الصريحة للدالة (Address) address.clone()",
+      "Converting address into an integer array / تحويل العنوان إلى مصفوفة أرقام"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the deep copy example, what is printed by p1.address.city after modifying p2.address.city to 'San Francisco'? / في مثال النسخ العميق، ماذا يطبع p1.address.city بعد تعديل p2.address.city إلى 'San Francisco'؟",
+    "options": [
+      "San Francisco / سان فرانسيسكو",
+      "CloneNotSupportedException / كلون نوت سبورتد إكسبشن",
+      "Null / نل",
+      "New York / نيويورك (New York)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why does p1 retain 'New York' in the deep copy example? / لماذا احتفظ p1 بالقيمة 'New York' في مثال النسخ العميق؟",
+    "options": [
+      "Because a separate physical object was created in memory for p2 / لأنه تم إنشاء أوبجكت فيزيائي مختلف في الذاكرة لـ p2",
+      "Because p1 was declared as a constant variable / لأن p1 تم تعريفه كـ ثابت (constant)",
+      "Because shallow copy was performed automatically / لأن النسخ السطحي تم تنفيذه تلقائياً",
+      "Because the Address class constructor failed / لأن كونستركتر كلاس Address فشل"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What concept was compared with Cloneable at the end of the lecture? / ما المفهوم الذي تم مقاربته ومقارنته مع Cloneable في نهاية المحاضرة؟",
+    "options": [
+      "Default Constructor / الكونستركتر الافتراضي",
+      "Copy Constructor / الكوبي كونستراكتر (Copy Constructor)",
+      "Static Constructor / الكونستركتر الاستاتيكي",
+      "Private Constructor / الكونستركتر الخاص"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does Cloneable provide by default according to the lecture comparison? / ماذا يوفر استخدام Cloneable بشكل افتراضي (by default) حسب المقارنة في المحاضرة؟",
+    "options": [
+      "Deep copy / نسخ عميق (Deep copy)",
+      "Automatic serialization / تسلسل تلقائي",
+      "Shallow copy / شالو كوبي باي ديفولت (Shallow copy)",
+      "Syntax error handling / معالجة الأخطاء النحوية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When using Cloneable, when might we need deep copying? / عند استخدام Cloneable، متى نكون محتاجين لـ deep copying؟",
+    "options": [
+      "When we have only primitive types / عندما نملك أنواعاً أولية فقط",
+      "When we do not use memory / عندما لا نستخدم الذاكرة",
+      "When classes are final / عندما تكون الكلاسات نهائية",
+      "When we have complex objects / لما يكون عندنا كومبلكس أوبجكت (Complex objects)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "When using a Copy Constructor, how is copying defined? / عند استخدام الكوبي كونستراكتر (Copy Constructor)، كيف يُعرّف النسخ؟",
+    "options": [
+      "Explicitly defined how to copy fields and objects / معرّف بشكل صريح كيفية النسخ (Explicitly defined how to copy)",
+      "Implicitly handled by JVM without code / معالج ضمنياً بواسطة JVM بدون كود",
+      "Randomly assigned at runtime / محدد عشوائياً في زمن التشغيل",
+      "Read from external settings file / مقروء من ملف إعدادات خارجي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is Copy Constructor easy and suitable for deep copying? / لماذا يعتبر الكوبي كونستراكتر سهلاً ومناسباً جداً لعملية النسخ العميق (Deep copy)؟",
+    "options": [
+      "Because it skips object instantiation / لأنه يتخطى إنشاء الكائنات",
+      "Because control is easy and you copy all object contents and references / لأن الكنترول سهل وتعمل كوبي لكل محتويات الأوبجكت والريفرنس",
+      "Because it requires no programming code / لأنه لا يتطلب كتابة أي كود برمجي",
+      "Because it only works with single integer variables / لأنه يعمل فقط مع متغيرات الأعداد الصحيحة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In Java object declaration without 'new', what exists in memory? / عند الإعلان عن أوبجكت في الجافا بدون 'new'، ماذا يوجد في الذاكرة؟",
+    "options": [
+      "A physical object with all methods loaded / كائن فيزيائي بكامل الدوال المحملة",
+      "A fully initialized deep copy / نسخة عميقة مهيأة بالكامل",
+      "It does not have a reference in memory yet / ما بكون عنده ريفرنس في الذاكرة لسه",
+      "A static memory block / كتلة ذاكرة استاتيكية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What keyword is required to create a physical object reference in memory? / ما هي الكلمة المحجوزة المطلوبة لإنشاء ريفرنس لكائن فيزيائي في الذاكرة؟",
+    "options": [
+      "clone / كلون (clone)",
+      "class / كلاس (class)",
+      "this / ذس (this)",
+      "new / نيو (new)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the lecture snippet, what was the name of the main test class containing the main method? / في كود المحاضرة، ما اسم كلاس الاختيار الرئيسي الذي يحتوي على الدالة main؟",
+    "options": [
+      "Test / تيست (Test)",
+      "PersonTest / بيرسون تيست (PersonTest)",
+      "MainApp / ماين أب (MainApp)",
+      "CopyTest / كوبي تيست (CopyTest)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens when you override clone() for deep copy versus shallow copy? / ماذا يحدث عندما تعمل أوفررايد للدالة clone() في النسخ العميق مقارنة بالنسخ السطحي؟",
+    "options": [
+      "You just return super.clone() without modifications / ترجع super.clone() فقط بدون أي تعديلات",
+      "You need explicit implementation and clone nested reference objects / تحتاج إلى تطبيق صريح (explicit implementation) ونسخ الأوبجكت المرجعي الداخلي",
+      "You delete the interface declaration / تحذف إعلان الواجهة",
+      "The compiler converts it to a shallow copy automatically / الكومبايلر يحولها إلى شالو كوبي تلقائياً"
+    ],
+    "answer": 1
+  }
+]
