@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is appropriate for deep copying as discussed in the lecture? / ما هو المناسب للنسخ العميق (Deep Copying) كما نوقش في المحاضرة؟",
+    "options": [
+      "Default constructor / المنشئ الافتراضي",
+      "Shallow copy / النسخ السطحي",
+      "Copy constructor / منشئ النسخ",
+      "Primitive types / الأنواع الأولية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In the lecture example, what parameter does the special constructor in class Address take? / في مثال المحاضرة، ما هو المعامل الذي يأخذه المنشئ الخاص في الكلاس Address؟",
+    "options": [
+      "Integer value / قيمة صحيحة",
+      "An object of the same class Address / أوبجكت من نفس الكلاس Address",
+      "String array / مصفوفة نصوص",
+      "Boolean flag / علم بوليني"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What happens when you use 'new' inside a copy constructor? / ماذا يحدث عندما تستخدم 'new' داخل منشئ النسخ؟",
+    "options": [
+      "Shallow copy / نسخ سطحي",
+      "Syntax error / خطأ في بناء الجملة",
+      "Deep copy / نسخ عميق",
+      "Null pointer exception / استثناء المؤشر الفارغ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How many constructors can a single class have in Java? / كم عدد المنشئات التي يمكن أن يمتلكها كلاس واحد في جافا؟",
+    "options": [
+      "Only one constructor / منشئ واحد فقط",
+      "Exactly two constructors / منشئين اثنين فقط",
+      "Maximum three constructors / ثلاثة منشئات كحد أقصى",
+      "More than one constructor / أكثر من منشئ واحد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which mechanism natively supports shallow copy by default? / أي آلية تدعم النسخ السطحي (Shallow copy) بشكل افتراضي؟",
+    "options": [
+      "Clone / الكلون (Clone)",
+      "Copy constructor / منشئ النسخ",
+      "Wrapper class / كلاس الغلاف",
+      "Auto-boxing / التغليف التلقائي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is required when implementing the Clone interface/method? / ما هو المطلوب عند تنفيذ واجهة/دالة الكلون (Clone)؟",
+    "options": [
+      "Primitive conversion / تحويل أوليات",
+      "Exception handling / التعامل مع الاستثناءات (Exception handling)",
+      "Garbage collection call / استدعاء مجمع القمامة",
+      "Private access modifier / معدل الوصول الخاص"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does exception handling in Clone lead to? / إلى ماذا يؤدي التعامل مع الاستثناءات في الكلون؟",
+    "options": [
+      "Less code / كود أقل",
+      "Faster execution / تنفيذ أسرع",
+      "More code, more overhead, and more time / كود أكثر، جهد إضافي، ووقت أطول",
+      "Automatic deep copy / نسخ عميق تلقائي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Private fields are accessible from where? / الحقول الخاصة (Private fields) يمكن الوصول إليها من أين؟",
+    "options": [
+      "Any external package / أي حزمة خارجية",
+      "Subclasses in other packages freely / الكلاسات الابن في حزم أخرى بحرية",
+      "Outside the class directly without restriction / خارج الكلاس مباشرة دون قيود",
+      "Not accessible from outside / غير متاحة للوصول من الخارج"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What potential issue exists during a Deep Clone process regarding encapsulation? / ما هي المشكلة المحتملة أثناء عملية Deep Clone فيما يتعلق بالكبسلة (Encapsulation)؟",
+    "options": [
+      "Potential violation of encapsulation / احتمالية خرق الكبسلة (Violation of encapsulation)",
+      "Infinite loop execution / تنفيذ حلقة لا نهائية",
+      "Automatic deletion of fields / حذف تلقائي للحقول",
+      "Type mismatch error / خطأ عدم تطابق الأنواع"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is a major advantage of using a Copy Constructor? / ما هي الفائدة الرئيسية لاستخدام منشئ النسخ (Copy Constructor)؟",
+    "options": [
+      "Implicit execution / تنفيذ ضمني",
+      "Full control over the copy process / تحكم كامل في عملية النسخ (Full control)",
+      "No code needed / عدم الحاجة لكتابة كود",
+      "Automatic shallow cloning / استنساخ سطحي تلقائي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is the developer's control high in a Copy Constructor? / لماذا يكون تحكم المطور عاليًا في منشئ النسخ؟",
+    "options": [
+      "Because it runs implicitly behind the scenes / لأنه يعمل بشكل ضمني خلف الكواليس",
+      "Because Java generates it automatically / لأن جافا تولده تلقائيًا",
+      "Because you write an explicit implementation / لأنك تكتب تنفيذًا صريحًا (Explicit implementation)",
+      "Because it uses default values / لأنه يستخدم قيمًا افتراضية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does a Copy Constructor avoid compared to Clone? / ما الذي يتجنبه منشئ النسخ مقارنة بالكلون؟",
+    "options": [
+      "Memory allocation / تخصيص الذاكرة",
+      "Object instantiation / إنشاء الأوبجكت",
+      "Method overloading / إعادة تحميل الدوال",
+      "Pitfalls and complex exception handling / المشاكل والتعامل المعقد مع الاستثناءات"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is a disadvantage of a Copy Constructor? / ما هي إحدى سلبيات منشئ النسخ؟",
+    "options": [
+      "Does not happen automatically; requires explicit code / لا يحدث تلقائيًا بل يتطلب كودًا صريحًا",
+      "Cannot perform deep copy / لا يمكنه إجراء نسخ عميق",
+      "Only works with primitive types / يعمل فقط مع الأنواع الأولية",
+      "Throws CloneNotSupportedException / يطلق استثناء عدم دعم الكلون"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Compared to simple cases, Copy Constructor is suitable for which cases? / مقارنة بالحالات البسيطة، يعتبر منشئ النسخ مناسبًا لأي حالات؟",
+    "options": [
+      "Primitive-only cases / حالات الأوليات فقط",
+      "Complex cases / الحالات المعقدة (Complex cases)",
+      "Zero-attribute classes / كلاسات بدون خصائص",
+      "Interfaces without methods / واجهات بدون دوال"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How many primitive types exist in Java as mentioned in the lecture? / كم عدد الأنواع الأولية (Primitive types) في جافا كما ذكر في المحاضرة؟",
+    "options": [
+      "4 primitive types / 4 أنواع أولية",
+      "6 primitive types / 6 أنواع أولية",
+      "8 primitive types / 8 أنواع أولية",
+      "10 primitive types / 10 أنواع أولية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a primitive type? / أي مما يلي يُعتبر نوعًا أوليًا (Primitive type)؟",
+    "options": [
+      "String / ستلاينغ",
+      "Integer / إنتجر كلاس",
+      "Address / أدرس كلاس",
+      "int / إنت الأولي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of a Wrapper Class? / ما هو الغرض من كلاس الغلاف (Wrapper Class)؟",
+    "options": [
+      "To wrap primitive types in an object form / لتغليف الأنواع الأولية في شكل أوبجكت (Object form)",
+      "To delete primitive variables from memory / لحذف المتغيرات الأولية من الذاكرة",
+      "To bypass exception handling completely / لتجاوز التعامل مع الاستثناءات تمامًا",
+      "To prevent method inheritance / لمنع وراثة الدوال"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What utility benefits do Wrapper Classes add to primitive types? / ما هي فوائد المرافق (Utility) التي تضيفها كلاسات الغلاف للأنواع الأولية؟",
+    "options": [
+      "Decreases processing capability / تقليل قدرة المعالجة",
+      "Provides extra methods and capabilities / توفر دوال وإمكانيات إضافية (Methods and capabilities)",
+      "Removes data validation / إزالة التحقق من البيانات",
+      "Converts objects into pointers / تحويل الأوبجكت إلى مؤشرات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is Auto-boxing? / ما هو التغليف التلقائي (Auto-boxing)؟",
+    "options": [
+      "Converting an object to a primitive type / تحويل الأوبجكت إلى نوع أولي",
+      "Calling a constructor with zero parameters / استدعاء منشئ بدون معاملات",
+      "Wrapping a primitive type into a Wrapper Class object / تغليف نوع أولي في أوبجكت من كلاس الغلاف",
+      "Overriding a method in child class / إعادة كتابة دالة في الكلاس الابن"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is Unboxing? / ما هو فك التغليف (Unboxing)؟",
+    "options": [
+      "Deleting a class definition / حذف تعريف الكلاس",
+      "Converting a Wrapper object back to a primitive type / إرجاع أوبجكت الغلاف إلى نوع أولي",
+      "Creating a shallow copy of an array / إنشاء نسخ سطحي لمصفوفة",
+      "Wrapping a primitive into a reference / تغليف أولي في مرجع"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How is the Wrapper Class for 'int' spelled in Java? / كيف يُكتب كلاس الغلاف للنوع 'int' في جافا؟",
+    "options": [
+      "Int / إنت بـ I كابيتال",
+      "integer / إنتجر بسمول",
+      "Int32 / إنت32",
+      "Integer / إنتجر بـ I كابيتال (Integer)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the lecture snippet `Integer intWrapper = 10;`, what process is taking place? / في كود المحاضرة `Integer intWrapper = 10;`، ما هي العملية التي تحدث؟",
+    "options": [
+      "Auto-boxing / تغليف تلقائي (Auto-boxing)",
+      "Unboxing / فك التغليف (Unboxing)",
+      "Shallow cloning / استنساخ سطحي",
+      "Explicit exception throwing / إطلاق استثناء صريح"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In the lecture snippet `int intVal = intWrapper;`, what process is taking place? / في كود المحاضرة `int intVal = intWrapper;`، ما هي العملية التي تحدث؟",
+    "options": [
+      "Auto-boxing / تغليف تلقائي",
+      "Unboxing / فك التغليف (Unboxing)",
+      "Deep copying / نسخ عميق",
+      "Overriding / إعادة كتابة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In the Person and Address example, changing city in deep copy object affects the original object how? / في مثال Person و Address، تعديل المدن في أوبجكت النسخ العميق يغير الأوبجكت الأصلي كيف؟",
+    "options": [
+      "Changes the original object's city as well / بغير مدينة الأوبجكت الأصلي أيضًا",
+      "Throws a runtime error / يطلق خطأ عند التشغيل",
+      "Does NOT change the original object's city / لا يغير مدينة الأوبجكت الأصلي",
+      "Deletes the original object / يحذف الأوبجكت الأصلي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why is Clone method suitable for simple cases? / لماذا تعتبر دالة الكلون مناسبة للحالات البسيطة؟",
+    "options": [
+      "It requires more code than copy constructors / تتطلب كودًا أكثر من منشئ النسخ",
+      "It handles complex deep copies automatically / تتعامل مع النسخ العميق المعقد تلقائيًا",
+      "It avoids all exceptions / تتجنب جميع الاستثناءات",
+      "It natively provides default shallow copy without extra custom code / تقدم نسخًا سطحيًا افتراضيًا بدون كود مخصص إضافي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is always paired together with Copy Constructor according to the video? / ما الذي يرافق دائمًا منشئ النسخ (Copy Constructor) وفقًا للفيديو؟",
+    "options": [
+      "Deep Copy / النسخ العميق (Deep Copy)",
+      "Shallow Copy / النسخ السطحي",
+      "Garbage Collector / مجمع القمامة",
+      "Unboxing / فك التغليف"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Primitive types consume how much memory compared to Objects? / الأنواع الأولية تستهلك كم من الذاكرة مقارنة بالأوبجكت؟",
+    "options": [
+      "Much larger memory space / مساحة ذاكرة أكبر بكثير",
+      "Do not take large memory space / لا تأخذ مساحة كبيرة في الذاكرة",
+      "Same memory exact size / نفس الحجم بالضبط",
+      "Dynamic infinite memory / ذاكرة ديناميكية لا نهائية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When defining `Address adr = new Address(\"NY\");`, what is created? / عند تعريف `Address adr = new Address(\"NY\");`، ماذا يتم إنشاؤه؟",
+    "options": [
+      "A primitive variable / متغير أولي",
+      "An interface / واجهة",
+      "An object of type Address / أوبجكت من نوع Address",
+      "A wrapper method / دالة غلاف"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What happens if you execute Clone without proper exception handling? / ماذا يحدث إذا قمت بتنفيذ Clone دون التعامل المناسب مع الاستثناءات؟",
+    "options": [
+      "Compilation / runtime exception error / خطأ استثناء أثناء التجميع أو التشغيل",
+      "Automatic fix by JVM / إصلاح تلقائي بواسطة JVM",
+      "Silent execution with no issue / تنفيذ صامت بدون أي مشكلة",
+      "Converts object to int / تحويل الأوبجكت إلى int"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does explicit implementation in Copy Constructor mean for execution? / ماذا يعني التنفيذ الصريح (Explicit implementation) في منشئ النسخ بالنسبة للتنفيذ؟",
+    "options": [
+      "Copying will happen automatically behind scenes / يحدث النسخ تلقائيًا خلف الكواليس",
+      "No automatic copy happens, explicit code runs / لا يحدث نسخ تلقائي، بل يعمل الكود الصريح",
+      "The JVM ignores the code / يتجاهل JVM الكود",
+      "It forces shallow copy only / يجبر على النسخ السطحي فقط"
+    ],
+    "answer": 1
+  }
+]
