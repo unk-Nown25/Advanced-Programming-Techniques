@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Conversion methods in wrapper classes are usually preceded by which word? / دوال التحويل في الكلاسات المغلفة تكون عادة متبوعة أو مسبوقة بأي كلمة؟",
+    "options": [
+      "convert / تحويل",
+      "cast / تحويل نوع",
+      "parse / تفكيك/تحليل",
+      "change / تغيير"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What type of parameter does the Integer.parseInt method accept? / ما هو نوع المعامل (parameter) الذي تقبله دالة Integer.parseInt؟",
+    "options": [
+      "String / نص",
+      "double / مزدوج",
+      "int / عدد صحيح أولي",
+      "boolean / منطقي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does the Integer.parseInt method return after parsing? / ما الذي ترجعه دالة Integer.parseInt بعد التفكيك/التحليل؟",
+    "options": [
+      "String / نص",
+      "Object / كائن",
+      "Double / كائن مزدوج",
+      "primitive int / عدد صحيح أولي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "When using Integer.parseInt(\"123\"), what is the returned primitive value? / عند استخدام Integer.parseInt(\"123\")، ما هي القيمة الأولية المرجعة؟",
+    "options": [
+      "123.0 / 123.0",
+      "123 / 123 (primitive int / عدد صحيح أولي)",
+      "\"123\" / \"123\"",
+      "123 / 123"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method in the Integer wrapper class converts an int value to binary in String format? / أي دالة في كلاس Integer تحول قيمة int إلى ثنائي بصيغة نص String؟",
+    "options": [
+      "parseBinary / تفكيك ثنائي",
+      "toBinary / تحويل لثنائي",
+      "formatBinary / تنسيق ثنائي",
+      "toBinaryString / تحويل إلى نص ثنائي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the binary string result of Integer.toBinaryString(10)? / ما هي النتيجة النصية الثنائية لـ Integer.toBinaryString(10)؟",
+    "options": [
+      "1000 / 1000",
+      "1100 / 1100",
+      "1010 / 1010",
+      "1010 / 1010"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method converts an integer value to a hexadecimal format as String? / أي دالة تحول قيمة عدد صحيح إلى صيغة سداسية عشرية كنص String؟",
+    "options": [
+      "toHex / تحويل لسداسي عشر",
+      "toHexString / تحويل لنص سداسي عشر",
+      "parseHex / تفكيك سداسي عشر",
+      "hexValue / قيمة سداسية عشرية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary function of parsing methods in wrapper classes? / ما هي الوظيفة الأساسية لدوال التفكيك (parsing) في الكلاسات المغلفة؟",
+    "options": [
+      "To decrease wrapper memory / لتقليل ذاكرة الغلاف",
+      "To interpret String structures and convert to primitive / لتفسير البنى النصية وتحويلها لأولية",
+      "To destroy primitive types / لتدمير الأنواع الأولية",
+      "To store binary data / لتخزين البيانات الثنائية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When should developers use Wrapper Classes according to the lecture? / متى يجب على المطورين استخدام الكلاسات المغلفة حسب المحاضرة؟",
+    "options": [
+      "To optimize CPU speed / لتحسين سرعة المعالج",
+      "For all loop operations / لكل عمليات الحلقات",
+      "When working with collections like ArrayList and HashMap / عند التعامل مع المجموعات مثل ArrayList و HashMap",
+      "To replace primitives completely / لاستبدال الأنواع الأولية بالكامل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can primitive types directly store a null value in Java? / هل يمكن للأنواع الأولية (primitive types) تخزين قيمة null مباشرة في جافا؟",
+    "options": [
+      "Yes, always / نعم، دائماً",
+      "Only inside loops / فقط داخل الحلقات",
+      "No, primitives cannot accept null / لا، الأنواع الأولية لا تقبل null",
+      "Only for double types / فقط للأنواع المزدوجة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is required to assign a null value to a primitive representation? / ما المطلوب لإسناد قيمة null لتمثيل نوع أولي؟",
+    "options": [
+      "Wrap it in a wrapper class / تغليفه في كلاس مغلف",
+      "Convert it to String / تحويله إلى نص",
+      "Use a primitive array / استخدام مصفوفة أولية",
+      "Use parseInt method / استخدام دالة parseInt"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why do framework collections require wrapper classes instead of primitives? / لماذا تتطلب مجموعات إطارات العمل كلاسات مغلفة بدلاً من الأنواع الأولية؟",
+    "options": [
+      "Because primitives are too large / لأن الأنواع الأولية كبيرة جداً",
+      "To prevent memory usage / لمنع استخدام الذاكرة",
+      "Because collections only deal with objects / لأن المجموعات تتعامل فقط مع الكائنات",
+      "To force binary conversion / لإجبار التحويل الثنائي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is considered an advantage of wrapper classes? / أي مما يلي يعتبر من ميزات الكلاسات المغلفة؟",
+    "options": [
+      "Decreasing RAM memory usage / تقليل استخدام ذاكرة الرام",
+      "Executing loops faster / تنفيذ الحلقات بشكل أسرع",
+      "Eliminating all exceptions / القضاء على جميع الاستثناءات",
+      "Providing utility methods for conversion / توفير دوال مساعدة للتحويل"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is a main memory-related disadvantage of using wrapper classes? / ما العيب الرئيسي المتعلق بالذاكرة عند استخدام الكلاسات المغلفة؟",
+    "options": [
+      "They delete primitive values / تقوم بحذف القيم الأولية",
+      "They take greater space/overhead in memory / تأخذ مساحة أكبر/عبئاً في الذاكرة",
+      "They prevent object creation / تمنع إنشاء الكائنات",
+      "They reduce heap size / تقلل حجم الكومة (Heap)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What problem can occur if auto-boxing and unboxing are used excessively in loops? / ما المشكلة التي يمكن أن تحدث إذا تم استخدام التغليف والفك التلقائي بكثرة داخل الحلقات؟",
+    "options": [
+      "Performance issues and overhead / مشاكل في الأداء وعبء إضافي",
+      "Automatic deletion of code / حذف تلقائي للكود",
+      "Conversion to binary / التحويل إلى ثنائي",
+      "Syntax compilation error / خطأ في بناء الجملة البرمجية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What exception risk arises when unboxing a wrapper object that holds a null value? / ما خطر الاستثناء الذي ينشأ عند فك كائن مغلف يحمل قيمة null؟",
+    "options": [
+      "NumberFormatException / استثناء تنسيق الرقم",
+      "ClassCastException / استثناء تحويل الكلاس",
+      "IndexOutOfBoundsException / استثناء تجاوز حدود الفهرس",
+      "NullPointerException / استثناء المؤشر الفارغ"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What should be done before unboxing a wrapper object that might contain null? / ما الذي يجب فعله قبل فك كائن مغلف قد يحتوي على null؟",
+    "options": [
+      "Convert it to binary string / تحويله إلى نص ثنائي",
+      "Check or handle the null value / فحص أو معالجة قيمة null",
+      "Cast it to int directly / تحويله إلى int مباشرة",
+      "Put it inside a loop / وضعه داخل حلقة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why might developers face difficulties when working with wrapper classes? / لماذا قد يواجه المطورون صعوبات عند العمل مع الكلاسات المغلفة؟",
+    "options": [
+      "Because parseInt does not exist / لأن parseInt غير موجودة",
+      "Because primitives cannot be printed / لأن الأنواع الأولية لا يمكن طباعتها",
+      "Because wrapper classes are not supported in Java / لأن الكلاسات المغلفة غير مدعومة في جافا",
+      "Due to subtle differences (nuances) between wrappers and primitives / بسبب الاختلافات الدقيقة بين المغلفات والأولية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does the term 'nuance' refer to in the context of wrapper classes? / إلام يشير مصطلح 'nuance' في سياق الكلاسات المغلفة؟",
+    "options": [
+      "A type of loop / نوع من الحلقات",
+      "A major syntax error / خطأ كبير في بناء الجملة",
+      "A subtle difference that is hard to notice / اختلاف دقيق يصعب ملاحظته",
+      "A memory allocation method / طريقة تخصيص الذاكرة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the recommended best practice for performance-critical code? / ما هي الممارسة الأفضل الموصى بها للكود الحساس للأداء؟",
+    "options": [
+      "Prefer wrappers over primitives / تفضيل الأنواع المغلفة على الأولية",
+      "Use auto-boxing everywhere / استخدام التغليف التلقائي في كل مكان",
+      "Prefer primitives over wrappers / تفضيل الأنواع الأولية على المغلفة",
+      "Convert all numbers to String / تحويل كل الأرقام إلى نص"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What class/concept is suggested as an alternative for handling nullability of results? / ما الكلاس/المفهوم المقترح كبديل لمعالجة القابلية للقيم الفارغة (nullability) للنتائج؟",
+    "options": [
+      "Optional / الاختياري (Optional)",
+      "ArrayList / قائمة المصفوفة",
+      "HashMap / خريطة التجزئة",
+      "BinaryString / النص الثنائي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How can developers maintain clean and efficient performance regarding auto-boxing? / كيف يمكن للمطورين الحفاظ على أداء نظيف وفعال فيما يتعلق بالتغليف التلقائي؟",
+    "options": [
+      "Maximize auto-boxing in loops / زيادة التغليف التلقائي في الحلقات",
+      "Avoid primitive types completely / تجنب الأنواع الأولية تماماً",
+      "Minimize auto-boxing and unboxing / تقليل التغليف والفك التلقائي",
+      "Use toHexString for all integers / استخدام toHexString لكل الأعداد الصحيحة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which utility method family is present across wrapper classes for type conversion? / أي عائلة من الدوال المساعدة موجودة عبر الكلاسات المغلفة لتحويل الأنواع؟",
+    "options": [
+      "parse methods / دوال التفقيط/التفكيك (parse)",
+      "loop methods / دوال الحلقات",
+      "boxing methods / دوال التغليف",
+      "delete methods / دوال الحذف"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is recommended regarding unnecessary conversions between primitives and wrappers? / ما الموصى به بشأن التحويلات غير الضرورية بين الأنواع الأولية والمغلفة؟",
+    "options": [
+      "Use loops for conversions / استخدام الحلقات للتحويلات",
+      "Avoid unnecessary conversions if not needed / تجنب التحويلات غير الضرورية إذا لم تكن مطلوبة",
+      "Always convert primitives to wrappers / تحويل الأنواع الأولية إلى مغلفة دائماً",
+      "Perform conversions in every line / إجراء التحويلات في كل سطر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does leveraging utility methods in wrapper classes allow developers to do? / ما الذي يتيحه استغلال الدوال المساعدة في الكلاسات المغلفة للمطورين؟",
+    "options": [
+      "Reduce memory footprint to zero / تقليل بصمة الذاكرة إلى الصفر",
+      "Disable object creation / تعطيل إنشاء الكائنات",
+      "Add features and extra operations to primitive types / إضافة ميزات وعمليات إضافية للأنواع الأولية",
+      "Bypass all Java syntax checks / تجاوز جميع فحوصات قواعد جافا"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In Java, what is the wrapper class corresponding to the primitive 'int'? / في جافا، ما هو الكلاس المغلف المقابل للنوع الأولي 'int'؟",
+    "options": [
+      "Number / الكلاس الرقمي",
+      "Integer / الكلاس الصحيح (Integer)",
+      "String / كلاس النص",
+      "Int / الكلاس Int"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What format does Integer.toHexString return its result in? / بأي صيغة ترجع دالة Integer.toHexString نتيجتها؟",
+    "options": [
+      "Primitive int format / صيغة أعداد صحيحة أولية",
+      "Byte array format / صيغة مصفوفة بايت",
+      "String format / صيغة نصية (String)",
+      "Boolean format / صيغة منطقية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which statement best describes a primitive type compared to a wrapper class object? / أي عبارة توصف النوع الأولي بشكل أفضل مقارنة بكائن الكلاس المغلف؟",
+    "options": [
+      "Primitive can directly hold null / النوع الأولي يستطيع إسناد null مباشرة",
+      "Primitive requires more memory than a wrapper / النوع الأولي يستغرق ذاكرة أكبر من المغلف",
+      "Primitive is an object with utility methods / النوع الأولي كائن يحتوي على دوال مساعدة",
+      "Primitive is a simple value with no methods or null support / النوع الأولي قيمة بسيطة بدون دوال أو دعم للـ null"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What should be done if a feature or method of a wrapper class is not required in your code? / ما الذي ينبغي فعله إذا كانت ميزة أو دالة الكلاس المغلف غير مطلوبة في كودك؟",
+    "options": [
+      "Force wrapper usage / إجبار استخدام الغلاف",
+      "Keep using primitives / الاستمرار في استخدام الأنواع الأولية",
+      "Throw a NullPointerException / رمي استثناء NullPointer",
+      "Convert everything to String / تحويل كل شيء إلى نص"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary target for wrapper classes when storing data in Java data structures? / ما هو الهدف الأساسي للكلاسات المغلفة عند تخزين البيانات في هياكل بيانات جافا؟",
+    "options": [
+      "Preventing memory allocation / منع تخصيص الذاكرة",
+      "Replacing primitive operators / استبدال المعاملات الأولية",
+      "Speeding up primitive addition / تسريع جمع الأعداد الأولية",
+      "Storing primitives inside generic Collections / تخزين الأنواع الأولية داخل المجموعات العامة (Collections)"
+    ],
+    "answer": 3
+  }
+]
