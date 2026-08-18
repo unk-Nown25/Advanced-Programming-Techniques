@@ -1,0 +1,302 @@
+[
+  {
+    "question": "When was the Java 8 Stream API introduced? / متى تم تقديم Java 8 Stream API؟",
+    "options": [
+      "With Java 7 / مع جافا 7",
+      "With Java 6 / مع جافا 6",
+      "With Java 8 / مع جافا 8",
+      "With Java 5 / مع جافا 5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the Java Stream API according to the lecture? / ما هو Java Stream API وفقاً للمحاضرة؟",
+    "options": [
+      "A standard mechanism for creating primitive types / آلية قياسية لإنشاء أنواع أولية",
+      "An express mechanism for performing functional-style operations on sequences of elements / آلية سريعة لتنفيذ عمليات بأسلوب وظيفي على متتاليات العناصر",
+      "An implicit mechanism for performing functional-style operations on sequences of elements / آلية ضتمنية لتنفيذ عمليات بأسلوب وظيفي على متتاليات العناصر",
+      "A side-effect mechanism for modifying original collections / آلية ذات تأثير جانبي لتعديل المجموعات الأصلية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which feature of Streams allows processing elements sequentially or in parallel? / أي ميزة من ميزات Streams تسمح بمعالجة العناصر بشكل تسلسلي أو متوازي؟",
+    "options": [
+      "Side Effects / التأثيرات الجانبية",
+      "Sequential and Parallel Execution / التنفيذ التسلسلي والمتوازي",
+      "Auto-boxing / الملاكمة التلقائية",
+      "Wrapper Overhead / العبء الإضافي للغلاف"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which primitive stream type is designed for boolean values? / أي نوع من الستريمز الأولية مصمم للقيم البولينية؟",
+    "options": [
+      "DoubleStream / DoubleStream",
+      "IntStream / IntStream",
+      "LongStream / LongStream",
+      "None / لا يوجد"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What primary advantage do primitive streams (like IntStream) offer? / ما هي الفائدة الرئيسية التي تقدمها primitive streams (مثل IntStream)؟",
+    "options": [
+      "Replace all standard for-loops / تستبدل جميع حلقة for القياسية",
+      "Modify original collections directly / تعدل المجموعات الأصلية مباشرة",
+      "Handle primitives directly without boxing overhead / تتعامل مع القيم الأولية مباشرة بدون العبء الإضافي للملاكمة",
+      "Allow side-effect operations easily / تسمح بعمليات التأثير الجانبي بسهولة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which statement must be used to import stream-related utilities in Java? / أي عبارة يجب استخدامها لاستيراد أدوات الاستريم في جافا؟",
+    "options": [
+      "import java.io.stream.*; / import java.io.stream.*;",
+      "import java.util.stream.*; / import java.util.stream.*;",
+      "import java.lang.stream.*; / import java.lang.stream.*;",
+      "import java.util.stream.*; / import java.util.stream.*;"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an intermediate operation? / أي مما يلي يُعد عملية وسيطة (intermediate operation)؟",
+    "options": [
+      "reduce / reduce",
+      "collect / collect",
+      "filter / filter",
+      "forEach / forEach"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a terminal operation? / أي مما يلي يُعد عملية نهائية (terminal operation)؟",
+    "options": [
+      "sorted / sorted",
+      "forEach / forEach",
+      "filter / filter",
+      "map / map"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do intermediate operations behave in Java Streams? / كيف تتصرف العمليات الوسيطة في Java Streams؟",
+    "options": [
+      "They perform auto-unboxing on elements / تقوم بفك الملاكمة التلقائية للعناصر",
+      "They execute immediately and return final output / تنفذ فوراً وترجع الناتج النهائي",
+      "They return a new stream and allow method chaining / ترجع ستريم جديد وتسمح بسلسلة الدوال",
+      "They clear the source collection / تمسح المجموعات الأصلية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of the map operation? / ما هو الغرض من عملية map؟",
+    "options": [
+      "To filter elements based on a condition / لتصفية العناصر بناءً على شرط",
+      "To reduce elements to a single value / لتقليل العناصر إلى قيمة واحدة",
+      "To terminate the stream execution / لإيقاف تنفيذ الستريم",
+      "To transform elements in the stream / لتحويل العناصر داخل الستريم"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does the filter method take as its parameter? / ماذا تأخذ الدالة filter كمعامل لها؟",
+    "options": [
+      "An integer value / قيمة صحيحة",
+      "A predicate condition / شرط محدد (Predicate)",
+      "A primitive array / مصفوفة أولية",
+      "A predicate condition / شرط محدد (Predicate)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method transforms a stream into a List collection? / أي دالة تقوم بتحويل الستريم إلى مجموعة List؟",
+    "options": [
+      "reduce(Collectors.toList()) / reduce(Collectors.toList())",
+      "collect(Collectors.toList()) / collect(Collectors.toList())",
+      "map(Collectors.toList()) / map(Collectors.toList())",
+      "filter(Collectors.toList()) / filter(Collectors.toList())"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When should Streams be used according to the lecture? / متى ينبغي استخدام الستريمز وفقاً للمحاضرة؟",
+    "options": [
+      "For small collections only / للمجموعات الصغيرة فقط",
+      "When side effects are required / عند الحاجة للتأثيرات الجانبية",
+      "For complex data transformation or aggregation / للتحويلات المعقدة للبيانات أو التجميع",
+      "When modifying elements in place / عند تعديل العناصر في مكانها الأصلي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does immutability/statelessness in Streams mean? / ماذا يعني عدم التغير (immutability) في Streams؟",
+    "options": [
+      "Streams can only be iterated using for-loops / الستريمز يمكن تكرارها فقط باستخدام حلقة for",
+      "Streams do not modify the original data source / الستريمز لا تعدل مصدر البيانات الأصلي",
+      "Streams retain state between executions / الستريمز تحتفظ بالحالة بين التنفيذات",
+      "Streams modify the source collection / الستريمز تعدل المجموعة المصدر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is readability considered an advantage of Java Streams? / لماذا تعتبر سهولة القراءة ميزة في Java Streams؟",
+    "options": [
+      "Code relies on complex nested loops / الكود يعتمد على حلقات متداخلة معقدة",
+      "Code is shorter by eliminating all methods / الكود أقصر عبر إلغاء جميع الدوال",
+      "Code is more declarative / الكود أكثر تصريحية (declarative)",
+      "Code is more declarative / الكود أكثر تصريحية (declarative)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is one disadvantage of using Streams for operations with side effects? / ما هي إحدى سلبيات استخدام الستريمز للعمليات ذات التأثيرات الجانبية؟",
+    "options": [
+      "They prevent functional programming / تمنع البرمجة الوظيفية",
+      "Not ideal for operations with side effects / ليست مثالية للعمليات ذات التأثيرات الجانبية",
+      "They cause high overhead on huge datasets / تسبب عبئاً كبيراً على مجموعات البيانات الضخمة",
+      "They eliminate parallel execution support / تلغي دعم التنفيذ المتوازي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is stream creation not recommended for small datasets? / لماذا لا يُوصى بإنشاء ستريم لمجموعات البيانات الصغيرة؟",
+    "options": [
+      "It requires primitive types only / يتطلب أنواعاً أولية فقط",
+      "It causes unnecessary overhead / يسبب عبئاً إضافياً غير ضروري (overhead)",
+      "It causes syntax errors / يسبب أخطاء بناء الكود",
+      "It causes unnecessary overhead / يسبب عبئاً إضافياً غير ضروري (overhead)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why can debugging and fixing problems in Streams be difficult? / لماذا قد يكون تصحيح الأخطاء (debugging) في Streams صعباً؟",
+    "options": [
+      "Due to chained functional method calls / بسبب سلاسل استدعاء الدوال الوظيفية",
+      "Because streams destroy primitive values / لأن الستريمز تدمر القيم الأولية",
+      "Because compiler rejects intermediate operations / لأن المترجم يرفض العمليات الوسيطة",
+      "Due to chained functional method calls / بسبب سلاسل استدعاء الدوال الوظيفية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In Stream.of(\"a\", \"b\", \"c\"), what type of Stream is created? / في Stream.of(\"a\", \"b\", \"c\")، ما نوع الستريم المنشأ؟",
+    "options": [
+      "DoubleStream / DoubleStream",
+      "Stream<String> / Stream<String>",
+      "LongStream / LongStream",
+      "IntStream / IntStream"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method converts a collection instance into a Stream? / أي دالة تحول كائن المجموعة (Collection) إلى Stream؟",
+    "options": [
+      "toStream() / toStream()",
+      "makeStream() / makeStream()",
+      "stream() / stream()",
+      "stream() / stream()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is auto-boxing in Java? / ما هو الملاكمة التلقائية (auto-boxing) في جافا؟",
+    "options": [
+      "Converting wrapper objects to primitive types / تحويل كائنات الغلاف إلى أنواع أولية",
+      "Converting primitive types to wrapper objects / تحويل الأنواع الأولية إلى كائنات غلاف",
+      "Converting Streams to Collections / تحويل الستريمز إلى مجموعات",
+      "Converting primitive types to wrapper objects / تحويل الأنواع الأولية إلى كائنات غلاف"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is unboxing in Java? / ما هو فك الملاكمة (unboxing) في جافا؟",
+    "options": [
+      "Converting IntStream to Stream / تحويل IntStream إلى Stream",
+      "Converting wrapper objects to primitive types / تحويل كائنات الغلاف إلى أنواع أولية",
+      "Converting primitive types to wrapper objects / تحويل الأنواع الأولية إلى كائنات غلاف",
+      "Converting Lists to Streams / تحويل القوائم إلى ستريمز"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does reduce operation perform on a stream? / ماذا تفعل عملية reduce على الستريم؟",
+    "options": [
+      "Sorts elements alphabetically / ترتب العناصر أبجدياً",
+      "Combines elements into a single result / تجمع العناصر في نتيجة واحدة",
+      "Filters elements by condition / تصفية العناصر بناءً على شرط",
+      "Combines elements into a single result / تجمع العناصر في نتيجة واحدة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which operation sorts elements in a stream? / أي عملية تقوم بترتيب العناصر في الستريم؟",
+    "options": [
+      "map / map",
+      "reduce / reduce",
+      "filter / filter",
+      "sorted / sorted"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How do Streams process data compared to explicit loops? / كيف تعالج Streams البيانات مقارنة بالحلقات الصريحة (explicit loops)؟",
+    "options": [
+      "Using global variables only / باستخدام متغيرات عامة فقط",
+      "Implicitly and automatically / بشكل ضمني وتلقائي",
+      "Explicitly with index tracking / بشكل صريح مع تتبع المؤشر",
+      "Implicitly and automatically / بشكل ضمني وتلقائي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which primitive stream handles double values without boxing overhead? / أي ستريم أولي يتعامل مع قيم double بدون عبء الملاكمة؟",
+    "options": [
+      "DoubleStream / DoubleStream",
+      "IntStream / IntStream",
+      "LongStream / LongStream",
+      "DoubleStream / DoubleStream"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does String::toUpperCase mean in map operation? / ماذا تعني String::toUpperCase في عملية map؟",
+    "options": [
+      "Method reference / مرجع دالة (Method reference)",
+      "Terminal condition / شرط نهائي",
+      "Primitive wrapper / غلاف أولي",
+      "Lambda variable / متغير لامبدا"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which concept directly leads to Streams in Java 8 as per lecture? / ما هو المفهوم الذي قاد مباشرة إلى الستريمز في جافا 8 بحسب المحاضرة؟",
+    "options": [
+      "File I/O / إدخال وإخراج الملفات",
+      "Wrapper Classes / كلاسات الغلاف (Wrapper Classes)",
+      "Multithreading / التعدد البرمجي",
+      "Wrapper Classes / كلاسات الغلاف (Wrapper Classes)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can parallel streams improve performance on large datasets? / هل يمكن لـ parallel streams تحسين الأداء على مجموعات البيانات الكبيرة؟",
+    "options": [
+      "No / لا",
+      "Only on primitive types / على الأنواع الأولية فقط",
+      "Yes / نعم",
+      "Yes / نعم"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What happens if no terminal operation is attached to a stream pipeline? / ماذا يحدث إذا لم يتم إرفاق عملية نهائية (terminal operation) بسلسلة الستريم؟",
+    "options": [
+      "It executes automatically / تتنفذ تلقائياً",
+      "It creates a new List / تنشئ قائمة جديدة",
+      "It throws a Compile Error / تعطي خطأ في التجميع",
+      "Intermediate operations will not execute / لن يتم تنفيذ العمليات الوسيطة"
+    ],
+    "answer": 3
+  }
+]
