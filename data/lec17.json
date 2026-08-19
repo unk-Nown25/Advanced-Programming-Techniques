@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Streams operate on elements individually, moving from object to object in small operations called what? / تعمل المزيّات (Streams) على العناصر بشكل فردي، وتنتقل من كائن إلى كائن في عمليات صغيرة تُسمى ماذا؟",
+    "options": [
+      "Processors / معالجات",
+      "**Threads** / **خيوط معالجة**",
+      "Pipelining / أنبوب معالجة",
+      "Interfaces / واجهات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is it recommended to use IntStream instead of Stream<Integer>? / لماذا يُوصى باستخدام IntStream بدلاً من Stream<Integer>؟",
+    "options": [
+      "To create interface objects / لإنشاء كائنات واجهة",
+      "To allow abstract classes / للسماح بالكلاسات المجرّدة",
+      "**To avoid boxing overhead** / **لتجنب عبء التغليف**",
+      "To enable thread safety / لتفعيل أمان الخيوط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the process of chaining multiple stream operations together in a single flow called? / ماذا تُسمى عملية ربط عمليات المزيّة المتعددة معاً في تسلسل واحد؟",
+    "options": [
+      "Type casting / تحويل الأنواع",
+      "Boxing overhead / عبء التغليف",
+      "Interface extension / توسيع الواجهة",
+      "**Chaining operation** / **عملية السلسلة**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following operations is categorized as a terminal operation in Streams? / أي من العمليات التالية تندرج تحت الفئة النهائية (Terminal operation) في المزيّات؟",
+    "options": [
+      "**forEach** / **لكل عنصر (forEach)**",
+      "reduce / اختزال (reduce)",
+      "map / خريطة (map)",
+      "filter / تصفية (filter)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following functions is used as a terminal operation to wrap up or conclude a stream pipeline? / أي من الدوال التالية تُستخدم كعملية نهائية لإغلاق أو إنهاء أنبوب المزيّة (Stream pipeline)؟",
+    "options": [
+      "map / خريطة (map)",
+      "primitive / بنائي أساسي",
+      "thread / خيط معالجة",
+      "**collect** / **تجميع (collect)**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What concept allows a reference variable of a supertype to hold a reference to a subtype object? / ما هو المفهوم الذي يسمح لمتغير المرجع من نوع أعلى باحتواء مرجع لكائن من نوع فرعي؟",
+    "options": [
+      "Primitive streams / المزيّات الأولية",
+      "Terminal pipeline / أنبوب النهاية",
+      "**Object references and type compatibility** / **مراجع الكائنات وتوافق الأنواع**",
+      "Boxing overhead / عبء التغليف"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A base class reference variable can hold an object of its own type or an object of its what? / يمكن لمتغير مرجع الكلاس الأساسي (Base class) أن يحمل كائناً من نوعه أو كائناً من ماذا؟",
+    "options": [
+      "IntStream type / نوع IntStream",
+      "**Derived class** / **الكلاس المشتق**",
+      "Primitive value / القيمة الأولية",
+      "Terminal operation / العملية النهائية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If Animal is a base class and Dog is a derived class, which statement demonstrates correct reference assignment? / إذا كان Animal كلاس أساسي و Dog كلاس مشتق، أي عبارة توضح التعيين المرجعي الصحيح؟",
+    "options": [
+      "**Animal animal = new Dog();** / **Animal animal = new Dog();**",
+      "Dog animal = new Animal(); / Dog animal = new Animal();",
+      "Dog dog = new IntStream(); / Dog dog = new IntStream();",
+      "Animal dog = new String(); / Animal dog = new String();"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A derived class reference can hold an object of the derived class itself or an object of its what? / يمكن لمرجع الكلاس المشتق أن يحمل كائناً من الكلاس المشتق نفسه أو كائناً من ماذا؟",
+    "options": [
+      "Primitive stream / المزيّة الأولية",
+      "**Subclass** / **الكلاس الفرعي (Subclass)**",
+      "Base interface / الواجهة الأساسية",
+      "Abstract keyword / الكلمة المفتاحية المجرّدة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If GoldenRetriever is a subclass of Dog, which reference assignment is valid? / إذا كان GoldenRetriever كلاس فرعي من Dog، أي تعيين مرجعي يكون صحيحاً؟",
+    "options": [
+      "**Dog dog = new GoldenRetriever();** / **Dog dog = new GoldenRetriever();**",
+      "GoldenRetriever dog = new Animal(); / GoldenRetriever dog = new Animal();",
+      "Dog dog = new Animal(); / Dog dog = new Animal();",
+      "GoldenRetriever dog = new Dog(); / GoldenRetriever dog = new Dog();"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What type of methods in an abstract class have no body and must be implemented by derived classes? / ما نوع الدوال في الكلاس المجرّد التي لا تحتوي على متن (body) ويجب تطبيقها بواسطة الكلاسات المشتقة؟",
+    "options": [
+      "Terminal method / دالة نهائية (Terminal method)",
+      "Primitive method / دالة أولية (Primitive method)",
+      "Concrete method / دالة ملموسة (Concrete method)",
+      "**Abstract method** / **دالة مجردة (Abstract method)**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What type of methods in an abstract class contain a complete implementation? / ما نوع الدوال في الكلاس المجرّد التي تحتوي على تنفيذ كامل؟",
+    "options": [
+      "Boxed method / دالة مغلفة (Boxed method)",
+      "Abstract method / دالة مجردة (Abstract method)",
+      "**Concrete method** / **دالة ملموسة (Concrete method)**",
+      "Chained method / دالة متسلسلة (Chained method)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why does statement 'Shape shape = new Shape();' cause a compilation error if Shape is an abstract class? / لماذا تسبب العبارة 'Shape shape = new Shape();' خطأ تجميع إذا كان Shape كلاس مجرد؟",
+    "options": [
+      "It causes boxing overhead / تسبب عبء التغليف",
+      "Shape must be an interface / يجب أن يكون Shape واجهة",
+      "Abstract classes have no methods / الكلاسات المجرّدة لا تحتوي على دوال",
+      "**Cannot instantiate an abstract class** / **لا يمكن إنشاء كائن مباشر من كلاس مجرد**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If Shape is an abstract class and Circle is a concrete derived class, which code is valid? / إذا كان Shape كلاس مجرد و Circle كلاس ملموس مشتق منه، أي كود يعتبر صحيحاً؟",
+    "options": [
+      "Circle circle = new Shape(); / Circle circle = new Shape();",
+      "Circle shape = new Shape(); / Circle shape = new Shape();",
+      "**Shape shape = new Circle();** / **Shape shape = new Circle();**",
+      "Shape shape = new Shape(); / Shape shape = new Shape();"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "An interface reference can hold an object of any class that does what to the interface? / يمكن لمرجع الواجهة (Interface reference) أن يحمل كائناً من أي كلاس يقوم بماذا للواجهة؟",
+    "options": [
+      "Boxes the stream / يغلف المزيّة",
+      "**Implements the interface** / **يطبّق الواجهة (Implements)**",
+      "Chains the method / يسلسل الدالة",
+      "Extends the object / يوسّع الكائن"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If Printable is an interface and Document implements Printable, which code snippet is valid? / إذا كانت Printable واجهة وكان Document يطبق Printable، أي جزء كود يعتبر صحيحاً؟",
+    "options": [
+      "**Printable doc = new Document();** / **Printable doc = new Document();**",
+      "Document doc = new IntStream(); / Document doc = new IntStream();",
+      "Document doc = new Printable(); / Document doc = new Printable();",
+      "Printable doc = new Printable(); / Printable doc = new Printable();"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "When an interface extends another interface, what is the relationship between the extended interface and the original one? / عندما توسّع واجهةٌ واجهةً أخرى، ما هي العلاقة بين الواجهة المُمَدَّدة والواجهة الأصلية؟",
+    "options": [
+      "**Child interface extends parent interface** / **الواجهة الابن توسع الواجهة الأب**",
+      "Child interface overrides object / الواجهة الابن تتجاوز الكائن",
+      "Abstract class implements stream / الكلاس المجرد يطبق المزيّة",
+      "Parent interface boxes child / الواجهة الأب تغلف الابن"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If ColorPrintable extends Printable, what methods must a class implementing ColorPrintable provide? / إذا كانت ColorPrintable توسع Printable، ما الدوال التي يجب أن يقدمها الكلاس الذي يطبق ColorPrintable؟",
+    "options": [
+      "Only primitive methods / الدوال الأولية فقط",
+      "Only methods of the child interface / دوال الواجهة الابن فقط",
+      "**Methods of both parent and child interfaces** / **دوال كل من الواجهتين الأب والابن**",
+      "Only methods of the parent interface / دوال الواجهة الأب فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What Java keyword is used by an interface to inherit from another interface? / ما هي الكلمة المفتاحية في جافا التي تُستخدم بواسطة واجهة للوراثة من واجهة أخرى؟",
+    "options": [
+      "implements / تطبيق (implements)",
+      "**extends** / **توسيع (extends)**",
+      "override / تجاوز (override)",
+      "abstract / مجرد (abstract)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If Class A is parent of Class B, and Class B is parent of Class C, Class A is called what in relation to Class C? / إذا كان الكلاس A أب للكلاس B، وكان الكلاس B أب للكلاس C، ماذا يسمى الكلاس A بالنسبة للكلاس C؟",
+    "options": [
+      "Abstract interface / واجهة مجردة",
+      "Derived class / كلاس مشتق",
+      "Primitive reference / مرجع أولي",
+      "**Grandparent class** / **كلاس الجد (Grandparent class)**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can a Grandparent class reference hold an object of a Child (grandchild) class? / هل يمكن لمرجع كلاس الجد أن يحمل كائناً من كلاس الحفيد (Child)؟",
+    "options": [
+      "No, it causes compilation error / لا، يسبب خطأ تجميع",
+      "Only if it is an IntStream / فقط إذا كان IntStream",
+      "**Yes, grandparent reference can hold child object** / **نعم، مرجع الجد يمكنه حمل كائن الحفيد**",
+      "Only if boxing is disabled / فقط إذا تم تعطيل التغليف"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following describes an intermediate operation in Java Streams? / أي مما يلي يصف العملية المتوسطة (Intermediate operation) في مزيّات جافا؟",
+    "options": [
+      "**map** / **خريطة (map)**",
+      "count / عد (count)",
+      "forEach / لكل عنصر (forEach)",
+      "collect / تجميع (collect)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary benefit of completing stream operations in a single chain? / ما هي الفائدة الرئيسية من إكمال عمليات المزيّة في سلسلة واحدة (single chain)؟",
+    "options": [
+      "To override base methods / لتجاوز الدوال الأساسية",
+      "To convert objects to primitive streams / لتحويل الكائنات إلى مزيّات أولية",
+      "To force abstract instantiation / لفرض إنشاء كائن مجرد",
+      "**To demonstrate stream power and efficiency** / **لإظهار قوة وكفاءة المزيّة**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What happens if you try to modify the state during a stream operation inappropriately? / ماذا يحدث إذا حاولت تعديل الحالة (state) أثناء عملية المزيّة بشكل غير مناسب؟",
+    "options": [
+      "It finishes the pipeline immediately / ينهي الأنبوب فوراً",
+      "**It creates side effects and thread issues** / **ينتج عنه آثار جانبية ومشاكل في الخيوط**",
+      "It automatically converts to IntStream / يتحول تلقائياً إلى IntStream",
+      "It makes the class abstract / يجعل الكلاس مجرداً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In Java object reference hierarchy, which type is at the top of all reference types? / في تسلسل مراجع الكائنات في جافا، أي نوع يوجد في قمة جميع أنواع المراجع؟",
+    "options": [
+      "**Object class** / **كلاس Object**",
+      "Printable interface / واجهة Printable",
+      "IntStream type / نوع IntStream",
+      "Abstract class / الكلاس المجرد"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which statement best describes a concrete class? / أي عبارة توصف الكلاس الملموس (Concrete class) بشكل أفضل؟",
+    "options": [
+      "A class that cannot be instantiated / كلاس لا يمكن إنشاء كائن منه",
+      "A stream with no terminal operation / مزيّة بدون عملية نهائية",
+      "An interface with default methods only / واجهة تحتوي على دوال افتراضية فقط",
+      "**A class that provides full implementation for all its methods** / **كلاس يقدم تنفيذاً كاملاً لجميع دواله**"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What keyword is used by a class to declare that it fulfills an interface contract? / ما الكلمة المفتاحية التي يستخدمها الكلاس ليعلن أنه يطبق عقد الواجهة؟",
+    "options": [
+      "extends / توسيع (extends)",
+      "abstract / مجرد (abstract)",
+      "**implements** / **تطبيق (implements)**",
+      "interface / واجهة (interface)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When a subclass method redefines a method from its superclass with the exact same signature, what is this called? / عندما تقوم دالة في كلاس فرعي بإعادة تعريف دالة من الكلاس الأعلى بنفس التوقيع تماماً، ماذا يُسمى ذلك؟",
+    "options": [
+      "Primitive casting / تحويل أولي",
+      "**Method overriding** / **تجاوز الدالة (Method overriding)**",
+      "Stream chaining / تسلسل المزيّة",
+      "Boxing overhead / عبء التغليف"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why can an interface reference variable point to an instance of an implementing class? / لماذا يمكن لمتغير مرجع الواجهة أن يشير إلى نموذج من كلاس مُطبِّق للواجهة؟",
+    "options": [
+      "Because of primitive stream conversion / بسبب التحويل إلى مزيّات أولية",
+      "Because interfaces contain method bodies / لأن الواجهات تحتوي على متون الدوال",
+      "**Because the class guarantees type compatibility** / **لأن الكلاس يضمن توافق الأنواع**",
+      "Because it avoids forEach operations / لأنه يتجنب عمليات forEach"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "To finish processing a stream pipeline and obtain a final result or side-effect, what type of operation must be invoked? / لإنهاء معالجة أنبوب المزيّة والحصول على نتيجة نهائية أو أثر جانبي، ما نوع العملية التي يجب استدعاؤها؟",
+    "options": [
+      "Boxing operation / عملية تغليف",
+      "Abstract operation / عملية مجردة",
+      "Intermediate operation / عملية متوسطة",
+      "**Terminal operation** / **عملية نهائية (Terminal operation)**"
+    ],
+    "answer": 3
+  }
+    ]
