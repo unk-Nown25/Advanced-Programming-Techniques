@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Where does overloading occur in Java? / أين يحدث الـ Overloading في الجافا؟",
+    "options": [
+      "Within the same class / داخل نفس الكلاس",
+      "Outside all classes / خارج كل الكلاسات",
+      "Only across packages / فقط عبر الحزم",
+      "Only in sub-classes / فقط في الكلاسات الفرعية"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Where does overriding occur in Java? / أين يحدث الـ Overriding في الجافا؟",
+    "options": [
+      "Within the same class / داخل نفس الكلاس",
+      "Only in interfaces / فقط في الانترفيس",
+      "In sub-classes (inheritance) / في الكلاسات الفرعية (الوراثة)",
+      "In static contexts only / في السياق الاستاتيك فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Where is an abstract method implemented? / أين يتم عمل Implementation للدالة الـ Abstract؟",
+    "options": [
+      "In the final class / في الكلاس النهائي",
+      "In the same abstract class / في نفس الكلاس التجريدي",
+      "In the sub-class / في الكلاس الفرعي (sub-class)",
+      "In the main class / في الكلاس الرئيسي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Where is a concrete method defined? / أين يتم تعريف الدالة الـ Concrete؟",
+    "options": [
+      "Outside the class / خارج الكلاس",
+      "Only in interfaces / فقط في الانترفيس",
+      "In the abstract class / في الكلاس التجريدي (abstract class)",
+      "Only in sub-classes / فقط في الكلاسات الفرعية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Interface is considered a form of what? / يعتبر الانترفيس شكلاً من أشكال ماذا؟",
+    "options": [
+      "Polymorphism / تعدد الأشكال",
+      "Inheritance / الوراثة",
+      "Encapsulation / التغليف",
+      "Abstraction / التجريد (Abstraction)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can static methods be inherited in Java? / هل يمكن توريث الدوال الـ Static في الجافا؟",
+    "options": [
+      "Only if public / فقط إذا كانت عامة",
+      "No, static methods cannot be inherited / لا، الدوال الاستاتيك لا تورث",
+      "Only if abstract / فقط إذا كانت تجريدية",
+      "Yes, always / نعم، دائماً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can static methods be overloaded? / هل يمكن عمل Overload للدوال الـ Static؟",
+    "options": [
+      "Only in abstract classes / فقط في الكلاسات التجريدية",
+      "No, never / لا، أبدأ",
+      "Yes, within the same class / نعم، داخل نفس الكلاس",
+      "Only in interfaces / فقط في الانترفيس"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What must be changed in the signature to overload a method? / ما الذي يجب تغييره في الـ Signature لعمل Overload للدالة؟",
+    "options": [
+      "Only the return type / نوع الإرجاع فقط",
+      "Only the method name / اسم الدالة فقط",
+      "The parameters / البارامترات (Parameters)",
+      "The class name / اسم الكلاس"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can static methods be overridden? / هل يمكن عمل Overriding للدوال الـ Static؟",
+    "options": [
+      "No, static methods cannot be overridden / لا، لا يمكن عمل Overriding للدوال الاستاتيك",
+      "Yes, with final keyword / نعم، مع كلمة final",
+      "Yes, in sub-classes / نعم، في الكلاسات الفرعية",
+      "Only if protected / فقط إذا كانت protected"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why are static methods attached to the class and not the object? / لماذا ترتبط الدوال الـ Static بالكلاس وليس بالأوبجكت؟",
+    "options": [
+      "Because static methods belong to the class, not object / لأن الدوال الاستاتيك تابعة للكلاس وليس للأوبجكت",
+      "Because they are abstract / لأنها تجريدية",
+      "Because they are private / لأنها خفية",
+      "Because they return void / لأنها ترجع void"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens if a child class defines a static method with the same signature as parent's static method? / ماذا يحدث إذا عرف الكلاس الابن دالة static بنفس الـ signature الخاصة بـ static في الأب؟",
+    "options": [
+      "Method overriding / إعطاء تجاوز للدالة",
+      "Runtime Exception / استثناء في وقت التشغيل",
+      "Method hiding / إخفاء للدالة (Method hiding)",
+      "Compilation Error / خطأ في التجميع"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can final methods be overloaded? / هل يمكن عمل Overload للدوال الـ Final؟",
+    "options": [
+      "No, never / لا، أبداً",
+      "Only in interfaces / فقط في الانترفيس",
+      "Yes, like any method / نعم، مثل أي دالة أُخرى",
+      "Only in sub-classes / فقط في الكلاسات الفرعية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can final methods be overridden? / هل يمكن عمل Overriding للدوال الـ Final؟",
+    "options": [
+      "No, final methods cannot be overridden / لا، الدوال الـ final لا يمكن عمل overriding لها",
+      "Yes, using super / نعم، باستخدام super",
+      "Yes, in child class / نعم، في الكلاس الابن",
+      "Yes, if public / نعم، إذا كانت عامة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why do we make a method final in Java? / لماذا نجعل الدالة Final في الجافا؟",
+    "options": [
+      "To make it abstract / لجعلها تجريدية",
+      "To allow overriding / للسماح بـ Overriding",
+      "To hide it from package / لإخفائها عن الباكيج",
+      "To prevent modifications in sub-classes / لمنع تعديلها في الكلاسات الفرعية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What happens if you try to override a final method in a sub-class? / ماذا يحدث إذا حاولت عمل Overriding لدالة Final في كلاس فرعي؟",
+    "options": [
+      "It runs normally / تعمل بشكل طبيعي",
+      "Compiler error / خطأ في التجميع (Compiler error)",
+      "It hides the method / تخفي الدالة",
+      "It calls super / تنادي السوبر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In method overloading, can you change the access specifier/modifier? / في الـ Overloading، هل يمكن تغيير الـ Access Modifier؟",
+    "options": [
+      "Only from public to private / فقط من public إلى private",
+      "Yes, allowed in overloading / نعم، مسموح به في Overloading",
+      "Only in abstract class / فقط في الكلاس التجريدي",
+      "No, it must remain same / لا، يجب أن يظل كما هو"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What elements can be changed during method overloading? / ما العناصر التي يمكن تغييرها أثناء عمل Method Overloading؟",
+    "options": [
+      "Class name and package / اسم الكلاس والحزمة",
+      "Only method name / اسم الدالة فقط",
+      "Nothing can change / لا شيء يمكن تغييره",
+      "Access modifier, return type, and parameters / محدد الوصول، نوع الإرجاع، والبارامترات"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can you call a private overloaded method outside its class? / هل يمكنك استدعاء دالة private حصل لها overload من خارج الكلاس؟",
+    "options": [
+      "Yes, anytime / نعم، في أي وقت",
+      "Yes, if static / نعم، إذا كانت static",
+      "No, private methods cannot be called outside class / لا، الدوال الخاصة لا تستدعى من خارج الكلاس",
+      "Yes, via child class / نعم، عن طريق الكلاس الابن"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What rule applies to access modifiers in method overriding? / ما هي القاعدة الخاصة بمحددات الوصول في الـ Method Overriding؟",
+    "options": [
+      "Must be more restrictive / يجب أن تكون أكثر تقييداً",
+      "Must be static / يجب أن تكون static",
+      "Must be less restrictive (or equal) / يجب أن تكون أقل تقييداً (أو مساوية)",
+      "Must be private / يجب أن تكون private"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "If a method is protected in superclass, what can its access modifier be in subclass overriding? / إذا كانت الدالة protected في الكلاس الأب، ماذا يمكن أن يكون محدد وصولها في الكلاس الابن عند الـ Overriding؟",
+    "options": [
+      "Protected or Public / إما Protected أو Public",
+      "Strictly private / private بحت",
+      "Private only / فقط Private",
+      "Default package-private only / فقط Default"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "If a method is public in superclass and given protected access in subclass during overriding, what happens? / إذا كانت الدالة public في الكلاس الأب وجعلتها protected في الكلاس الابن عند الـ Overriding، ماذا يحدث؟",
+    "options": [
+      "Warning only / تحذير فقط",
+      "Runs successfully / تعمل بنجاح",
+      "Compiler error (cannot reduce visibility) / خطأ تجميع (لا يمكن تقليل الرؤية)",
+      "Converts to static / تتحول إلى static"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why must the overridden method's access modifier be less restrictive? / لماذا يجب أن يكون محدد الوصول للدالة المعادة (Overridden) أقل تقييداً؟",
+    "options": [
+      "To allow static calls / للسماح بالاستدعاءات الاستاتيك",
+      "To improve execution speed / لتحسين سرعة التنفيذ",
+      "To guarantee access level as defined in superclass / لضمان الوصول كما هو معرف في الكلاس الأب",
+      "To prevent memory leaks / لمنع تسرب الذاكرة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is represented by 'T' in abstract class Container<T>? / ماذا يمثل 'T' في الكلاس التجريدي Container<T>؟",
+    "options": [
+      "A final constant / ثوابت نهائية",
+      "A Generic Type / نوع جينيريك (Generic Type)",
+      "A primitive float / نوع أساسي float",
+      "A fixed integer / رقم صحيح ثابت"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "When a subclass extends Container<String>, what replaces the type 'T'? / عندما يمتد كلاس فرعي من Container<String>، ما الذي يستبدل النوع 'T'؟",
+    "options": [
+      "String / النوع النصي String",
+      "Void / لا شيء",
+      "Object / الأوبجكت العام",
+      "Integer / الأرقام الصحيحة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In a generic subclass constructor, what keyword MUST be called to invoke superclass constructor? / في دالة البناء للكلاس الفرعي الجينيريك، ما هي الكلمة المفتاحية التي يجب استخدامها لاستدعاء بناء الكلاس الأب؟",
+    "options": [
+      "parent / الكلمة المفتاحية parent",
+      "this / الكلمة المفتاحية this",
+      "super / الكلمة المفتاحية super",
+      "extends / الكلمة المفتاحية extends"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can an abstract class contain private attributes and concrete methods? / هل يمكن للكلاس التجريدي (Abstract Class) أن يحتوي على خصائص private ودوال concrete؟",
+    "options": [
+      "Only in interfaces / فقط في الانترفيس",
+      "Only if static / فقط إذا كانت static",
+      "Yes, abstract classes can have private attributes and concrete methods / نعم، يمكنه احتواء خصائص private ودوال concrete",
+      "No, abstract classes only have abstract methods / لا، يحتوي على abstract فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What are classes defined inside another class called? / ماذا تسمى الكلاسات المعرفة داخل كلاس آخر؟",
+    "options": [
+      "Outer classes / الكلاسات الخارجية",
+      "Nested classes / الكلاسات المتداخلة (Nested classes)",
+      "Sub classes / الكلاسات الفرعية",
+      "Super classes / الكلاسات الفائقة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can an abstract class contain a nested class inside it? / هل يمكن للكلاس التجريدي (Abstract class) أن يحتوي على كلاس متداخل (Nested class) داخله؟",
+    "options": [
+      "Only if final / فقط إذا كان final",
+      "Yes, an abstract class can contain a nested class / نعم، يمكن للكلاس التجريدي احتواء كلاس متداخل",
+      "Only if interface / فقط إذا كان interface",
+      "No, prohibited / لا، غير مسموح"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is required when a subclass extends an abstract class containing an abstract method displayInfo()? / ما المطلوب عندما يمتد كلاس فرعي من كلاس تجريدي يحتوي على دالة تجريدية displayInfo()؟",
+    "options": [
+      "Must delete displayInfo() / حذف الدالة",
+      "Nothing is required / لا شيء مطلوب",
+      "Must override/implement displayInfo() in subclass / يجب إعادة تعريف/تطبيق displayInfo() في الكلاس الفرعي",
+      "Must make displayInfo() private / جعلها private"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How do you instantiate a non-static nested class object from outside? / كيف تقوم بإنشاء أوبجكت من كلاس متداخل غير استاتيك من الخارج؟",
+    "options": [
+      "It is impossible / هذا مستحيل",
+      "Using outer class instance: outerObj.new NestedClass() / باستخدام كائن الكلاس الخارجي: outerObj.new NestedClass()",
+      "Through static method only / عبر دالة static فقط",
+      "Directly using standard new operator / باستخدام new فقط مباشرة"
+    ],
+    "answer": 1
+  }
+]
