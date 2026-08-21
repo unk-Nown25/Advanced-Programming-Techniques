@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is a Functional Interface in Java? / ما هو الإنترفيس الوظيفي (Functional Interface) في جافا؟",
+    "options": [
+      "An interface that contains multiple abstract methods / إنترفيس يحتوي على عدة دوال تجريدية",
+      "An interface with no methods at all / إنترفيس لا يحتوي على أي دوال",
+      "An interface that contains only one abstract method / إنترفيس يحتوي على دالة تجريدية واحدة فقط",
+      "An interface that contains only static methods / إنترفيس يحتوي على دوال ساكنة فقط"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which Java version introduced Lambda Expressions and Functional Interfaces? / ما هو إصدار جافا الذي قدم تعبيرات لامدا (Lambda Expressions) والإنترفيس الوظيفي؟",
+    "options": [
+      "Java 11 / جافا 11",
+      "Java 9 / جافا 9",
+      "Java 8 / جافا 8",
+      "Java 7 / جافا 7"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How are default methods defined in an interface in Java 8+? / كيف يتم تعريف الدوال الافتراضية (default methods) في الإنترفيس في جافا 8 فما فوق؟",
+    "options": [
+      "Using the abstract keyword / باستخدام الكلمة المفتاحية abstract",
+      "Using the default keyword with a method body inside the interface / باستخدام الكلمة المفتاحية default مع جسم للدالة داخل الإنترفيس",
+      "Using the static keyword / باستخدام الكلمة المفتاحية static",
+      "Using the private keyword without a body / باستخدام الكلمة المفتاحية private بدون جسم للدالة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Java version allowed private methods inside an interface? / ما هو إصدار جافا الذي سمح بوجود دوال خاصة (private methods) داخل الإنترفيس؟",
+    "options": [
+      "Java 10 / جافا 10",
+      "Java 7 / جافا 7",
+      "Java 9 / جافا 9",
+      "Java 8 / جافا 8"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What problem arises when a class implements two interfaces containing default methods with the exact same signature? / ما المشكلة التي تظهر عندما يطبق كلاس اثنين من الإنترفيس يحتويان على دوال افتراضية بنفس التوقيع (signature)؟",
+    "options": [
+      "Ambiguity Error (Diamond Problem) / خطأ الغموض (مشكلة الماسية)",
+      "StackOverflowError / خطأ طفح المكدس",
+      "NullPointerException / استثناء المؤشر الفارغ",
+      "Diamond Problem / مشكلة الماسية (Diamond Problem)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How can a class resolve ambiguity when two interfaces have the same default method? / كيف يمكن للكلاس حل الغموض عندما يمتلك إنترفيسان نفس الدالة الافتراضية؟",
+    "options": [
+      "By renaming the method in the class / بتغيير اسم الدالة في الكلاس",
+      "By overriding the method using InterfaceName.super.methodName() / عبر إعادة تعريف الدالة واستدعائها باستخدام InterfaceName.super.methodName()",
+      "By using the static keyword in the class / باستخدام الكلمة المفتاحية static في الكلاس",
+      "By making the class abstract / بجعل الكلاس تجريدياً (abstract)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is an Anonymous Class in Java? / ما هو الكلاس المجهول (Anonymous Class) في جافا؟",
+    "options": [
+      "A class that cannot inherit other classes / كلاس لا يمكنه وراثة كلاسات أخرى",
+      "A class that has no constructors / كلاس لا يحتوي على دالة بناء",
+      "An inner class declared without a name / كلاس داخلي يتم الإعلان عنه بدون اسم",
+      "A class with no name defined and instantiated at the same time / كلاس بدون اسم يتم تعريفه وإنشاء كائن منه في نفس الوقت"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is an example of a built-in Functional Interface in Java? / أي مما يلي يُعد مثالاً على إنترفيس وظيفي جاهز في جافا؟",
+    "options": [
+      "List / ليست (List)",
+      "Runnable / رانابل (Runnable)",
+      "Serializable / سيريالايزابل (Serializable)",
+      "Cloneable / كلونابل (Cloneable)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary abstract method in the Runnable interface? / ما هي الدالة التجريدية الرئيسية في الإنترفيس Runnable؟",
+    "options": [
+      "start() / الدالة start()",
+      "main() / الدالة main()",
+      "run() / الدالة run()",
+      "execute() / الدالة execute()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does Lambda Expression provide in Java? / ماذا توفر تعبيرات لامدا (Lambda Expressions) في جافا؟",
+    "options": [
+      "A mechanism to handle exceptions automatically / آلية لمعالجة الاستثناءات تلقائياً",
+      "A way to create multiple inheritance of classes / طريقة لإنشاء وراثة متعددة للكلاسات",
+      "A clear and concise way to represent one method interface using an expression / طريقة واضحة ومختصرة لتمثيل إنترفيس ذو دالة واحدة باستخدام تعبير",
+      "A concise syntax to implement functional interfaces / بناء برمجي مختصر لتطبيق الإنترفيس الوظيفي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What concept refers to reducing repetitive and verbose code in Java? / ما هو المفهوم الذي يشير إلى تقليل الكود المكرر والمطول في جافا؟",
+    "options": [
+      "Reducing Boilerplate Code / تقليل كود البويلربليت (Boilerplate Code)",
+      "Encapsulation / الكبسلة",
+      "Garbage Collection / تجميع القمامة",
+      "Polymorphism / تعدد الأشكال"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which operator is used in Lambda Expressions in Java? / ما هو الرمز (العمود) المستخدم في تعبيرات لامدا في جافا؟",
+    "options": [
+      "=> / الرمز =>",
+      ":: / الرمز ::",
+      "-> / السهم ->",
+      "-> / الرمز ->"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is Method Reference represented by in Java? / بمَ يُرمز لمرجع الدالة (Method Reference) في جافا؟",
+    "options": [
+      ":: / النقطتان المزدوجتان ::",
+      ". / النقطة .",
+      "@ / الرمز @",
+      "-> / السهم ->"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the main advantage of Method Reference over Lambda Expressions? / ما هي الفائدة الرئيسية لمرجع الدالة مقارنة بتعبيرات لامدا؟",
+    "options": [
+      "It makes the code even shorter and more readable when referring directly to an existing method / يجعل الكود أقصر وأكثر قراءة عند الإشارة المباشرة لدالة موجودة",
+      "It allows modifying private variables / يسمح بتعديل المتغيرات الخاصة",
+      "It executes faster at runtime / ينفذ بشكل أسرع وقت التشغيل",
+      "It prevents memory leaks / يمنع تسرب الذاكرة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Can an interface in Java 8 contain static methods with implementation? / هل يمكن للإنترفيس في جافا 8 أن يحتوي على دوال ساكنة (static methods) مع تنفيذها؟",
+    "options": [
+      "No / لا",
+      "Yes / نعم",
+      "Only if private / فقط إذا كانت خاصة",
+      "Only in Java 9 / فقط في جافا 9"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How are static methods of an interface called in Java? / كيف يتم استدعاء الدوال الساكنة الخاصة بإنترفيس في جافا؟",
+    "options": [
+      "Using the super keyword / باستخدام الكلمة المفتاحية super",
+      "Through an instance of the implementing class / عن طريق كائن من الكلاس المنفذ",
+      "Using this keyword / باستخدام الكلمة المفتاحية this",
+      "Through the Interface name directly (InterfaceName.methodName()) / عن طريق اسم الإنترفيس مباشرة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the access modifier of methods declared in an interface by default (before Java 9)? / ما هو المحدّد الوصول الافتراضي للدوال المعلقة في الإنترفيس (قبل جافا 9)؟",
+    "options": [
+      "private / خاص (private)",
+      "package-private / على مستوى الحزمة",
+      "public abstract / عام وتجريدي (public abstract)",
+      "protected / محمي (protected)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why do we use private methods inside an interface in Java 9? / لماذا نستخدم الدوال الخاصة (private methods) داخل الإنترفيس في جافا 9؟",
+    "options": [
+      "To share helper code between multiple default methods inside the interface / لمشاركة كود مساعد بين عدة دوال افتراضية داخل الإنترفيس",
+      "To allow external classes to override them / للسماح للكلاسات الخارجية بإعادة تعريفها",
+      "To instantiate the interface / لإنشاء كائنات من الإنترفيس",
+      "To encapsulate reusable code between default methods within the interface / لكبسلة وإعادة استخدام الكود بين الدوال الافتراضية داخل الإنترفيس"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which annotation is recommended to mark a Functional Interface? / ما هي الملاحظة التوضيحية (Annotation) الموصى بها لتعليم الإنترفيس الوظيفي؟",
+    "options": [
+      "@FunctionalInterface / الملاحظة @FunctionalInterface",
+      "@Interface / الملاحظة @Interface",
+      "@Deprecated / الملاحظة @Deprecated",
+      "@Override / الملاحظة @Override"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What happens if you add a second abstract method to an interface annotated with @FunctionalInterface? / ماذا يحدث إذا أضفت دالة تجريدية ثانية لإنترفيس معلم بـ @FunctionalInterface؟",
+    "options": [
+      "Compilation Error / خطأ في التجميع (Compilation Error)",
+      "It compiles with a warning / يتم التجميع مع تحذير",
+      "A Compile-time Error occurs / يحدث خطأ وقت التجميع (Compile-time Error)",
+      "Runtime Exception / استثناء وقت التشغيل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Can a Functional Interface contain default methods? / هل يمكن للإنترفيس الوظيفي أن يحتوي على دوال افتراضية (default methods)؟",
+    "options": [
+      "Yes, any number of default methods / نعم، أي عدد من الدوال الافتراضية",
+      "Only one default method / دالة افتراضية واحدة فقط",
+      "Only static methods / دوال ساكنة فقط",
+      "No, it cannot contain default methods / لا، لا يمكنه الاحتواء عليها"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is true regarding Abstract Classes vs Interfaces in Java 8+? / أي مما يلي صحيح بخصوص الكلاسات التجريدية والإنترفيس في جافا 8 فما فوق؟",
+    "options": [
+      "Abstract classes can have state (instance variables), while interfaces cannot store instance state / الكلاس التجريدي يمكنه امتلاك حالة (انستانس فايربلز) بينما الإنترفيس لا يخزن حالة الكائن",
+      "Abstract classes use 'extends', interfaces use 'implements' / الكلاس التجريدي يستخدم extends والإنترفيس يستخدم implements",
+      "All of the above / كل ما سبق صحيح",
+      "Interfaces support multiple inheritance, abstract classes do not / الإنترفيس يدعم الوراثة المتعددة والكلاس التجريدي لا يدعمها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In the context of GUI or Event Handling, what are Anonymous Classes commonly used for? / في سياق واجهات المستخدم أو معالجة الأحداث، فيما تُستخدم الكلاسات المجهولة عادةً؟",
+    "options": [
+      "Defining Event Listeners / تعريف مستمعي الأحداث (Event Listeners)",
+      "Database Connection / الاتصال بقواعد البيانات",
+      "Event Listeners (e.g., ActionListener, ClickListener) / مستمعي الأحداث مثل ActionListener و ClickListener",
+      "File I/O Stream / قراءة وكتابة الملفات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which built-in Functional Interface takes two arguments and returns a result? / أي إنترفيس وظيفي جاهز يأخذ وسيطين (two arguments) ويرجع نتيجة؟",
+    "options": [
+      "Function / فانكشن (Function)",
+      "Supplier / سبلاير (Supplier)",
+      "BiFunction / باي فانكشن (BiFunction)",
+      "Consumer / كونسيومر (Consumer)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which Functional Interface in java.util.function takes one argument and returns a boolean? / أي إنترفيس وظيفي يأخذ وسيطاً واحداً ويرجع قيمة بولية (boolean)؟",
+    "options": [
+      "Predicate / بريديكيت (Predicate)",
+      "Function / فانكشن (Function)",
+      "Consumer / كونسيومر (Consumer)",
+      "Predicate / البريديكيت (Predicate)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which Functional Interface takes a single argument and returns no result (void)? / أي إنترفيس وظيفي يأخذ وسيطاً واحداً ولا يرجع أي نتيجة (void)؟",
+    "options": [
+      "Supplier / سبلاير (Supplier)",
+      "Function / فانكشن (Function)",
+      "Consumer / كونسيومر (Consumer)",
+      "Predicate / بريديكيت (Predicate)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which Functional Interface takes no arguments and returns a result? / أي إنترفيس وظيفي لا يأخذ أي وسيط ويرجع نتيجة؟",
+    "options": [
+      "Supplier / المزود (Supplier)",
+      "Function / فانكشن (Function)",
+      "Consumer / كونسيومر (Consumer)",
+      "Supplier / سبلاير (Supplier)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How many abstract methods can an Anonymous Class implement directly during instantiation? / كم عدد الدوال التجريدية التي يمكن لكلاس مجهول تطبيقها مباشرة عند إنشائه؟",
+    "options": [
+      "None / لا شيء",
+      "Methods from one interface or abstract class / الدوال الخاصة بإنترفيس واحد أو كلاس تجريدي واحد",
+      "Unlimited number / عدد غير محدود",
+      "Multiple interfaces at once / عدة إنترفيسات في وقت واحد"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary usage of Lambda Expressions? / ما هو الاستخدام الرئيسي لتعبيرات لامدا؟",
+    "options": [
+      "All of the above / كل ما سبق صحيح",
+      "To avoid creating named classes for small tasks / لتجنب إنشاء كلاسات مسمّاة للمهام الصغيرة",
+      "To pass code as data/arguments to methods / لتمرير الكود كبيانات أو كوسطاء للدوال",
+      "To implement functional interfaces concisely / لتطبيق الإنترفيس الوظيفي بشكل مختصر"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the relationship between Lambda Expressions and Anonymous Classes? / ما هي العلاقة بين تعبيرات لامدا والكلاسات المجهولة؟",
+    "options": [
+      "Lambda expression can implement abstract classes / تعبير لامدا يمكنه تطبيق الكلاسات التجريدية",
+      "Anonymous classes cannot access outer scope variables / الكلاسات المجهولة لا يمكنها الوصول لمتغيرات النطاق الخارجي",
+      "Lambda expression can replace an anonymous class if it implements a functional interface / تعبير لامدا يمكنه استبدال الكلاس المجهول إذا كان يطبق إنترفيس وظيفي",
+      "They are identical in bytecode generation / هما متطابقان تماماً في توليد البايت كود"
+    ],
+    "answer": 2
+  }
+]
