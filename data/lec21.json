@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What defines the visibility of classes, methods, and variables in Java? / ما الذي يحدد إمكانية رؤية الكلاسات والميثودز والمتغيرات في جافا؟",
+    "options": [
+      "Exception Handling / معالجة الاستثناءات",
+      "Access Modifiers / مغيرات الوصول",
+      "Unit Testing / اختبار الوحدات",
+      "Stream API / واجهة تدفق البيانات"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which access modifier allows access from anywhere in the application? / أي مغير وصول يسمح بالوصول من أي مكان في التطبيق؟",
+    "options": [
+      "Default / افتراضي",
+      "Protected / محمي",
+      "Public / عام",
+      "Private / خاص"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Where are members declared as 'private' accessible from? / من أين يمكن الوصول إلى الأعضاء المعرفين كـ 'private'؟",
+    "options": [
+      "Subclasses only / الكلاسات الابن فقط",
+      "Within the same class only / داخل نفس الكلاس فقط",
+      "Any package / أي حزمة",
+      "Entire application / التطبيق بالكامل"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is another name for the default access modifier? / ما هو الاسم الآخر لمغير الوصول الافتراضي Default؟",
+    "options": [
+      "Public access / الوصول العام",
+      "Package-private / خاص بالحزمة",
+      "Global access / الوصول الشامل",
+      "Protected access / الوصول المحمي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does the 'this' keyword refer to in Java? / إلى ماذا تشير الكلمة المفتاحية 'this' في جافا؟",
+    "options": [
+      "Super class instance / كائن الكلاس الأب",
+      "Current instance of the class / الكائن الحالي للكلاس",
+      "Static method / الميثود الثابتة",
+      "Package name / اسم الحزمة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What problem does the 'this' keyword help solve? / ما هي المشكلة التي تساعد الكلمة المفتاحية 'this' في حلها؟",
+    "options": [
+      "File reading errors / أخطاء قراءة الملفات",
+      "Exception handling / معالجة الاستثناءات",
+      "Array overflow / طفح مصفوفة البيانات",
+      "Naming conflicts / تضارب الأسماء المتشابهة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does the 'super' keyword allow you to access? / ما الذي تسمح لك الكلمة المفتاحية 'super' بالوصول إليه؟",
+    "options": [
+      "Stream objects / كائنات التدفق",
+      "Private variables of same class / المتغيرات الخاصة بنفس الكلاس",
+      "Utility classes / كلاسات الأدوات الخدمية",
+      "Super class members / أعضاء الكلاس الأب"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does API stand for in Java programming? / إلى ماذا يشير الاختصار API في برمجة جافا؟",
+    "options": [
+      "Advanced Programming Interface / واجهة البرمجة المتقدمة",
+      "Automated Program Instruction / تعليمات البرامج المؤتمتة",
+      "Array Processing Integration / تكامل معالجة المصفوفات",
+      "Application Programming Interface / واجهة برمجة التطبيقات"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does Java API provide to developers? / ما الذي تقدمه Java API للمطورين؟",
+    "options": [
+      "Predefined functions / وظائف معرفة مسبقاً",
+      "Database servers / خوادم قواعد البيانات",
+      "Operating system core / نواة نظام التشغيل",
+      "Hardware drivers / تعريفات الأجهزة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How does using Java API benefit the application development process? / كيف يفيد استخدام Java API عملية تطوير التطبيقات؟",
+    "options": [
+      "Increases code complexity / يزيد تعقيد الكود",
+      "Simplifies development / يبسط عملية التطوير",
+      "Slows down execution speed / يبطئ سرعة التنفيذ",
+      "Requires rewriting core classes / يتطلب إعادة كتابة الكلاسات الأساسية"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How are classes organized inside the Java API? / كيف يتم تنظيم الكلاسات داخل Java API؟",
+    "options": [
+      "Inside text documents / داخل مستندات نصية",
+      "In single flat files / في ملفات مسطحة منفردة",
+      "Into packages / مقسمة إلى حزم",
+      "Randomly arranged / مرتبة عشوائياً"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which package contains fundamental core classes like Object and String? / أي حزمة تحتوي على الكلاسات الأساسية مثل Object و String؟",
+    "options": [
+      "java.util / حزمة الأدوات",
+      "java.io / حزمة الإدخال والإخراج",
+      "java.concurrent / حزمة التزامن",
+      "java.lang / حزمة اللغة الأساسية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which class is the superclass of all other classes in Java? / أي كلاس هو الكلاس الأب لجميع الكلاسات في جافا؟",
+    "options": [
+      "String / كلاس النصوص",
+      "ArrayList / كلاس القوائم الديناميكية",
+      "Math / كلاس الرياضيات",
+      "Object / كلاس الكائنات الأساسي"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why is the String class considered immutable in Java? / لماذا يعتبر كلاس String غير قابل للتعديل (Immutable) في جافا؟",
+    "options": [
+      "It has no methods / لا يحتوي على أي ميثودز",
+      "Values cannot be modified / لا يمكن تعديل قيمه بعد إنشائه",
+      "It belongs to java.io package / ينتمي إلى حزمة الإدخال والإخراج",
+      "It is a primitive data type / هو نوع بيانات أولي"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which package includes utility classes such as ArrayList and HashMap? / أي حزمة تتضمن كلاسات أدوات مساعدة مثل ArrayList و HashMap؟",
+    "options": [
+      "java.util / حزمة الأدوات",
+      "java.lang / حزمة اللغة",
+      "java.io / حزمة الإدخال والإخراج",
+      "java.stream / حزمة التدفقات"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is a main feature of ArrayList compared to standard arrays? / ما هي الميزة الرئيسية لـ ArrayList مقارنة بالمصفوفات العادية؟",
+    "options": [
+      "Resizable size / حجم قابل للتغيير والتعديل",
+      "Fixed size / حجم ثابت",
+      "Only stores integers / تخزن أعداداً صحيحة فقط",
+      "Read-only access / وصول للقراءة فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How does HashMap store elements? / كيف تقوم الـ HashMap بتخزين العناصر؟",
+    "options": [
+      "Unordered lists only / قوائم غير مرتبة فقط",
+      "Single sequential values / قيم متسلسلة فردية",
+      "Binary digits / أرقام ثنائية",
+      "Key-value pairs / أزواج من المفاتيح والقيم"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which Java package provides functionality for input and output operations? / أي حزمة جافا توفر وظائف لعمليات الإدخال والإخراج؟",
+    "options": [
+      "java.lang / حزمة اللغة",
+      "java.concurrent / حزمة التزامن",
+      "java.util / حزمة الأدوات",
+      "java.io / حزمة الإدخال والإخراج"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which class is used to perform file reading operations? / أي كلاس يُستخدم للقيام بعمليات قراءة الملفات؟",
+    "options": [
+      "FileWriter / كلاس كاتب الملفات",
+      "FileReader / كلاس قارئ الملفات",
+      "Object / كلاس الكائن",
+      "ArrayList / كلاس القوائم"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary purpose of Java Streams API? / ما هو الهدف الرئيسي من Stream API في جافا؟",
+    "options": [
+      "Sequence processing of objects / معالجة التسلسل للكائنات",
+      "Modifying private fields / تعديل الحقول الخاصة",
+      "Managing database tables / إدارة جداول قواعد البيانات",
+      "Compiling source code / تجميع الكود المصدري"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which Stream method is used to filter elements based on a condition? / أي ميثود في Stream تُستخدم لتصفية العناصر بناءً على شرط معين؟",
+    "options": [
+      "write / ميثود الكتابة",
+      "add / ميثود الإضافة",
+      "sum / ميثود الجمع",
+      "filter / ميثود الفلترة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What software design problem does using Java API help avoid? / ما هي مشكلة تصميم البرمجيات التي يساعد استخدام Java API على تجنبها؟",
+    "options": [
+      "Class instantiation / إنشاء كائنات الكلاس",
+      "Object inheritance / وراثة الكائنات",
+      "Reinventing the wheel / إعادة اختراع العجلة",
+      "Writing unit tests / كتابة اختبارات الوحدات"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How does Java API impact code maintenance? / كيف تؤثر Java API على صيانه الكود المصدري؟",
+    "options": [
+      "Makes maintenance impossible / تجعل الصيانة مستحيلة",
+      "Prevents code reuse / تمنع إعادة استخدام الكود",
+      "Increases bug creation / تزيد من خلق الأخطاء",
+      "Enhances maintainability / تحسن قابلية الصيانة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is a potential disadvantage for beginners when learning Java API? / ما هو العيب المحتمل للمبتدئين عند تعلم Java API؟",
+    "options": [
+      "Predefined testing classes / كلاسات اختبار معرفة مسبقاً",
+      "Steep learning curve / منحنى تعلم صعب/حاد",
+      "Faster code execution / تنفيذ أسرع للكود",
+      "Standardized best practices / ممارسات قياسية موحدة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What issue may occur if Java API is overused or misused? / ما هي المشكلة التي قد تحدث عند الإفراط أو الاستخدام الخاطئ لـ Java API؟",
+    "options": [
+      "Reduced memory usage / تقليل استخدام الذاكرة",
+      "Performance overhead / عبء وتأثير على الأداء",
+      "Automatic code generation / توليد الكود تلقائياً",
+      "Instant compilation / التجميع الفوري"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why should deprecated APIs be avoided in modern Java applications? / لماذا يجب تجنب استخدام الـ APIs القديمة (Deprecated) في تطبيقات جافا الحديثة؟",
+    "options": [
+      "They improve code readability / تحسن من قراءة الكود",
+      "They increase execution speed / تزيد من سرعة التنفيذ",
+      "They provide better security / توفر أماناً أفضل",
+      "May cause compatibility issues / قد تسبب مشاكل في التوافق"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What risk arises when performing file I/O operations without exception handling? / ما هو الخطر الناجم عن القيام بعمليات الإدخال/الإخراج للملفات بدون معالجة الاستثناءات؟",
+    "options": [
+      "Increased storage capacity / زيادة سعة التخزين",
+      "Faster file loading / تحميل أسرع للملف",
+      "Automatic file backup / نسخ احتياطي تلقائي للملف",
+      "Runtime errors / أخطاء وقت التشغيل"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is recommended before using any Java API class or method? / ما هو الإجراء الموصى به قبل استخدام أي كلاس أو ميثود من Java API؟",
+    "options": [
+      "Disable error logging / تعطيل تسجيل الأخطاء",
+      "Rewrite the source code / إعادة كتابة الكود المصدري",
+      "Read API documentation / قراءة وثائق ومستندات الـ API",
+      "Delete old packages / حذف الحزم القديمة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why is writing unit tests recommended when integrating Java APIs? / لماذا يُوصى بكتابة اختبارات الوحدات (Unit tests) عند دمج الـ Java APIs؟",
+    "options": [
+      "Disables access modifiers / لتعطيل مغيرات الوصول",
+      "Ensures code works correctly / لضمان عمل الكود بشكل صحيح",
+      "Removes the need for packages / لإلغاء الحاجة للحزم",
+      "Increases file size / لزيادة حجم الملف"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which practice helps maintain code quality and standards in Java? / أي ممارسة تساعد في الحفاظ على جودة الكود والمعايير القياسية في جافا؟",
+    "options": [
+      "Omitting exception handling / إغفال معالجة الاستثناءات",
+      "Using outdated methods / استخدام الطرق القديمة والمهجورة",
+      "Ignoring documentation / إهمال المستندات والوثائق",
+      "Standardization and best practices / التقييس واتباع أفضل الممارسات"
+    ],
+    "answer": 3
+  }
+]
