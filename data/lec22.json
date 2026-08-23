@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the main definition of a package in Java?\nما هو التعريف الأساسي للـ Package في الجافا؟",
+    "options": [
+      "A special function used to execute Java programs / دالة خاصة تُستخدم لتنفيذ برامج الجافا",
+      "A physical database used to store application data / قاعدة بيانات فيزيائية تُستخدم لتخزين بيانات التطبيق",
+      "A compiler tool used to convert Java code to C++ / أداة مترجم تُستخدم لتحويل كود الجافا إلى C++",
+      "A namespace that organizes a set of related classes and interfaces / مساحة أسماء تنظم مجموعة من الكلاسات والواجهات المترابطة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which key feature of packages prevents naming conflicts?\nأي ميزة رئيسية للـ Packages تمنع تضارب الأسماء؟",
+    "options": [
+      "Converting errors into runtime warnings / تحويل الأخطاء إلى تحذيرات وقت التشغيل",
+      "Encrypting the source code files / تشفير ملفات الكود المصدري",
+      "Preventing naming conflicts by providing a namespace / منع تضارب الأسماء عن طريق توفير مساحة أسماء (Namespace)",
+      "Increasing code execution speed automatically / زيادة سرعة تنفيذ الكود تلقائيًا"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Packages control access to classes using which of the following?\nتتحكم الـ Packages في الوصول إلى الكلاسات باستخدام أي مما يلي؟",
+    "options": [
+      "Database queries / استعلامات قاعدة البيانات / Database queries",
+      "Loop statements / جمل التكرار / Loop statements",
+      "Access modifiers / محددات الوصول / Access modifiers",
+      "Arithmetic operators / المعاملات الحسابية / Arithmetic operators"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What are the two main types of packages mentioned in Java?\nما هما النوعان الأساسيان للـ Packages المذكوران في الجافا؟",
+    "options": [
+      "Private packages and Public packages / حزم خاصة (Private) وحزم عامة (Public)",
+      "Built-in packages and User-defined packages / حزم جاهزة (Built-in) وحزم معرفة من المستخدم (User-defined)",
+      "Local packages and Remote packages / حزم محلية (Local) وحزم بعيدة (Remote)",
+      "Static packages and Dynamic packages / حزم ثابتة (Static) وحزم ديناميكية (Dynamic)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to create a package in Java?\nما هي الكلمة المفتاحية المستخدمة لإنشاء Package في الجافا؟",
+    "options": [
+      "namespace / namespace",
+      "import / import",
+      "package / package",
+      "class / class"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword is used to include an existing package into a Java file?\nما هي الكلمة المفتاحية المستخدمة لإدراج Package موجودة داخل ملف جافا؟",
+    "options": [
+      "include / include",
+      "import / import",
+      "package / package",
+      "use / use"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which built-in package is used for networking support like Sockets and URLs?\nأي حزمة جاهزة تُستخدم لدعم الشبكات مثل Sockets و URLs؟",
+    "options": [
+      "java.util / java.util",
+      "java.net / java.net",
+      "java.io / java.io",
+      "java.sql / java.sql"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which built-in package is used for database connectivity and processing ResultSet?\nأي حزمة جاهزة تُستخدم للاتصال بقواعد البيانات ومعالجة ResultSet؟",
+    "options": [
+      "java.sql / java.sql",
+      "java.util / java.util",
+      "java.net / java.net",
+      "java.lang / java.lang"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary class or feature obtained when connecting to databases via java.sql?\nما هي النتيجة أو الفئة الأساسية التي نحصل عليها عند التعامل مع قواعد البيانات عبر java.sql؟",
+    "options": [
+      "Scanner / Scanner",
+      "ArrayList / ArrayList",
+      "Socket / Socket",
+      "ResultSet / ResultSet"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How do you define a sub-package inside another package in Java?\nكيف يتم تعريف sub-package داخل package أخرى في الجافا؟",
+    "options": [
+      "package existingPackage.subPackage; / package existingPackage.subPackage;",
+      "import package.subpackage; / import package.subpackage;",
+      "subpackage existingPackage->subPackage; / subpackage existingPackage->subPackage;",
+      "package existingPackage::subPackage; / package existingPackage::subPackage;"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which access modifier allows access from any other package?\nأي محدد وصول يسمح بالوصول من أي Package أخرى؟",
+    "options": [
+      "default / default",
+      "private / private",
+      "public / public",
+      "protected / protected"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which access modifier restricts access ONLY to the same class?\nأي محدد وصول يمنع الوصول ويكون محصورًا فقط داخل نفس الكلاس؟",
+    "options": [
+      "default / default",
+      "protected / protected",
+      "private / private",
+      "public / public"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What access level is applied if no access modifier keyword is specified?\nما هو مستوى الوصول الذي يتم تطبيقه في حال عدم كتابة أي كلمة مفتاحية لمحدد الوصول؟",
+    "options": [
+      "private / خاص / private",
+      "default (package-private) / الافتراضي / default (package-private)",
+      "protected / محمي / protected",
+      "public / عام / public"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the correct order of access levels from most accessible to most restrictive?\nما هو الترتيب الصحيح لمستويات الوصول من الأكثر إتاحة إلى الأكثر تقييدًا؟",
+    "options": [
+      "protected, public, default, private / protected, public, default, private",
+      "public, default, private, protected / public, default, private, protected",
+      "public, protected, default, private / public, protected, default, private",
+      "private, default, protected, public / private, default, protected, public"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is listed as an advantage of using packages?\nأي مما يلي يُعد من ميزات استخدام الـ Packages؟",
+    "options": [
+      "Reduces memory usage to zero / تقليل استخدام الذاكرة إلى الصفر",
+      "Facilitates code reusability and maintainability / تسهيل إعادة استخدام الكود وصيانته / Facilitates code reusability and maintainability",
+      "Eliminates the need for exception handling / إلغاء الحاجة للتعامل مع الاستثناءات",
+      "Automatically speeds up database queries / تسريع استعلامات قاعدة البيانات تلقائيًا"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why are packages NOT recommended for very small projects?\nلماذا لا يُنصح باستخدام الـ Packages في المشاريع الصغيرة جدًا؟",
+    "options": [
+      "They add unnecessary complexity and overhead / تضيف تعقيدًا وإجراءات إضافية غير ضرورية / They add unnecessary complexity and overhead",
+      "They are not supported in basic Java versions / غير مدعومة في إصدارات الجافا الأساسية",
+      "They prevent code compilation / تمنع عملية ترجمة الكود (Compilation)",
+      "They disable class access entirely / تعطل الوصول إلى الكلاسات تمامًا"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What potential disadvantage occurs regarding compilation time when using complex packages?\nما العيب المحتمل المتعلق بـ compilation time عند استخدام packages معقدة؟",
+    "options": [
+      "Automatic deletion of source code files / حذف تلقائي لملفات الكود المصدري",
+      "Decreased security levels / انخفاض مستويات الأمان",
+      "Longer compilation and execution times / زمن ترجمة وتنفيذ أطول / Longer compilation and execution times",
+      "Complete failure of the compiler / فشل كامل للمترجم"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What happens if a class is placed in a directory that does NOT match its package declaration?\nماذا يحدث إذا تم وضع كلاس في مسار (Directory) لا يطابق الإعلان عن الـ Package؟",
+    "options": [
+      "The class automatically moves to the right folder / ينتقل الكلاس تلقائيًا إلى المجلد الصحيح",
+      "The program runs normally without issues / يعمل البرنامج بشكل طبيعي دون مشاكل",
+      "Misplacing class / File not found error during compilation / خطأ في مكان الملف / Misplacing class",
+      "The package converts into a sub-package / تتحول الـ package إلى sub-package تلقائيًا"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What issue occurs when importing two packages that contain classes with the same name (e.g., java.util.Date and java.sql.Date)?\nما المشكلة التي تحدث عند استيراد package-ين يحتويان على كلاس بنفس الاسم (مثل java.util.Date و java.sql.Date)؟",
+    "options": [
+      "Sub-package creation error / خطأ في إنشاء الـ sub-package",
+      "Automatic override of the first class / تجاوز تلقائي للكلاس الأول",
+      "Memory leakage / تسريب في الذاكرة / Memory leakage",
+      "Duplicate class names / Naming conflict / تضارب الأسماء / Duplicate class names / Naming conflict"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which package should be used for modern date and time handling instead of legacy java.util.Date?\nأي Package ينبغي استخدامها للتعامل الحديث مع التاريخ والوقت بدلاً من java.util.Date القديمة؟",
+    "options": [
+      "java.time.LocalDate / java.time.LocalDate",
+      "java.net.Time / java.net.Time",
+      "java.lang.SystemDate / java.lang.SystemDate",
+      "java.io.FileDate / java.io.FileDate"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is ignoring proper exception handling (e.g., File I/O operations) considered a dangerous mistake?\nلماذا يُعد تجاهل التعامل المناسب مع الاستثناءات (مثل عمليات ملفات I/O) خطأً خطيرًا؟",
+    "options": [
+      "It causes naming conflicts in sub-packages / يتسبب في تضارب الأسماء داخل sub-packages",
+      "It slows down network connectivity / يبطئ الاتصال بالشبكة",
+      "It forces the code to compile twice / يجبر الكود على الترجمة مرتين",
+      "It causes unhandled exceptions and runtime errors / يتسبب في استثناءات غير معالجة وأخطاء runtime / It causes unhandled exceptions and runtime errors"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What character is known as the wild card in Java imports?\nما هو الرمز المعروف باسم wild card في استيراد (Import) الجافا؟",
+    "options": [
+      "The hash symbol ( # ) / علامة # / The hash symbol",
+      "The asterisk ( * ) / النجمة ( * ) / The asterisk",
+      "The percentage sign ( % ) / علامة % / The percentage sign",
+      "The ampersand ( & ) / علامة & / The ampersand"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why is the overuse of wild cards (e.g., import java.util.*;) discouraged?\nلماذا يُحذر من الإفراط في استخدام الـ wild card (مثل import java.util.*;)؟",
+    "options": [
+      "It deletes unused sub-packages / يحذف الـ sub-packages غير المستخدمة",
+      "It imports unnecessary classes and causes potential naming conflicts / يستورد كلاسات غير ضرورية وقد يسبب تضارب أسماء / It imports unnecessary classes and causes potential naming conflicts",
+      "It prevents access to default members / يمنع الوصول إلى العناصر الافتراضية (default)",
+      "It changes private members to public / يغير العناصر الـ private إلى public"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the consequence of exposing sensitive functionality across packages without proper access control?\nما هي نتيجة كشف الوظائف الحساسة عبر الـ Packages دون التحكم المناسب في الوصول؟",
+    "options": [
+      "Faster code compilation / تسريع ترجمة الكود",
+      "Security vulnerability / Exposing sensitive data to entire package / ثغرة أمنية وكشف البيانات الحساسة / Security vulnerability / Exposing sensitive data",
+      "Improved code modularity / تحسين تحزيء الكود / modularity",
+      "Creation of automatic backup files / إنشاء ملفات نسخ احتياطي تلقائيًا"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "According to Java Naming Conventions, how are domain names typically formatted for packages?\nوفقًا لاصطلاحات التسمية (Naming Conventions) في الجافا، كيف تُكتب أسماء النطاقات للـ Packages؟",
+    "options": [
+      "Separated by hyphens (e.g., com-company-project) / مفصولة بواصلات / hyphens",
+      "Reversed domain name in lowercase (e.g., com.company.project) / اسم النطاق معكوسًا بالحروف الصغيرة (مثل com.company.project)",
+      "CamelCase starting with a capital letter (e.g., Com.Company.Project) / طريقة CamelCase بتبديل الحروف الكبيرة",
+      "UPPERCASE domain name (e.g., COM.COMPANY.PROJECT) / اسم النطاق بالحروف الكبيرة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What design mistake is referred to as 'deeply accessible' or deeply nested structure?\nما هو الخطأ التصميمي المشار إليه بـ 'deeply accessible' أو البنية شديدة التداخل؟",
+    "options": [
+      "Writing methods with more than two arguments / كتابة دالّات تحتوي على أكثر من وسيطين",
+      "Creating excessively deep sub-package hierarchies (package within package within package) / إنشاء تسلسل هرمي عميق جدًا للـ sub-packages / Creating excessively deep sub-package hierarchies",
+      "Importing java.lang package explicitly / استيراد حزمة java.lang بشكل صريح",
+      "Using too many public variables / استخدام الكثير من المتغيرات العامة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the recommendation for grouping related classes in Java?\nما هي التوصية لتجميع الكلاسات المترابطة (grouping related classes) في الجافا؟",
+    "options": [
+      "Group logically related classes inside the same package / تجميع الكلاسات المترابطة منطقيًا داخل نفس الـ package",
+      "Separate every single class into its own unique package / فصل كل كلاس في package مستقلة خاصة به",
+      "Randomly assign classes to packages / توزيع الكلاسات على الـ packages بشكل عشوائي",
+      "Place all classes in a single global package / وضع جميع الكلاسات في package واحدة شاملة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is it encouraged to leverage built-in packages over custom packages when standard functions are needed?\nلماذا يُشجع على الاستفادة من الـ built-in packages بدلاً من الـ custom packages عند الحاجة لوظائف قياسية؟",
+    "options": [
+      "For standard functionality and optimized performance / للحصول على وظائف قياسية وأداء محسّن / For standard functionality and optimized performance",
+      "To avoid writing any Java code / لتجنب كتابة أي كود جافا",
+      "Because user-defined packages cannot contain methods / لأن الحزم المعرفة من المستخدم لا يمكن أن تحتوي على دالات",
+      "Because standard packages do not require compilation / لأن الحزم القياسية لا تتطلب ترجمة (Compilation)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which built-in package is automatically imported in every Java program without explicit import statement?\nأي حزمة جاهزة يتم استيرادها تلقائيًا في كل برنامج جافا دون الحاجة لجملة import صريحة؟",
+    "options": [
+      "java.util / java.util",
+      "java.net / java.net",
+      "java.lang / java.lang",
+      "java.io / java.io"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the main topic covered in Lec22 02 video sheet?\nما هو الموضوع الرئيسي المغطى في شيت محاضرة Lec22 02؟",
+    "options": [
+      "Hardware and Operating Systems / العتاد وأنظمة التشغيل",
+      "Java Packages and Access Modifiers / حزم الجافا ومحددات الوصول / Java Packages and Access Modifiers",
+      "Database Normalization and SQL Queries / تسوية قواعد البيانات واستعلامات SQL",
+      "HTML and CSS Layouts / تنسيقات HTML و CSS"
+    ],
+    "answer": 1
+  }
+]
