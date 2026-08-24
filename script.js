@@ -30,29 +30,51 @@ const resultMessage = document.getElementById('result-message');
  */
 async function startQuiz(lectureId) {
     selectedLecture = lectureId;
+
     try {
         // تحميل ملف JSON الخاص بالمحاضرة
         const response = await fetch(`./data/${lectureId}.json`);
-        if (!response.ok) throw new Error('فشل تحميل الأسئلة');
-        
+
+        if (!response.ok) {
+            throw new Error('فشل تحميل الأسئلة');
+        }
+
         currentQuestions = await response.json();
-        
+
         // إعادة تعيين حالة الاختبار
         currentQuestionIndex = 0;
         score = 0;
-        
-        // تحديث عنوان المحاضرة في الواجهة
+
+        // تحديث عنوان المحاضرة
         const lectureNum = lectureId.replace('lec', '');
         lectureTitleText.innerText = `المحاضرة: ${lectureNum}`;
-        
+
         // الانتقال لشاشة الاختبار
         showScreen(quizScreen);
-        showQuestion();
+
+        /*
+         * إذا كانت المحاضرة 23
+         * نظهر رسالة المطور أولاً
+         */
+        if (lectureId === 'lec23') {
+            developerModal.classList.add('active');
+        } else {
+            // المحاضرات الأخرى تبدأ مباشرة
+            showQuestion();
+        }
+
     } catch (error) {
         console.error(error);
-        alert("عذراً، لم يتم رفع أسئلة هذه المحاضرة بعد. سيتم إضافتها قريباً!");
+
+        alert(
+            "عذراً، لم يتم رفع أسئلة هذه المحاضرة بعد. سيتم إضافتها قريباً!"
+        );
     }
 }
+startLectureBtn.onclick = () => {
+    developerModal.classList.remove('active');
+    showQuestion();
+};
 
 /**
  * عرض السؤال الحالي
