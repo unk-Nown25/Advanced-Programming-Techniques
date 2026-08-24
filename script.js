@@ -23,7 +23,8 @@ const lectureTitleText = document.getElementById('lecture-title');
 const scoreText = document.getElementById('score-text');
 const percentageText = document.getElementById('percentage-text');
 const resultMessage = document.getElementById('result-message');
-
+const developerModal = document.getElementById('developer-modal');
+const startLectureBtn = document.getElementById('start-lecture-btn');
 /**
  * بدء الاختبار بناءً على المحاضرة المختارة
  * @param {string} lectureId معرف المحاضرة (مثل lec1, lec2)
