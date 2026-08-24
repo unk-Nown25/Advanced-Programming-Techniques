@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Q1: What is the primary function of the Java Virtual Machine (JVM)? / ما هي الوظيفة الأساسية لآلة جافا الافتراضية (JVM)؟",
+    "options": [
+      "Compiles source code into bytecode / تحويل الكود المصدري إلى بايت كود",
+      "Manages physical hardware directly / إدارة العتاد المادي مباشرة",
+      "Executes Java bytecode / تنفيذ كود البايت (Bytecode) للجافا",
+      "Edits source code files / تحرير ملفات الكود المصدري"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q2: Which tool in Java Development Kit (JDK) is responsible for compiling Java code? / ما هي الأداة في حزمة JDK المسؤولية عن تجميع كود الجافا؟",
+    "options": [
+      "jar / jar",
+      "javadoc / javadoc",
+      "javac / javac",
+      "java / java"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q3: What is the file extension of a compiled Java bytecode file? / ما هو امتداد ملف بايت كود الجافا المجمع؟",
+    "options": [
+      ".class / .class",
+      ".exe / .exe",
+      ".txt / .txt",
+      ".java / .java"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q4: What component is included in JRE but NOT needed if you only run compiled applications? / ما الذي تتضمنه JRE ولا يلزم لتشغيل التطبيقات المجمعة فقط؟",
+    "options": [
+      "Core Class Libraries / مكتبات فئات الجافا الأساسية",
+      "Java Runtime Environment / بيئة تشغيل الجافا",
+      "Java Compiler (javac) / مترجم الجافا (javac)",
+      "JVM / آلة الجافا الافتراضية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q5: Which Object-Oriented concept encapsulates state and behavior together? / ما هو مفهوم الكائنية الذي يغلف الحالة والسلوك معاً؟",
+    "options": [
+      "Variable / المتغير (Variable)",
+      "Class / الفئة (Class)",
+      "Package / الحزمة (Package)",
+      "Method / الدالة (Method)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q6: In Object-Oriented Programming, what represents the state of an object? / في البرمجة كائنية التوجه، ما الذي يمثل حالة الكائن؟",
+    "options": [
+      "Interfaces / الواجهات",
+      "Constructors / المنشئات",
+      "Methods / الدوال",
+      "Fields / Instance Variables / الحقول / متغيرات المثيل"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q7: What represents the behavior of an object in Java? / ما الذي يمثل سلوك الكائن في الجافا؟",
+    "options": [
+      "Data types / أنواع البيانات",
+      "Constants / الثوابت",
+      "Attributes / الصفات",
+      "Methods / الدوال (Methods)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q8: Which keyword is used in Java to achieve class inheritance? / ما هي الكلمة المفتاحية المستخدمة في الجافا لتحقيق وراثة الفئات؟",
+    "options": [
+      "extends / extends",
+      "inherits / inherits",
+      "super / super",
+      "implements / implements"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q9: Java supports which type of class inheritance directly? / أي نوع من وراثة الفئات تدعمه الجافا مباشرة؟",
+    "options": [
+      "Multiple class inheritance / الوراثة المتعددة للفئات",
+      "Hybrid inheritance / الوراثة الهجينة للفئات",
+      "Circular inheritance / الوراثة الدائرية",
+      "Single inheritance / الوراثة الأحادية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q10: Which superclass is the ultimate root of all classes in Java? / ما هي الفئة العليا التي تعد أصلاً لجميع الفئات في الجافا؟",
+    "options": [
+      "java.lang.System / java.lang.System",
+      "java.util.Base / java.util.Base",
+      "java.lang.Object / java.lang.Object",
+      "java.lang.Class / java.lang.Class"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q11: Which keyword is used to refer to the superclass constructor or member? / ما هي الكلمة المفتاحية المستخدمة للإشارة إلى منشئ أو أعضاء الفئة العليا؟",
+    "options": [
+      "base / base",
+      "parent / parent",
+      "this / this",
+      "super / super"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q12: When calling `super()` in a subclass constructor, where must it be placed? / عند استدعاء `super()` في منشئ الفئة الفرعية، أين يجب وضعه؟",
+    "options": [
+      "At the end of constructor / في نهاية المنشئ",
+      "Anywhere inside constructor / في أي مكان داخل المنشئ",
+      "As the very first statement / كأول سطر تنفيذي في المنشئ",
+      "Outside the constructor block / خارج نطاق المنشئ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q13: Can a class inherit private members of its superclass? / هل يمكن للفئة الفرعية وراثة الأعضاء الخاصة (private) من الفئة العليا؟",
+    "options": [
+      "Yes, with direct access / نعم، مع إمكانية الوصول المباشر",
+      "They exist but are not directly accessible / توجد ولكن لا يمكن الوصول إليها مباشرة",
+      "No, they are destroyed / لا، يتم تدميرها",
+      "Yes, by using this keyword / نعم، باستخدام الكلمة المفتاحية this"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q14: What happens if a class is declared with the `final` keyword? / ماذا يحدث إذا تم الإعلان عن فئة باستخدام الكلمة المفتاحية `final`؟",
+    "options": [
+      "It automatically implements Serializable / تطبق تلقائياً الواجهة Serializable",
+      "It cannot instantiate objects / لا يمكن إنشاء كائنات منها",
+      "All its methods become abstract / تصبح جميع دوالها مجردة",
+      "It cannot be extended / لا يمكن وراثتُها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q15: Method Overloading is an example of which type of polymorphism? / يعد إعادة تحميل الدوال (Method Overloading) مثالاً على أي نوع من تعدد الأشكال؟",
+    "options": [
+      "Dynamic binding / الربط الديناميكي",
+      "Parametric polymorphism / تعدد الأشكال المعلمي",
+      "Compile-time polymorphism / تعدد الأشكال في وقت التجميع (Compile-time)",
+      "Runtime polymorphism / تعدد الأشكال في وقت التشغيل (Runtime)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q16: Method Overriding is associated with which type of polymorphism? / يربط إعادة كتابة الدوال (Method Overriding) بأي نوع من تعدد الأشكال؟",
+    "options": [
+      "Macro polymorphism / تعدد الأشكال الماكرو",
+      "Static binding / الربط الاستاتيكي",
+      "Runtime polymorphism / تعدد الأشكال في وقت التشغيل (Runtime)",
+      "Compile-time polymorphism / تعدد الأشكال في وقت التجميع (Compile-time)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q17: Is Operator Overloading supported in Java for user-defined types? / هل تدعم الجافا إعادة تحميل العوامل (Operator Overloading) للأنواع المعرفة من المستخدم؟",
+    "options": [
+      "Only for comparative operators / فقط لعوامل المقارنة",
+      "Yes, using overload keyword / نعم، باستخدام الكلمة المفتاحية overload",
+      "Yes, for all operators / نعم، لجميع العوامل",
+      "No, it is not supported in Java / لا، غير مدعومة في الجافا"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q18: What must change to successfully achieve Method Overloading in the same class? / ما الذي يجب أن يتغير لتحقيق إعادة تحميل الميثود (Method Overloading) بنجاح في نفس الفئة؟",
+    "options": [
+      "Method parameter list (signature) / قائمة المعاملات (توقيع الدالة)",
+      "Only exception declarations / تغيير الإعلانات عن الاستثناءات فقط",
+      "Only the access modifier / تغيير مغير الوصول فقط",
+      "Only the return type / تغيير نوع الإرجاع فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q19: In Method Overriding, what must remain identical between superclass and subclass methods? / في إعادة كتابة الدوال (Method Overriding)، ما الذي يجب أن يظل مطابقتً بين الفئة العليا والفرعية؟",
+    "options": [
+      "Method body execution code / كود تنفيذ جسم الدالة",
+      "Private access modifier / مغير الوصول الخاص",
+      "Method signature (name and parameter list) / توقيع الدالة (الاسم وقائمة المعاملات)",
+      "Only the method name / اسم الدالة فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q20: Which annotation is recommended when overriding a superclass method in Java? / ما هو التعليق التوضيحي (Annotation) الموصى به عند إعادة كتابة دالة الفئة العليا؟",
+    "options": [
+      "@Overload / @Overload",
+      "@Override / @Override",
+      "@Inherit / @Inherit",
+      "@Super / @Super"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q21: Can you instantiate an abstract class using the `new` operator directly? / هل يمكنك إنشاء كائن من فئة مجردة (Abstract Class) باستخدام العامل `new` مباشرة؟",
+    "options": [
+      "Yes, if it has a constructor / نعم، إذا كانت تحتوي على منشئ",
+      "Yes, always / نعم، دائماً",
+      "No, abstract classes cannot be instantiated / لا، الفئات المجردة لا يمكن إنشاء كائنات منها مباشرة",
+      "Yes, in the main method / نعم، داخل الدالة الرئيسية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q22: What keyword is used by a class to implement an interface in Java? / ما هي الكلمة المفتاحية التي تستخدمها الفئة لتطبيق واجهة (Interface) في الجافا؟",
+    "options": [
+      "inherits / inherits",
+      "implements / implements",
+      "uses / uses",
+      "extends / extends"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q23: All variables declared inside an interface are implicitly: / جميع المتغيرات المُعلنة داخل الواجهة (Interface) تكون ضمنياً:",
+    "options": [
+      "volatile transient / volatile transient",
+      "protected abstract / protected abstract",
+      "private static final / private static final",
+      "public static final / public static final"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q24: Which interface must a class implement to allow object cloning via `clone()` method? / ما هي الواجهة التي يجب أن تطبقها الفئة للسماح بنسخ الكائنات عبر دالة `clone()`؟",
+    "options": [
+      "Cloneable / Cloneable",
+      "Comparable / Comparable",
+      "Copyable / Copyable",
+      "Serializable / Serializable"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q25: What type of exception is thrown by `Object.clone()` if `Cloneable` is NOT implemented? / ما نوع الاستثناء الذي ترميه `Object.clone()` إذا لم يتم تطبيق `Cloneable`؟",
+    "options": [
+      "IllegalArgumentException / IllegalArgumentException",
+      "ClassCastException / ClassCastException",
+      "CloneNotSupportedException / CloneNotSupportedException",
+      "NullPointerException / NullPointerException"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q26: What is Shallow Copying in Java object cloning? / ما هو النسخ السطحي (Shallow Copying) في نسخ الكائنات بالجافا؟",
+    "options": [
+      "Copies primitive fields and copies references for objects / ينسخ الحقول الأولية وينسخ المراجع فقط للكائنات",
+      "Converts all variables to constants / يحول جميع المتغيرات إلى ثوابت",
+      "Deletes original object references / يحذف مراجع الكائن الأصلي",
+      "Duplicates all nested referenced objects deeply / يكرر جميع الكائنات المرجعية المضمنة بشكل عميق"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q27: How does Deep Copying differ from Shallow Copying? / كيف يختلف النسخ العميق (Deep Copying) عن النسخ السطحي (Shallow Copying)؟",
+    "options": [
+      "Deep copy shares object references with the original / النسخ العميق يشارك المراجع مع الكائن الأصلي",
+      "Deep copy only copies primitive data types / النسخ العميق ينسخ أنواع البيانات الأولية فقط",
+      "Deep copy is performed automatically by JVM / النسخ العميق يتم تلقائياً بواسطة JVM",
+      "Deep copy creates new copies of nested referenced objects / النسخ العميق ينشئ نسخاً جديدة من الكائنات المرجعية المضمنة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q28: What is automatic conversion of primitive types to their corresponding Wrapper classes called? / ما اسم التحويل التلقائي للأنواع الأولية إلى فئات الغلاف (Wrapper) المماثلة لها؟",
+    "options": [
+      "Unboxing / Unboxing",
+      "Widening / Widening",
+      "Autoboxing / Autoboxing",
+      "Typecasting / Typecasting"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q29: What is the process of converting a Wrapper class object back to its primitive type? / ما هي عملية تحويل كائن فئة الغلاف (Wrapper) إلى نوعه الأولي؟",
+    "options": [
+      "Unboxing / Unboxing",
+      "Narrowing / Narrowing",
+      "Autoboxing / Autoboxing",
+      "Upcasting / Upcasting"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q30: Which Wrapper class corresponds to the primitive type `int`? / ما هي فئة الغلاف (Wrapper) المقابلة للنوع الأولي `int`؟",
+    "options": [
+      "Int / Int",
+      "Numeric / Numeric",
+      "Number / Number",
+      "Integer / Integer"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q31: Assigning a subclass reference to a superclass reference variable is called: / تعيين مرجع فئة فرعية إلى متغير مرجع فئة عليا يسمى:",
+    "options": [
+      "Upcasting / Upcasting",
+      "Autoboxing / Autoboxing",
+      "Downcasting / Downcasting",
+      "Shadowing / Shadowing"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q32: Converting a superclass reference back to a subclass reference requires explicit: / تحويل مرجع فئة عليا إلى مرجع فئة فرعية يتطلب بشكل صريح:",
+    "options": [
+      "Generalization / Generalization",
+      "Downcasting / Downcasting",
+      "Autoboxing / Autoboxing",
+      "Upcasting / Upcasting"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q33: Which operator is used to test if an object reference belongs to a specific class or subtype? / ما هو العامل المستخدم للاختبار إذا كان مرجع الكائن ينتمي لفئة أو نوع فرعي معين؟",
+    "options": [
+      "is / is",
+      "as / as",
+      "instanceof / instanceof",
+      "typeof / typeof"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q34: Which exception class is the root superclass of all exceptions and errors in Java? / ما هي فئة الاستثناء التي تعد الجذر لجميع الاستثناءات والأخطاء في الجافا؟",
+    "options": [
+      "java.lang.Error / java.lang.Error",
+      "java.lang.Exception / java.lang.Exception",
+      "java.lang.Throwable / java.lang.Throwable",
+      "java.lang.RuntimeException / java.lang.RuntimeException"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q35: Checked exceptions in Java are checked at which phase? / الاستثناءات المفحوصة (Checked Exceptions) في الجافا يتم فحصها في أي مرحلة؟",
+    "options": [
+      "Runtime / وقت التشغيل (Runtime)",
+      "Compile time / وقت التجميع (Compile time)",
+      "Garbage Collection time / وقت جمع المهملات",
+      "Deployment / وقت النشر"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q36: Which block in Exception Handling always executes regardless of whether an exception occurs or not? / أي كتلة في التعامل مع الاستثناءات تنفذ دائماً بغض النظر عن حدوث استثناء أم لا؟",
+    "options": [
+      "finally block / كتلة finally",
+      "try block / كتلة try",
+      "catch block / كتلة catch",
+      "throws block / كتلة throws"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q37: Which keyword is used inside a method to explicitly throw an exception object? / ما هي الكلمة المفتاحية المستخدمة داخل الدالة لرمي كائن استثناء بشكل صريح؟",
+    "options": [
+      "throw / throw",
+      "catch / catch",
+      "throws / throws",
+      "try / try"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q38: Which keyword in a method signature declares that the method might throw certain exceptions? / ما هي الكلمة المفتاحية في توقيع الدالة التي تعلن أن الدالة قد ترمي استثناءات معينة؟",
+    "options": [
+      "throw / throw",
+      "catch / catch",
+      "raises / raises",
+      "throws / throws"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q39: Which access modifier restricts member visibility strictly to within its own class? / ما هو مغير الوصول الذي يقتصر رؤية العضو فقط داخل فئته الخاصة؟",
+    "options": [
+      "private / private",
+      "default (package-private) / افتراضي (Package-Private)",
+      "protected / protected",
+      "public / public"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q40: If no access modifier is specified for a class member, what is its access level? / إذا لم يتم تحديد مغير وصول لعضو الفئة، فما هو مستوى وصوله؟",
+    "options": [
+      "Package-private (default) / افتراضي على مستوى الحزمة (Package-private)",
+      "public / عام (public)",
+      "private / خاص (private)",
+      "protected / محمّي (protected)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q41: Members declared as `protected` are accessible within the same package and by: / الأعضاء المعلن عنهم كـ `protected` يمكن الوصول إليهم داخل نفس الحزمة وأيضاً بواسطة:",
+    "options": [
+      "Any class anywhere / أي فئة في أي مكان",
+      "No classes outside package / لا يمكن الوصول إليهم من خارج الحزمة مطلقاً",
+      "Subclasses in other packages / الفئات الفرعية في الحزم الأخرى",
+      "Only main method / الدالة الرئيسية فقط"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q42: Which keyword is used at the top of a Java file to group related classes together? / ما هي الكلمة المفتاحية المستخدمة في أعلى ملف الجافا لتجميع الفئات ذات الصلة معاً؟",
+    "options": [
+      "package / package",
+      "namespace / namespace",
+      "import / import",
+      "module / module"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q43: Which keyword is used to access classes and interfaces from another package? / ما هي الكلمة المفتاحية المستخدمة للوصول إلى الفئات والواجهات من حزمة أخرى؟",
+    "options": [
+      "package / package",
+      "include / include",
+      "import / import",
+      "using / using"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q44: What does the `static` keyword mean when applied to a field in Java? / ماذا تعني الكلمة المفتاحية `static` عند تطبيقها على حقل في الجافا؟",
+    "options": [
+      "The variable belongs to the class, not instance / المتغير ينتمي للفئة وليس للمثيل",
+      "The variable is accessible only in subclass / المتغير يتاح فقط في الفئة الفرعية",
+      "The variable cannot be changed / المتغير لا يمكن تغييره",
+      "The variable is stored in stack memory / المتغير يخزن في ذاكرة المكدس"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q45: Can a static method directly access non-static instance variables? / هل يمكن للدالة الاستاتيكية (Static) الوصول مباشرة لمتغيرات المثيل غير الاستاتيكية؟",
+    "options": [
+      "Yes, using super keyword / نعم، باستخدام الكلمة المفتاحية super",
+      "Only if variables are public / فقط إذا كانت المتغيرات عامة",
+      "Yes, without any restrictions / نعم، بدون أي قيود",
+      "No, static methods cannot access non-static variables directly / لا، الدوال الاستاتيكية لا تستطيع الوصول للمتغيرات غير الاستاتيكية مباشرة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q46: An abstract class can contain which type of methods? / الفئة المجردة (Abstract Class) يمكن أن تحتوي على أي نوع من الدوال؟",
+    "options": [
+      "Only final methods / فقط دوال نهائية final",
+      "Only static concrete methods / فقط دوال استاتيكية منفذة",
+      "Only abstract methods without body / فقط دوال مجردة بدون جسم",
+      "Both abstract and concrete (implemented) methods / كلا من الدوال المجردة والمحددة (المنفذة)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q47: An interface prior to Java 8 could contain: / الواجهة (Interface) قبل إصدار Java 8 كانت تحتوي على:",
+    "options": [
+      "Only abstract methods and constant variables / فقط دوال مجردة ومتغيرات ثوابت",
+      "Instance variables / متغيرات مثيل",
+      "Default methods with bodies / دوال افتراضية مع أجسام تنفيذية",
+      "Private constructors / منشئات خاصة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q48: Starting from Java 8, interfaces can contain implemented methods using which keyword? / بدءاً من Java 8، يمكن للواجهات احتواء دوال منفذة باستخدام أي كلمة مفتاحية؟",
+    "options": [
+      "abstract / abstract",
+      "virtual / virtual",
+      "concrete / concrete",
+      "default / default"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q49: What happens if a method is declared as `final` in Java? / ماذا يحدث إذا تم الإعلان عن دالة على أنها `final` في الجافا؟",
+    "options": [
+      "It cannot be overridden by subclasses / لا يمكن إعادة كتابتها (Overridden) بواسطة الفئات الفرعية",
+      "It cannot be called / لا يمكن استدعاؤها",
+      "It becomes static / تصبح استاتيكية",
+      "It must be overridden / يجب إعادة كتابتها"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q50: What is the default return type of a Java constructor? / ما هو نوع الإرجاع الافتراضي لمنشئ الجافا (Constructor)؟",
+    "options": [
+      "Object / Object",
+      "int / int",
+      "void / void",
+      "Constructors do not have a return type / المنشئات ليس لها نوع إرجاع"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q51: If a class defines no constructor, what does Java provide automatically? / إذا لم تحدد الفئة أي منشئ، فما الذي توفره الجافا تلقائياً؟",
+    "options": [
+      "A default no-argument constructor / منشئ افتراضي بدون معاملات",
+      "No constructor is added / لا يتم إضافة أي منشئ",
+      "A parameterized constructor / منشئ ذو معاملات",
+      "A copy constructor / منشئ نسخ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q52: Which method of Object class returns a string representation of an object? / أي دالة في الفئة Object ترجع تمثيلاً نصياً للكائن؟",
+    "options": [
+      "hashCode() / hashCode()",
+      "getClass() / getClass()",
+      "equals() / equals()",
+      "toString() / toString()"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q53: Which method is used to compare whether two objects are logically equal in Java? / أي دالة تُستخدم للمقارنة عما إذا كان كائنان متساويين منطقياً في الجافا؟",
+    "options": [
+      "clone() / clone()",
+      "== operator / العامل ==",
+      "equals() / equals()",
+      "compareTo() / compareTo()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q54: Which keyword is used to handle exceptions caught in a `try` block? / أي كلمة مفتاحية تُستخدم للتعامل مع الاستثناءات الملتقطة في كتلة `try`؟",
+    "options": [
+      "finally / finally",
+      "throws / throws",
+      "throw / throw",
+      "catch / catch"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q55: Is `RuntimeException` a checked or unchecked exception in Java? / هل `RuntimeException` استثناء مفحوص (Checked) أم غير مفحوص (Unchecked) في الجافا؟",
+    "options": [
+      "Fatal system error / خطأ نظام قاتل",
+      "Compile-time error / خطأ وقت التجميع",
+      "Unchecked exception / استثناء غير مفحوص",
+      "Checked exception / استثناء مفحوص"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q56: NullPointerException and ArrayIndexOutOfBoundsException are subclasses of: / تعد NullPointerException و ArrayIndexOutOfBoundsException فئات فرعية من:",
+    "options": [
+      "ClassNotFoundException / ClassNotFoundException",
+      "SQLException / SQLException",
+      "RuntimeException / RuntimeException",
+      "IOException / IOException"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q57: Classes in the same package have access to members with which access levels? / الفئات في نفس الحزمة يمكنها الوصول لأعضاء بأي مستويات وصول؟",
+    "options": [
+      "public, protected, and default / public و protected و default",
+      "private and public / private و public فقط",
+      "protected only / protected فقط",
+      "public only / public فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q58: Can a top-level Java class be declared as `private`? / هل يمكن الإعلان عن فئة الجافا ذات المستوى الأعلى على أنها `private`؟",
+    "options": [
+      "Yes, if inside a package / نعم، إذا كانت داخل حزمة",
+      "Yes, always / نعم، دائماً",
+      "No, top-level classes can only be public or default / لا، الفئات الرئسية تكون إما public أو default",
+      "Only if it is abstract / فقط إذا كانت مجردة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q59: Which Java package contains fundamental classes like Object, String, and Math? / أي حزمة جافا تحتوي على الفئات الأساسية مثل Object و String و Math؟",
+    "options": [
+      "java.lang / java.lang",
+      "java.net / java.net",
+      "java.util / java.util",
+      "java.io / java.io"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q60: Which package is automatically imported into every Java program? / أي حزمة يتم استيرادها تلقائياً في كل برنامج جافا؟",
+    "options": [
+      "java.io / java.io",
+      "java.lang / java.lang",
+      "java.text / java.text",
+      "java.util / java.util"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q61: Which concept allows multiple methods with the same name but different signatures in the same class? / أي مفهوم يسمح بدوال متعددة بنفس الاسم وتواقيع مختلفة في نفس الفئة؟",
+    "options": [
+      "Method Overriding / إعادة كتابة الدوال (Method Overriding)",
+      "Abstraction / التجريد",
+      "Method Overloading / تحميل الدوال الإضافي (Method Overloading)",
+      "Encapsulation / التغليف"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q62: When a subclass provides a specific implementation of a method already defined in its superclass, this is called: / عندما تقدم الفئة الفرعية تنفيذاً محدداً لدالة معرفة في الفئة العليا، يسمى هذا:",
+    "options": [
+      "Method Overloading / تحميل الدالة (Method Overloading)",
+      "Method Hiding / إخفاء الدالة",
+      "Method Binding / ربط الدالة",
+      "Method Overriding / إعادة كتابة الدالة (Method Overriding)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q63: Which keyword is used to prevent variable modification (making it constant)? / ما هي الكلمة المفتاحية المستخدمة لمنع تعديل المتغير (جعله ثابتاً)؟",
+    "options": [
+      "static / static",
+      "immutable / immutable",
+      "const / const",
+      "final / final"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q64: Which of the following is true regarding Java method overloading? / أي مما يلي صحيح بشأن إعادة تحميل الدوال في الجافا؟",
+    "options": [
+      "Methods must have different parameter types or counts / يجب أن تختلف الدوال في أنواع المعاملات أو عددها",
+      "Methods must be in different packages / يجب أن تكون الدوال في حزم مختلفة",
+      "Methods must be static / يجب أن تكون الدوال استاتيكية",
+      "Methods must have different return types only / يجب أن تختلف الدوال في نوع الإرجاع فقط"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q65: What happens during method overriding in Java? / ماذا يحدث أثناء إعادة كتابة الدالة (Method Overriding) في الجافا؟",
+    "options": [
+      "Both methods are executed together automatically / تنفذ كليتا الدالتين معاً تلقائياً",
+      "Subclass method replaces superclass method execution at runtime / دالة الفئة الفرعية تحل محل دالة الفئة العليا في وقت التشغيل",
+      "Superclass method deletes subclass method / دالة الفئة العليا تحذف دالة الفئة الفرعية",
+      "Compile-time error occurs always / يحدث خطأ وقت التجميع دائماً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q66: Which statement correctly describes Polymorphism? / أي من العبارات التالية تصف تعدد الأشكال (Polymorphism) بشكل صحيح؟",
+    "options": [
+      "Restricting access to class members / تقييد الوصول لأعضاء الفئة",
+      "Ability of an object to take many forms / قدرة الكائن على اتخاذ أشكال متعددة",
+      "Ability to hide internal variables / القدرة على إخفاء المتغيرات الداخلية",
+      "Compiling code into machine code / تجميع الكود إلى كود الآلة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q67: Which keyword is used to access superclass attributes overridden by subclass? / ما هي الكلمة المفتاحية المستخدمة للوصول لصفات الفئة العليا المعاد كتابتها؟",
+    "options": [
+      "super / super",
+      "parent / parent",
+      "this / this",
+      "base / base"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q68: Can an abstract class have constructors in Java? / هل يمكن أن تحتوي الفئة المجردة على منشئات (Constructors) في الجافا؟",
+    "options": [
+      "No, abstract classes never have constructors / لا، الفئات المجردة لا تحتوي أبداً على منشئات",
+      "Only static constructors are allowed / يُسمح فقط بالمنشئات الاستاتيكية",
+      "Only if interface is implemented / فقط إذا تم تطبيق واجهة",
+      "Yes, abstract classes can have constructors / نعم، يمكن أن تحتوي الفئات المجردة على منشئات"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q69: What is the access level of interface methods in Java by default (prior to Java 8)? / ما هو مستوى وصول دوال الواجهات في الجافا افتراضياً (قبل Java 8)؟",
+    "options": [
+      "public abstract / public abstract",
+      "package-private / package-private",
+      "protected final / protected final",
+      "private static / private static"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q70: Which statement about multiple inheritance in Java is correct? / أي عبارة عن الوراثة المتعددة في الجافا صحيحة؟",
+    "options": [
+      "Multiple inheritance is achieved using static keyword / تتحقق الوراثة المتعددة باستخدام static",
+      "Java supports multiple class inheritance directly / تدعم الجافا الوراثة المتعددة للفئات مباشرة",
+      "Java supports multiple inheritance through interfaces only / تدعم الجافا الوراثة المتعددة عبر الواجهات فقط",
+      "Java does not support any form of multiple inheritance / لا تدعم الجافا أي شكل من أشكال الوراثة المتعددة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q71: What is the purpose of encapsulation in OOP? / ما هو الغرض من التغليف (Encapsulation) في OOP؟",
+    "options": [
+      "To increase code execution speed / لزيادة سرعة تنفيذ الكود",
+      "To bypass compile-time checks / لتجاوز فحوصات وقت التجميع",
+      "To allow multiple class inheritance / للسماح بالوراثة المتعددة للفئات",
+      "To protect data by restricting direct access / لحماية البيانات بتقييد الوصول المباشر إليها"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q72: Which mechanism in Java ensures dynamic method lookup during runtime? / أي آلية في الجافا تضمن البحث الديناميكي عن الدوال أثناء التشغيل؟",
+    "options": [
+      "Compilation / التجميع",
+      "Dynamic binding (Late binding) / الربط الديناميكي (Dynamic Binding)",
+      "Static binding / الربط الاستاتيكي",
+      "Autoboxing / Autoboxing"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q73: Which of these classes cannot be inherited? / أي من هذه الفئات لا يمكن وراثتُها؟",
+    "options": [
+      "abstract class / الفئة المجردة",
+      "final class / الفئة النهائية (final class)",
+      "static inner class / الفئة الداخلية الاستاتيكية",
+      "public class / الفئة العامة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q74: In Java, what is the default value of an uninitialized object reference field? / في الجافا، ما هي القيمة الافتراضية لحقل مرجع كائن غير ممهد؟",
+    "options": [
+      "null / null",
+      "0 / 0",
+      "false / false",
+      "undefined / undefined"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q75: Which method is called automatically by Garbage Collector before destroying an object (deprecated in recent versions)? / أي دالة يتم استدعاؤها تلقائياً قبل تدمير الكائن؟",
+    "options": [
+      "destroy() / destroy()",
+      "finalize() / finalize()",
+      "clean() / clean()",
+      "dispose() / dispose()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q76: Which Wrapper class represents floating-point single precision numbers? / أي فئة غلاف (Wrapper) تمثل الأعداد الحقيقية أحادية الدقة؟",
+    "options": [
+      "Real / Real",
+      "Double / Double",
+      "Decimal / Decimal",
+      "Float / Float"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q77: Converting a primitive `double` to a `Double` object automatically is an example of: / تحويل النوع الأولي `double` إلى كائن `Double` تلقائياً يعد مثالاً على:",
+    "options": [
+      "Autoboxing / Autoboxing",
+      "Explicit Casting / التحييز الصريح",
+      "Unboxing / Unboxing",
+      "Downcasting / Downcasting"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q78: Unboxing refers to converting: / يشير Unboxing إلى تحويل:",
+    "options": [
+      "A String to integer array / نص إلى مصفوفة أعداد صحيحة",
+      "A Wrapper object to primitive type / كائن الغلاف إلى نوع أولي",
+      "A primitive type to Wrapper object / نوع أولي إلى كائن غلاف",
+      "A subclass object to superclass / كائن فئة فرعية إلى فئة عليا"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q79: What type of memory is used to store objects created with `new` in Java? / ما نوع الذاكرة المستخدم لتخزين الكائنات المنشأة بـ `new` في الجافا؟",
+    "options": [
+      "Stack memory / ذاكرة المكدس (Stack)",
+      "Register memory / ذاكرة المسجلات",
+      "Heap memory / ذاكرة الهيب (Heap)",
+      "Static pool memory / ذاكرة التجميع الاستاتيكية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q80: Local variables inside methods are stored in which memory area? / المتغيرات المحلية داخل الدوال تُخزن في أي منطقة ذاكرة؟",
+    "options": [
+      "Metaspace / Metaspace",
+      "Permanent Generation / Permanent Generation",
+      "Stack memory / ذاكرة المكدس (Stack)",
+      "Heap memory / ذاكرة الهيب (Heap)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q81: Which statement correctly differentiates `==` and `.equals()` for object references? / أي عبارة تميز بشكل صحيح بين `==` و `.equals()` لمراجع الكائنات؟",
+    "options": [
+      "Neither can be used on objects / لا يمكن استخدام أي منهما مع الكائنات",
+      "`==` compares memory addresses, `.equals()` compares logical content / `==` يقارن العناوين في الذاكرة، بينما `.equals()` تقارن المحتوى المنطقي",
+      "Both do identical reference equality check always / كلاهما يجري دائماً نفس فحص المساواة",
+      "`==` compares content, `.equals()` compares addresses / `==` يقارن المحتوى، و `.equals()` تقارن العناوين"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q82: Which block is executed after `try` block only if an exception is thrown and matched? / أي كتلة تنفذ بعد كتلة `try` فقط عند رمي استثناء ومطابقته؟",
+    "options": [
+      "finally block / كتلة finally",
+      "throws block / كتلة throws",
+      "finalize block / كتلة finalize",
+      "catch block / كتلة catch"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q83: What happens if an unhandled checked exception occurs in a Java program? / ماذا يحدث إذا وقع استثناء مفحوص غير معالج في برنامج الجافا؟",
+    "options": [
+      "Garbage collection stops / توقف عملية جمع المهملات",
+      "Runtime exception crash silently / انهيار البرنامج صامتاً أثناء التشغيل",
+      "Compilation error / خطأ في وقت التجميع (Compilation error)",
+      "Program converts it to null / يحوله البرنامج إلى null"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q84: Which exception is thrown when attempting to divide an integer by zero? / ما الاستثناء الذي يُرمى عند محاولة قسمة عدد صحيح على صفر؟",
+    "options": [
+      "NumberFormatException / NumberFormatException",
+      "ArithmeticException / ArithmeticException",
+      "IllegalArgumentException / IllegalArgumentException",
+      "NullPointerException / NullPointerException"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q85: Which exception is thrown when parsing an invalid string into an integer? / ما الاستثناء الذي يُرمى عند تحويل نص غير صالح إلى عدد صحيح؟",
+    "options": [
+      "NumberFormatException / NumberFormatException",
+      "ClassCastException / ClassCastException",
+      "ArithmeticException / ArithmeticException",
+      "IndexOutOfBoundsException / IndexOutOfBoundsException"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q86: Can a `try` block have multiple `catch` blocks in Java? / هل يمكن أن تحتوي كتلة `try` على عدة كتل `catch` في الجافا؟",
+    "options": [
+      "No, only one catch block is permitted / لا، يُسمح بكتلة catch واحدة فقط",
+      "Yes, to catch different exception types / نعم، لتقاط أنواع مختلفة من الاستثناءات",
+      "Only if finally block is absent / فقط في حالة عدم وجود كتلة finally",
+      "Only for unchecked exceptions / فقط للاستثناءات غير المفحوصة"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q87: When order of multiple catch blocks matters, how should exception types be ordered? / عند ترتيب كتل catch المتعددة، كيف يجب ترتيب أنواع الاستثناءات؟",
+    "options": [
+      "From specific subclass exceptions to general superclass exceptions / من الاستثناءات الفرعية المحددة إلى الاستثناءات العامة العليا",
+      "Order does not matter / الترتيب لا يهم",
+      "From general superclass to specific subclass / من العامة العليا إلى الفرعية المحددة",
+      "In alphabetical order / بترتيب أبتثي"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q88: Which package statement is correct for defining a class inside nested package `com.university.oop`? / أي بيان حزمة صحيح لتعريف فئة داخل الحزمة المضمنة `com.university.oop`؟",
+    "options": [
+      "package com.university.oop; / package com.university.oop;",
+      "import com.university.oop; / import com.university.oop;",
+      "namespace com.university.oop; / namespace com.university.oop;",
+      "include com.university.oop; / include com.university.oop;"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q89: How do you import all public classes from package `java.util`? / كيف تستورد جميع الفئات العامة من الحزمة `java.util`؟",
+    "options": [
+      "import java.util.*; / import java.util.*;",
+      "using java.util.*; / using java.util.*;",
+      "include java.util.*; / include java.util.*;",
+      "import java.util.all; / import java.util.all;"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q90: What access modifier allows accessibility to members within same package and subclasses? / ما مغير الوصول الذي يسمح بالوصول للأعضاء داخل نفس الحزمة والفئات الفرعية؟",
+    "options": [
+      "protected / protected",
+      "private / private",
+      "default / default",
+      "public / public"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q91: What is the result of casting a superclass object reference to an unrelated subclass reference? / ما نتيجة تحويل مرجع كائن من فئة عليا إلى مرجع فئة فرعية غير مرتبطة؟",
+    "options": [
+      "Null reference returned / إرجاع مرجع فارغ null",
+      "Successful conversion / تحويل ناجح",
+      "Compile-time warning only / تحذير وقت التجميع فقط",
+      "ClassCastException at runtime / استثناء ClassCastException أثناء التشغيل"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q92: Can an interface extend another interface in Java? / هل يمكن لواجهة أن تمتد (extend) لواجهة أخرى في الجافا؟",
+    "options": [
+      "Only via abstract classes / فقط عبر الفئات المجردة",
+      "Yes, using the `extends` keyword / نعم، باستخدام الكلمة المفتاحية `extends`",
+      "No, interfaces cannot inherit / لا، الواجهات لا ترث",
+      "No, interfaces use `implements` / لا، الواجهات تستخدم `implements`"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Q93: An interface can extend how many interfaces? / كم عدد الواجهات التي يمكن للواجهة أن تمتد منها (extend)؟",
+    "options": [
+      "Multiple interfaces / واجهات متعددة",
+      "Only one interface / واجهة واحدة فقط",
+      "Maximum two interfaces / واجهتان كحد أقصى",
+      "Zero, interfaces cannot extend / صفر، الواجهات لا تمتد"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q94: What happens if a concrete class implements an interface but does not override all abstract methods? / ماذا يحدث إذا طبقت فئة صريحة واجهة ولم تعد كتابة جميع الدوال المجردة؟",
+    "options": [
+      "Methods are automatically generated with empty bodies / تنشأ الدوال تلقائياً بأجسام فارغة",
+      "Interface becomes invalid / تصبح الواجهة غير صالحة",
+      "Class must be declared abstract, or compilation fails / يجب الإعلان عن الفئة كـ abstract وإلا تفشل الترجمة",
+      "Runtime warning is issued / يصدر تحذير أثناء التشغيل"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q95: Which method signature represents a valid main method in Java? / أي توقيع دالة يمثل الدالة الرئيسية (main) الصالحة في الجافا؟",
+    "options": [
+      "public static void main(String[] args) / public static void main(String[] args)",
+      "static int main(String[] args) / static int main(String[] args)",
+      "public void main(String args) / public void main(String args)",
+      "private static void main() / private static void main()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Q96: What is the effect of applying `final` to a method parameter in Java? / ما تأثير تطبيق `final` على معامل الدالة في الجافا؟",
+    "options": [
+      "Method becomes abstract / تصبح الدالة مجردة",
+      "Parameter cannot be passed to other methods / لا يمكن تمرير المعامل لدوال أخرى",
+      "Parameter becomes dynamic / يصبح المعامل ديناميكياً",
+      "Parameter value cannot be reassigned within the method / لا يمكن إعادة تعيين قيمة المعامل داخل الدالة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Q97: Which of the following is true about static variables? / أي مما يلي صحيح بشأن المتغيرات الاستاتيكية (Static Variables)؟",
+    "options": [
+      "Stored in stack frame during method call / تخزن في إطار المكدس أثناء استدعاء الدالة",
+      "Cannot be accessed outside constructor / لا يمكن الوصول إليها خارج المنشئ",
+      "Single copy is shared across all instances of the class / تقتسم جميع مثيلات الفئة نسخة واحدة فقط منها",
+      "Each instance gets its own independent copy / تحصل كل مثيل على نسختها المستقلة"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q98: What keyword refers to the current object instance within an instance method? / ما الكلمة المفتاحية التي تشير إلى مثيل الكائن الحالي داخل دالة المثيل؟",
+    "options": [
+      "super / super",
+      "me / me",
+      "this / this",
+      "self / self"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q99: Can `this()` and `super()` both be called inside the same constructor? / هل يمكن استدعاء كل من `this()` و `super()` معاً داخل نفس المنشئ؟",
+    "options": [
+      "Only if constructor is private / فقط إذا كان المنشئ خاصاً",
+      "Yes, any order is allowed / نعم، أي ترتيب مسموح به",
+      "No, because both must be the first statement / لا، لأن كليهما يجب أن يكون أول سطر تنفيذي",
+      "Yes, super() first then this() / نعم، super() أولاً ثم this()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Q100: Constructor chaining within the same class is achieved using: / يتم تسلسل المنشئات (Constructor Chaining) داخل نفس الفئة باستخدام:",
+    "options": [
+      "super(...) / super(...)",
+      "this(...) / this(...)",
+      "new(...) / new(...)",
+      "clone(...) / clone(...)"
+    ],
+    "answer": 1
+  }
+    ]
