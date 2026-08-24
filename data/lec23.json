@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the main purpose of exception handling in Java? / ما هو الغرض الرئيسي من معالجة الاستثناءات في جافا؟",
+    "options": [
+      "To write code that executes faster in the compiler / لكتابة كود ينفذ بشكل أسرع في المترجم",
+      "To handle runtime problems so the program continues normally / لمعالجة مشاكل وقت التشغيل لضمان استمرار البرنامج بشكل طبيعي",
+      "To build decorative graphical user interfaces / لبناء واجهات المستخدم الرسمية التجميلية",
+      "To stop the program permanently when an error occurs / لإيقاف البرنامج بشكل دائم عند حدوث خطأ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT one of the primary keywords used in Java exception handling? / أي مما يلي ليس من الكلمات المفتاحية الأساسية المستخدمة في معالجة الاستثناءات في جافا؟",
+    "options": [
+      "include / include",
+      "catch / catch",
+      "try / try",
+      "finally / finally"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Java has a robust framework for managing exceptions. / تمتلك جافا إطار عمل قوي لإدارة الاستثناءات.",
+    "options": [
+      "Robust exception handling framework / إطار معالجة استثناءات قوي ومتين",
+      "Manual garbage collection mechanism / آلية جمع التجميع اليدوي",
+      "Static array list framework / إطار قائمة مصفوفات ثابتة",
+      "Unchecked pointer syntax / بناء جملة مؤشرات غير مفحوصة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which category of exceptions in Java is considered the most critical and cannot be handled by the developer? / أي فئة من الاستثناءات في جافا تُعد الأكثر خطورة ولا يمكن للمطور معالجتها؟",
+    "options": [
+      "Errors / الأخطاء (Errors)",
+      "Checked Exception / استثناء مفحوص",
+      "Custom Exception / استثناء مخصص",
+      "Unchecked Exception / استثناء غير مفحوص"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is an example of a severe Error in Java? / أي مما يلي يُعد مثالاً على خطأ حرج (Error) في جافا؟",
+    "options": [
+      "StackOverflowError / خطأ طفح المكدس",
+      "NullPointerException / استثناء المؤشر الفارغ",
+      "ArithmeticException / استثناء الحساب",
+      "ArrayIndexOutOfBoundsException / استثناء الفهرس خارج الحدود"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What type of exception is SQLException considered in Java? / ما نوع الاستثناء الذي يُصنف تحته SQLException في جافا؟",
+    "options": [
+      "Unchecked Exception / استثناء غير مفحوص",
+      "Severe Hardware Error / خطأ عتاد حرج",
+      "Runtime Exception / استثناء وقت التشغيل",
+      "Checked Exception / استثناء مفحوص"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which exception occurs during execution when trying to divide an integer by zero? / أي استثناء يحدث أثناء التنفيذ عند محاولة قسمة عدد صحيح على صفر؟",
+    "options": [
+      "IOException / استثناء الإدخال والإخراج",
+      "ArithmeticException / استثناء الحساب",
+      "OutOfMemoryError / خطأ نفاد الذاكرة",
+      "NullPointerException / استثناء المؤشر الفارغ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What exception is thrown when accessing index 11 of an array that has only 10 elements? / ما الاستثناء الذي يتم إطلاقه عند الوصول للفهرس 11 في مصفوفة تحتوي على 10 عناصر فقط؟",
+    "options": [
+      "SQLException / استثناء قاعدة البيانات",
+      "ArithmeticException / استثناء الحساب",
+      "NullPointerException / استثناء المؤشر الفارغ",
+      "ArrayIndexOutOfBoundsException / استثناء الفهرس خارج حدود المصفوفة"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "In basic syntax, where should the try block be placed? / في البناء الأساسي، أين يجب وضع كتلة try؟",
+    "options": [
+      "Around the code segment that may cause an exception / حول جزء الكود الذي يُتوقع أن يسبب استثناءً",
+      "Inside the import declarations at the top / داخل إعلانات الاستيراد في الأعلى",
+      "Only inside custom exception classes / فقط داخل كلاسات الاستثناءات المخصصة",
+      "At the very end of the main class after all code / في نهاية الكلاس الرئيسي بعد كل الكود"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary role of the catch block in Java? / ما هو الدور الأساسي لكتلة catch في جافا؟",
+    "options": [
+      "To compile the source code into bytecode / لتجميع الكود المصدري إلى بايت كود",
+      "To handle the exception if it occurs in try / لمعالجة الاستثناء في حال حدوثه داخل try",
+      "To declare global variables for the application / للإعلان عن متغيرات عامة للتطبيق",
+      "To ignore all runtime mistakes automatically / لتجاهل جميع أخطاء وقت التشغيل تلقائياً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is unique about the code inside the finally block? / ما الميزة الخاصة بالكود الموجود داخل كتلة finally؟",
+    "options": [
+      "It cancels all operations performed by the try block / يلغي جميع العمليات التي قامت بها كتلة try",
+      "It prevents the program from compiling if an error exists / يمنع البرنامج من التجميع إذا كان هناك خطأ",
+      "It only executes if a Checked Exception is thrown / ينفذ فقط عند إطلاق استثناء مفحوص",
+      "It executes regardless of whether an exception occurred or not / ينفذ بغض النظر عن حدوث الاستثناء أم لا"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What happens if a null object calls a method like length()? / ماذا يحدث عند قيام كائن يحمل قيمة null باستدعاء دالة مثل length()؟",
+    "options": [
+      "It triggers a StackOverflowError / يفعل خطأ طفح المكدس",
+      "It automatically converts null to empty string / يحول القيمة الفارغة تلقائياً إلى نص فارغ",
+      "It returns a length of -1 / يرجع طولاً بقيمة -1",
+      "It throws a NullPointerException / يطلق NullPointerException"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Can a single try block be followed by multiple catch blocks? / هل يمكن لكتلة try واحدة أن تتبعها عدة كتل catch؟",
+    "options": [
+      "No, Java permits only one catch block per try / لا، تسمح جافا بكتلة catch واحدة فقط لكل try",
+      "Yes, to catch different specific exception types / نعم، لالتقاط أنواع مختلفة ومحددة من الاستثناءات",
+      "Only inside static methods / فقط داخل الدوال الساكنة (static)",
+      "Only if no finally block is used / فقط إذا لم يتم استخدام كتلة finally"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method on an exception object (e) retrieves the specific error details message? / أي دالة في كائن الاستثناء (e) تجلب رسالة تفاصيل الخطأ المحددة؟",
+    "options": [
+      "e.getMessage() / e.getMessage()",
+      "e.printCode() / e.printCode()",
+      "e.clearStack() / e.clearStack()",
+      "e.toStringArray() / e.toStringArray()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In nested try-catch blocks, which catch block responds to an exception first? / في كتل try-catch المتداخلة، أي كتلة catch تستجيب للاستثناء أولاً؟",
+    "options": [
+      "The finally block of the outer try / كتلة finally الخاصة بـ try الخارجية",
+      "The main method's global catch block / كتلة catch العامة في دالة main",
+      "The outermost try's catch block / كتلة catch الخاصة بـ try الخارجية",
+      "The catch block closest to where the exception occurred / كتلة catch الأقرب لمكان حدوث الاستثناء"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is meant by Exception Propagation in Java? / ماذا يُقصد بانتشار الاستثناء (Exception Propagation) في جافا؟",
+    "options": [
+      "Saving the exception object directly into a database / حفظ كائن الاستثناء مباشرة في قاعدة بيانات",
+      "Converting a runtime error into a syntax error / تحويل خطأ وقت التشغيل إلى خطأ في البناء",
+      "Deleting the exception from system memory automatically / حذف الاستثناء من ذاكرة النظام تلقائياً",
+      "Passing the exception up the call stack to the calling method / تمرير الاستثناء لأعلى مكدس الاستدعاءات إلى الدالة المستدعية"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "If method1 causes an unhandled exception and method2 calls method1, what happens? / إذا تسببت method1 في استثناء غير معالج وقامت method2 باستدعاء method1، ماذا يحدث؟",
+    "options": [
+      "The JVM crashes instantly without stack trace / تنهار الـ JVM فوراً بدون تتبع المكدس",
+      "method2 fixes the exception silently / تقوم method2 بإصلاح الاستثناء صمتاً",
+      "The compiler skips calling method1 / يتجاهل المترجم استدعاء method1",
+      "The exception propagates to method2 / ينتشر الاستثناء إلى method2"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "How does exception handling separate code concerns? / كيف تفصل معالجة الاستثناءات بين اهتمامات الكود؟",
+    "options": [
+      "By eliminating the need for conditional statements / بإلغاء الحاجة للعبارات الشرطية",
+      "By separating normal execution logic from error-handling logic / بفصل كود التنفيذ الطبيعي عن كود معالجة الأخطاء",
+      "By merging database queries with user interface / بدمج استعلامات قاعدة البيانات مع واجهة المستخدم",
+      "By converting standard variables to constants / بتحويل المتغيرات العادية إلى ثوابت"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How does exception handling contribute to program robustness? / كيف تسهم معالجة الاستثناءات في متانة ورصانة البرنامج (Robustness)؟",
+    "options": [
+      "It speeds up network data transfer rates / تسرع معدلات نقل البيانات عبر الشبكة",
+      "It prevents abrupt or unexpected program termination / تمنع التوقف المفاجئ أو غير المقبول للبرنامج",
+      "It replaces manual loop iterations with recursion / تستبدل التكرارات اليدوية بالاستدعاء الذاتي",
+      "It reduces the size of the compiled bytecode file / تقلل حجم ملف البايت كود المجمع"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of logging exceptions (logging)? / ما هو الغرض من تسجيل الاستثناءات (Logging)؟",
+    "options": [
+      "To record error details to aid in debugging and auditing / لتسجيل تفاصيل الأخطاء للمساعدة في اكتشاف الأخطاء وتصحيحها",
+      "To bypass secure login authentication / لتجاوز مصادقة تسجيل الدخول الآمنة",
+      "To clear temporary RAM cache files / لمسح ملفات التخزين المؤقت في الذاكرة",
+      "To hide syntax errors from the Java compiler / لإخفاء أخطاء البناء عن مترجم جافا"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the difference between 'throws' and 'throw' keywords in Java? / ما الفرق بين الكلمتين المفتاحيتين 'throws' و 'throw' في جافا؟",
+    "options": [
+      "'throws' is used in method signature, 'throw' explicitly throws an exception / تُستخدم 'throws' في تعريف الدالة، وتُستخدم 'throw' لإطلاق استثناء صراحة",
+      "'throws' creates a thread, 'throw' terminates a thread / تُنشئ 'throws' مسار تنفيذ و 'throw' تنهيه",
+      "'throw' is used for checked errors, 'throws' for unchecked errors / تُستخدم 'throw' للأخطاء المفحوصة و 'throws' للغير مفحوصة",
+      "Both keywords are identical and fully interchangeable / الكلمتان متطابقتان تماماً ويمكن استبدالهما"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In rethrowing an exception, what is done after catching an exception in a block? / في إعادة إطلاق الاستثناء (Rethrowing)، ماذا يفعل الكود بعد التقاط الاستثناء في كتلة catch؟",
+    "options": [
+      "It converts the exception into an Array List / يحول الاستثناء إلى قائمة مصفوفة",
+      "It prints a message and throws another or the same exception / يطبع رسالة ويطلق استثناءً آخر أو نفس الاستثناء",
+      "It resets all variables to default zero / يعيد ضبط جميع المتغيرات إلى الصفر",
+      "It forces the JVM to restart immediately / يجبر الـ JVM على إعادة التشغيل فوراً"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is considered a best practice for exception handling? / ما الذي يُعد من أفضل الممارسات (Best Practices) في معالجة الاستثناءات؟",
+    "options": [
+      "Catching specific exceptions rather than broad generic ones / التقاط استثناءات محددة بدلاً من الاستثناءات العامة الواسعة",
+      "Catching generic Exception everywhere without specific types / التقاط الاستثناء العام Exception في كل مكان بدون تحديد",
+      "Leaving catch blocks completely empty / ترك كتل catch فارغة تماماً",
+      "Using try-catch blocks inside heavy tight loops / استخدام كتل try-catch داخل الحلقات التكرارية الضيقة"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why should you avoid using exceptions for normal control flow (like loop termination)? / لماذا يجب تجنب استخدام الاستثناءات للتحكم في تدفق البرنامج العادي (مثل إنهاء الحلقات)؟",
+    "options": [
+      "Because it deletes the source code from memory / لأنها تحذف الكود المصدري من الذاكرة",
+      "Because Java syntax prohibits try inside for loops / لأن بناء جملة جافا يمنع وجود try داخل حلقات for",
+      "Because it converts runtime errors into compilation errors / لأنها تحول أخطاء وقت التشغيل إلى أخطاء تجميع",
+      "Because exceptions are intended for unexpected conditions and carry performance overhead / لأن الاستثناءات مخصصة للحالات غير المتوقعة وتستهلك أداءً أعلى"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why should system resources (like file streams) be released in try-with-resources or finally? / لماذا يجب تحرير موارد النظام (مثل ملفات الإدخال والإخراج) في finally أو try-with-resources؟",
+    "options": [
+      "To prevent resource leaks in the system / لمنع تسريب الموارد في النظام",
+      "To convert text files into binary bytecode / لتحويل الملفات النصية إلى بايت كود ثنائي",
+      "To force the garbage collector to pause / لإجبار جامع القمامة على التوقف المؤقت",
+      "To encrypt the file content automatically / لتشفير محتوى الملف تلقائياً"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How do you create a custom (user-defined) exception in Java? / كيف تقوم بإنشاء استثناء مخصص (Custom Exception) في جافا؟",
+    "options": [
+      "By importing java.util.Scanner library / باستيراد مكتبة Scanner",
+      "By implementing the Runnable interface / بتطبيق واجهة Runnable",
+      "By extending the Exception class (or one of its subclasses) / بتوسيع كلاس Exception (أو أحد الكلاسات الفرعية منه)",
+      "By creating a final static method in Main class / بإنشاء دالة ساكنة ونهائية في الكلاس الرئيسي"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In a custom exception class like InvalidAgeException, what does call to super(message) do? / في كلاس استثناء مخصص مثل InvalidAgeException، ماذا يفعل الاستدعاء super(message)؟",
+    "options": [
+      "It passes the error message to the parent Exception superclass constructor / يمرر رسالة الخطأ إلى منشئ الكلاس الأب (Exception)",
+      "It deletes the age variable value / يحذف قيمة متغير العمر",
+      "It prints the message to a remote server / يطبع الرسالة إلى خادم بعيد",
+      "It restarts the entire application execution / يعيد تشغيل تنفيذ التطبيق بالكامل"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In custom exception handling, if age < 18, which statement explicitly throws the custom exception object? / في الاستثناء المخصص، إذا كان age < 18، أي عبارة تطلق كائن الاستثناء المخصص صراحة؟",
+    "options": [
+      "throw new InvalidAgeException(\"Age must be 18 or older\"); / throw new InvalidAgeException(\"Age must be 18 or older\");",
+      "import InvalidAgeException; / import InvalidAgeException;",
+      "finally { age = 18; } / finally { age = 18; }",
+      "catch (InvalidAgeException e) / catch (InvalidAgeException e)"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is Exception Chaining in Java? / ما هو تسلسل الاستثناءات (Exception Chaining) في جافا؟",
+    "options": [
+      "Combining array indices together into one object / دمج فهارس المصفوفة معاً في كائن واحد",
+      "Running multiple threads in a continuous loop / تشغيل عدة مسارات تنفيذ في حلقة مستمرة",
+      "Associating or wrapping one exception with another exception that caused it / ربط أو تغليف استثناء باستثناء آخر كان سبباً في حدوثه",
+      "Converting all checked exceptions to primitive data types / تحويل جميع الاستثناءات المفحوصة إلى أنواع بيانات أولية"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the role of 'auditing' and 'debugging' supported by exception logging? / ما هو دور 'التدقيق والتمحيص' و'تصحيح الأخطاء' المدعوم بتسجيل الاستثناءات؟",
+    "options": [
+      "To generate automatic graphic presentation slides / لإنشاء شرائح العرض التقديمي الرسمية تلقائياً",
+      "To increase application Internet downloading speed / لزيادة سرعة تنزيل التطبيق عبر الإنترنت",
+      "To locate exact error origin points and verify proper execution / لتحديد مواقع الأخطاء بالضبط والتحقق من صحة التنفيذ",
+      "To convert Java code directly into HTML webpages / لتحويل كود جافا مباشرة إلى صفحات ويب HTML"
+    ],
+    "answer": 2
+  }
+]
